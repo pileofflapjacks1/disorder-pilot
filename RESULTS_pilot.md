@@ -129,7 +129,7 @@ Some of these may be real disorder the depositors missed, and some may be overfi
 
 1. **Paper trail.** Put the project under git and commit PREREGISTRATION.md at every amendment.
 2. **Fix the harness.** `undo` should go back to the state before the last `set`, and every tool reply should say which version is now current. Freeze the fix before any new run.
-3. **Adjudicate and test.** Joe reviews the false positives above, and a Hamilton R-test is added to scoring. Controls for the next round are screened before they are frozen. This informs the next round's design and does not rescue this one.
+3. **Adjudicate and test.** A crystallographer reviews the false positives above, and a Hamilton R-test is added to scoring. Controls for the next round are screened before they are frozen. This informs the next round's design and does not rescue this one.
 4. **Strengthen B** on dev tasks only, before freezing:
    - more tries;
    - new-position placement for discrete disorder;

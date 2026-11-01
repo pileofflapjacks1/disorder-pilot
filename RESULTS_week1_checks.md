@@ -42,8 +42,11 @@ Fixes: (a) f'/f'' were zero in smtbx refinement -> set_inelastic_form_factors(sa
 (c) reflections filtered/merged as SHELXL (OMIT s/2theta, SHEL, OMIT hkl; Friedel kept for acentric);
 (d) DFIX/DANG free-variable targets (e.g. DFIX 41) were read literally as 41 A -> resolved from FVAR;
 (e) AFIX 13 on a PART 0 atom bonded to both disorder parts crashed -> that H fixed at deposited position (logged);
-(f) CCTBX BUG: iotbx/shelx/parsers.py process_occupancies_depending_on_free_variable reuses loop variable `i`
-    for the scatterer index, so free-variable occupancy groups of >2 atoms link the wrong atoms. Monkeypatched;
+(f) CCTBX BUG: iotbx/shelx/parsers.py process_occupancies_depending_on_free_variable links free-variable occupancy
+    groups of >2 atoms wrongly, so occupancies come out wrong. Monkeypatched.
+    [Corrected 2026-11-01: the cause given here at first, reuse of the loop variable `i`, is wrong, since Python
+    rebinds `i` each iteration. The cause is the pairwise chaining of the constraints; see
+    docs/upstream/cctbx_occupancy_issue.md.]
 (g) damped, shift-limited solver, 40 cycles.
 
 | id | dep R1 | restrained R1 (diff) | max dOcc restr | unrestr dOcc |
