@@ -1,0 +1,29 @@
+{
+ "id": "2312991",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0227",
+ "sites": [],
+ "relabel": {
+  "BI1": "Bi1",
+  "BI2": "Bi2",
+  "BI3": "Bi3",
+  "BI4": "Bi4",
+  "BI5": "Bi5",
+  "BI6": "Bi6",
+  "BI7": "Bi7",
+  "BI8": "Bi8",
+  "AL1": "Al1",
+  "AL2": "Al2",
+  "BR1": "Br1",
+  "BR2": "Br2",
+  "BR3": "Br3",
+  "BR4": "Br4",
+  "BR5": "Br5",
+  "BR6": "Br6",
+  "BR7": "Br7",
+  "BR8": "Br8"
+ }
+}

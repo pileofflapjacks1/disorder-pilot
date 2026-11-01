@@ -1,0 +1,15 @@
+2312981 control ref R1 0.0179 | 5s
+2243678 ERROR error: ShelX: wrong number of afixed atoms at line 304
+2243856 ERROR error: ShelX: wrong number of afixed atoms at line 54
+2244172 ref R1 0.0493 wR2 0.1203 | A R1 0.0519 wR2 0.1256 (dR1 +0.0026) | 45s
+2312424 ref R1 0.0562 wR2 0.1647 | A R1 0.0653 wR2 0.1937 (dR1 +0.0091) | 31s
+2312866 control ref R1 0.0326 | 4s
+2244245 ref R1 0.0475 wR2 0.1331 | A R1 0.0538 wR2 0.1466 (dR1 +0.0063) | 8s
+2312355 ref R1 0.0306 wR2 0.0874 | A R1 0.0302 wR2 0.0855 (dR1 -0.0005) | 10s
+2312879 control ref R1 0.0695 | 2s
+2244150 ERROR error: ShelX: wrong number of afixed atoms at line 43
+2243577 ref R1 0.0540 wR2 0.1513 | A R1 0.0721 wR2 0.2011 (dR1 +0.0181) | 49s
+2243491 ref R1 0.0823 wR2 0.1980 | A R1 0.1207 wR2 0.2485 (dR1 +0.0385) | 13s
+2243988 ref R1 0.0213 wR2 0.0588 | A R1 0.0285 wR2 0.0851 (dR1 +0.0072) | 151s
+2312997 control ref R1 0.0506 | 4s
+2243634 ERROR error: ShelX: wrong number of afixed atoms at line 63

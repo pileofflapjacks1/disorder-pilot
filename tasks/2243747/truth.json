@@ -1,0 +1,83 @@
+{
+ "id": "2243747",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [
+  "EADP"
+ ],
+ "deposited_R1": "0.0245",
+ "sites": [
+  {
+   "fv": 2,
+   "type": "group_small",
+   "minor_occ": 0.1671,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "Br3"
+   ],
+   "major": [
+    "Br2"
+   ],
+   "minor_el": [
+    "BR"
+   ],
+   "minor_xyz": [
+    [
+     0.233613,
+     0.282054,
+     0.056048
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "Br3"
+    ],
+    "major": [
+     "Br2"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "C1": "C1",
+  "H1": "H1",
+  "C2": "C2",
+  "H2": "H2",
+  "C3": "C3",
+  "C4": "C4",
+  "H4A": "H3",
+  "H4B": "H4",
+  "C5": "C5",
+  "H5": "H5",
+  "C6": "C6",
+  "C7": "C7",
+  "H7A": "H6",
+  "H7B": "H7",
+  "C8": "C8",
+  "C9": "C9",
+  "C10": "C10",
+  "H10": "H8",
+  "C11": "C11",
+  "H11": "H9",
+  "C12": "C12",
+  "H12": "H10",
+  "C13": "C13",
+  "H13": "H11",
+  "C14": "C14",
+  "H14": "H12",
+  "C15": "C15",
+  "H15A": "H13",
+  "H15B": "H14",
+  "H15C": "H15",
+  "N1": "N1",
+  "O1": "O1",
+  "O2": "O2",
+  "BR1": "Br1",
+  "BR2": "Br2",
+  "BR2A": "Br3"
+ }
+}

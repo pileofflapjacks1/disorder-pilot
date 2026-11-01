@@ -1,0 +1,15 @@
+{
+ "id": "2312991",
+ "type": "control",
+ "control": true,
+ "sites": [],
+ "n_partial": 0,
+ "fp_atoms": [],
+ "false_positive": false,
+ "all_detected": false,
+ "R1": 0.023243375644976503,
+ "wR2": 0.08392188880497879,
+ "npar": 163,
+ "dR1": 3.157595392246082e-06,
+ "dwR2": -1.177299022839251e-06
+}

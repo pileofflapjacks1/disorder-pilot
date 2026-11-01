@@ -1,0 +1,101 @@
+{
+ "id": "2312780",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0267",
+ "sites": [
+  {
+   "fv": 2,
+   "type": "group_small",
+   "minor_occ": 0.116,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "Cl3"
+   ],
+   "major": [
+    "I1"
+   ],
+   "minor_el": [
+    "CL"
+   ],
+   "minor_xyz": [
+    [
+     0.715065,
+     0.743206,
+     0.302609
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "Cl3"
+    ],
+    "major": [
+     "I1"
+    ]
+   }
+  },
+  {
+   "fv": 3,
+   "type": "group_small",
+   "minor_occ": 0.0952,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "C5"
+   ],
+   "major": [
+    "C4"
+   ],
+   "minor_el": [
+    "C"
+   ],
+   "minor_xyz": [
+    [
+     0.930452,
+     0.044631,
+     -0.012979
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "C5",
+     "H2"
+    ],
+    "major": [
+     "C4",
+     "H1"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "I1": "I1",
+  "CL1": "Cl1",
+  "CL2": "Cl2",
+  "CL3": "Cl3",
+  "C3": "C1",
+  "C1": "C2",
+  "C2": "C3",
+  "N1": "N1",
+  "C9A": "C4",
+  "H9A": "H1",
+  "C9B": "C5",
+  "H9B": "H2",
+  "C7": "C6",
+  "H7": "H3",
+  "C4": "C7",
+  "H4": "H4",
+  "C8": "C8",
+  "H8": "H5",
+  "C6": "C9",
+  "C5": "C10",
+  "H5": "H6"
+ }
+}

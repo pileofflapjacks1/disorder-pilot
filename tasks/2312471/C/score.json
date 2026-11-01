@@ -1,0 +1,32 @@
+{
+ "id": "2312471",
+ "type": "group_small",
+ "control": false,
+ "sites": [
+  {
+   "type": "group_small",
+   "n_minor": 2,
+   "recall": 0.0,
+   "detected": false,
+   "truth_occ": 0.4656,
+   "occ": null,
+   "occ_err": null
+  }
+ ],
+ "n_partial": 6,
+ "fp_atoms": [
+  "Cl1",
+  "Cl2",
+  "Cl3",
+  "Cl1B",
+  "Cl2B",
+  "Cl3B"
+ ],
+ "false_positive": true,
+ "all_detected": false,
+ "R1": 0.0747367110625016,
+ "wR2": 0.2258753715587216,
+ "npar": 333,
+ "dR1": -0.0035861454862438913,
+ "dwR2": -0.008559830030605786
+}

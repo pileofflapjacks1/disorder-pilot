@@ -1,0 +1,63 @@
+{
+ "id": "2312857",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0619",
+ "sites": [
+  {
+   "fv": "fixed",
+   "type": "group_small",
+   "minor_occ": 0.25,
+   "full_occ": 0.5,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "Cl3"
+   ],
+   "major": [
+    "Cl2"
+   ],
+   "minor_el": [
+    "CL"
+   ],
+   "minor_xyz": [
+    [
+     0.746237,
+     0.817018,
+     0.412245
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "Cl3"
+    ],
+    "major": [
+     "Cl2"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "CO1": "Co1",
+  "CL1": "Cl1",
+  "CL2": "Cl2",
+  "CL2'": "Cl3",
+  "CL3": "Cl4",
+  "N1": "N1",
+  "H1A": "H1",
+  "H1B": "H2",
+  "H1C": "H3",
+  "N2": "N2",
+  "C1": "C1",
+  "H1D": "H4",
+  "H1E": "H5",
+  "C2": "C2",
+  "C3": "C3",
+  "H3A": "H6",
+  "H3B": "H7",
+  "C4": "C4"
+ }
+}

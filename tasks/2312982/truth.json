@@ -1,0 +1,22 @@
+{
+ "id": "2312982",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0219",
+ "sites": [],
+ "relabel": {
+  "YB1": "Yb1",
+  "SE1": "Se1",
+  "SE2": "Se2",
+  "O1": "O1",
+  "O2": "O2",
+  "O3": "O3",
+  "O4": "O4",
+  "O5": "O5",
+  "O6": "O6",
+  "O7": "O7",
+  "H7": "H1"
+ }
+}

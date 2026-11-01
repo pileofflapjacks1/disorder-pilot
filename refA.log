@@ -1,0 +1,6 @@
+2243491 ref R1 0.0823 wR2 0.1980 | A R1 0.1207 wR2 0.2485 (dR1 +0.0385) | 22s
+2243523 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 50.5706 arg_limit = 50
+2243533 ref R1 0.0468 wR2 0.1229 | A R1 0.0498 wR2 0.1294 (dR1 +0.0030) | 29s
+2243543 ERROR error: ShelX: wrong number of afixed atoms at line 161
+2243490 ref R1 0.0270 wR2 0.0607 | A R1 0.0273 wR2 0.0613 (dR1 +0.0003) | 86s
+2243577 ref R1 0.0540 wR2 0.1513 | A R1 0.0721 wR2 0.2011 (dR1 +0.0181) | 246s

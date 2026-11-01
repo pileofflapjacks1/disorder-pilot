@@ -1,0 +1,94 @@
+{
+ "id": "2243856",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0298",
+ "sites": [
+  {
+   "fv": 2,
+   "type": "group_small",
+   "minor_occ": 0.2295,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "C8"
+   ],
+   "major": [
+    "C7"
+   ],
+   "minor_el": [
+    "C"
+   ],
+   "minor_xyz": [
+    [
+     0.769023,
+     -0.417796,
+     0.402845
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "H13",
+     "H14",
+     "C8",
+     "H17",
+     "H18",
+     "H21",
+     "H22"
+    ],
+    "major": [
+     "H11",
+     "H12",
+     "C7",
+     "H15",
+     "H16",
+     "H19",
+     "H20"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "BR1": "Br1",
+  "BR2": "Br2",
+  "CU1": "Cu1",
+  "CU2": "Cu2",
+  "S1": "S1",
+  "S2": "S2",
+  "C1": "C1",
+  "H1A": "H1",
+  "H1B": "H2",
+  "C2": "C2",
+  "H2A": "H3",
+  "H2B": "H4",
+  "C3": "C3",
+  "H3A": "H5",
+  "H3B": "H6",
+  "C4": "C4",
+  "H4A": "H7",
+  "H4B": "H8",
+  "C5": "C5",
+  "H5A": "H9",
+  "H5B": "H10",
+  "C6": "C6",
+  "H6AA": "H11",
+  "H6AB": "H12",
+  "H6BC": "H13",
+  "H6BD": "H14",
+  "C7A": "C7",
+  "H7AA": "H15",
+  "H7AB": "H16",
+  "C7B": "C8",
+  "H7BA": "H17",
+  "H7BB": "H18",
+  "C8": "C9",
+  "H8AA": "H19",
+  "H8AB": "H20",
+  "H8BC": "H21",
+  "H8BD": "H22"
+ }
+}

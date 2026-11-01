@@ -1,0 +1,314 @@
+[
+{
+"id": "2313082",
+"ok": false,
+"why": "unsupported BASF TWIN",
+"sites": []
+},
+{
+"id": "2313078",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0282",
+"sites": []
+},
+{
+"id": "2313070",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0268",
+"sites": []
+},
+{
+"id": "2312997",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0501",
+"sites": []
+},
+{
+"id": "2312994",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0351",
+"sites": []
+},
+{
+"id": "2312991",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0227",
+"sites": []
+},
+{
+"id": "2312982",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0219",
+"sites": []
+},
+{
+"id": "2312981",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0170",
+"sites": []
+},
+{
+"id": "2312969",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0387",
+"sites": []
+},
+{
+"id": "2312968",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0240",
+"sites": []
+},
+{
+"id": "2312967",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0259",
+"sites": []
+},
+{
+"id": "2312966",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0211",
+"sites": []
+},
+{
+"id": "2312965",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0290",
+"sites": []
+},
+{
+"id": "2312962",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0109",
+"sites": []
+},
+{
+"id": "2312958",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0323",
+"sites": []
+},
+{
+"id": "2312957",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0291",
+"sites": []
+},
+{
+"id": "2312956",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0317",
+"sites": []
+},
+{
+"id": "2312955",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0525",
+"sites": []
+},
+{
+"id": "2312954",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0452",
+"sites": []
+},
+{
+"id": "2312953",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0258",
+"sites": []
+},
+{
+"id": "2312951",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0297",
+"sites": []
+},
+{
+"id": "2312950",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0414",
+"sites": []
+},
+{
+"id": "2312949",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0241",
+"sites": []
+},
+{
+"id": "2312879",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0695",
+"sites": []
+},
+{
+"id": "2312870",
+"ok": false,
+"why": "unsupported EADP on ordered atoms",
+"sites": []
+},
+{
+"id": "2312869",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0368",
+"sites": []
+},
+{
+"id": "2312867",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0347",
+"sites": []
+},
+{
+"id": "2312866",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0319",
+"sites": []
+},
+{
+"id": "2312865",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0422",
+"sites": []
+},
+{
+"id": "2312862",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0364",
+"sites": []
+},
+{
+"id": "2312861",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0541",
+"sites": []
+},
+{
+"id": "2312860",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0424",
+"sites": []
+},
+{
+"id": "2312859",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0473",
+"sites": []
+},
+{
+"id": "2312858",
+"ok": false,
+"why": "unsupported BASF TWIN",
+"sites": []
+},
+{
+"id": "2312856",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0285",
+"sites": []
+},
+{
+"id": "2312850",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0565",
+"sites": []
+},
+{
+"id": "2312846",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.045",
+"sites": []
+},
+{
+"id": "2312840",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0295",
+"sites": []
+},
+{
+"id": "2312833",
+"ok": false,
+"why": "unsupported BASF TWIN",
+"sites": []
+},
+{
+"id": "2312832",
+"ok": true,
+"control": true,
+"type": "control",
+"deposited_R1": "0.0341",
+"sites": []
+}
+]

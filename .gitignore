@@ -1,0 +1,11 @@
+# Python venv (rebuild: see BENCHMARK.md)
+env/
+__pycache__/
+# Raw COD CIFs (1.2 GB; re-download from COD by id lists cand*_cif.txt)
+data/
+# Scratch
+work/
+_*.res
+.DS_Store
+# Reflection data (157 MB; regenerated from the CIFs by tools/gen_tasks.py)
+*.hkl

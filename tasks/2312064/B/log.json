@@ -1,0 +1,40 @@
+{
+ "id": "2312064",
+ "rms": 0.073548417984344,
+ "thr": 0.36774208992172,
+ "n_cand": 8,
+ "clusters": [
+  {
+   "atoms": [
+    "C31",
+    "C32",
+    "C33"
+   ],
+   "error": "RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/scitbx/lstbx/norma",
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C24",
+    "C29",
+    "C28",
+    "C27",
+    "C25"
+   ],
+   "mode": "peak",
+   "R1": 0.07155593367630615,
+   "wR2": 0.20338193307985317,
+   "minor_occ": 0.11495999999999995,
+   "npd": [],
+   "accepted": true
+  }
+ ],
+ "start": {
+  "R1": 0.07410997666515055,
+  "wR2": 0.20967980420455626
+ },
+ "final": {
+  "R1": 0.07155593367630615,
+  "wR2": 0.20338193307985317
+ }
+}

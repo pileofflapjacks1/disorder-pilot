@@ -1,0 +1,25 @@
+{
+ "id": "2312856",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0285",
+ "sites": [],
+ "relabel": {
+  "C1": "C1",
+  "C2": "C2",
+  "CL1": "Cl1",
+  "CL2": "Cl2",
+  "MN1": "Mn1",
+  "N1": "N1",
+  "H1C": "H1",
+  "H1D": "H2",
+  "H1E": "H3",
+  "H1A": "H4",
+  "H1B": "H5",
+  "H2A": "H6",
+  "H2B": "H7",
+  "H2C": "H8"
+ }
+}

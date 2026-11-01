@@ -1,0 +1,62 @@
+{
+ "id": "2312082",
+ "ok": true,
+ "control": false,
+ "type": "subst",
+ "soft_dropped_in_ref": [
+  "EADP",
+  "EXYZ"
+ ],
+ "deposited_R1": "0.0157",
+ "sites": [
+  {
+   "fv": "fixed",
+   "type": "subst",
+   "minor_occ": 0.0417,
+   "full_occ": 0.0833,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "N2"
+   ],
+   "major": [
+    "O2"
+   ],
+   "minor_el": [
+    "N"
+   ],
+   "minor_xyz": [
+    [
+     0.5,
+     0.0,
+     0.5
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "N2",
+     "H4",
+     "H5"
+    ],
+    "major": [
+     "O2",
+     "H3"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "AS1": "As1",
+  "O1": "O1",
+  "CL2": "Cl1",
+  "N1": "N1",
+  "H1B": "H1",
+  "H1A": "H2",
+  "O2": "O2",
+  "H2": "H3",
+  "N2": "N2",
+  "H2A": "H4",
+  "H2B": "H5"
+ }
+}

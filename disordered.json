@@ -1,0 +1,979 @@
+[
+{
+"id": "2312720",
+"R1": "0.0336",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": []
+},
+{
+"id": "2312721",
+"R1": "0.0370",
+"groups": [
+"1",
+"2"
+],
+"partial": 56,
+"flags": [
+"TWIN",
+"BASF",
+"SADI",
+"RIGU",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312754",
+"R1": "0.0949",
+"groups": [
+"1",
+"2"
+],
+"partial": 52,
+"flags": [
+"SIMU",
+"EADP",
+"SAME"
+]
+},
+{
+"id": "2312741",
+"R1": "0.0366",
+"groups": [
+"1",
+"2"
+],
+"partial": 20,
+"flags": [
+"SIMU",
+"SAME"
+]
+},
+{
+"id": "2312780",
+"R1": "0.0267",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"EXTI",
+"DFIX",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312794",
+"R1": "0.1500",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"BASF",
+"EXTI",
+"HKLF 5",
+"DFIX",
+"SIMU"
+]
+},
+{
+"id": "2312781",
+"R1": "0.0226",
+"groups": [
+"1",
+"2"
+],
+"partial": 2,
+"flags": [
+"EXTI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312760",
+"R1": "0.0251",
+"groups": [
+"1",
+"2"
+],
+"partial": 10,
+"flags": [
+"EXTI",
+"SADI",
+"ISOR",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312762",
+"R1": "0.0560",
+"groups": [
+"1",
+"2"
+],
+"partial": 14,
+"flags": [
+"EXTI",
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312703",
+"R1": "0.0469",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"DFIX"
+]
+},
+{
+"id": "2312701",
+"R1": "0.0771",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"DFIX"
+]
+},
+{
+"id": "2312715",
+"R1": "0.0304",
+"groups": [
+"1",
+"2"
+],
+"partial": 16,
+"flags": [
+"EXTI",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312714",
+"R1": "0.1236",
+"groups": [
+"1",
+"2"
+],
+"partial": 30,
+"flags": [
+"DFIX",
+"ISOR",
+"EADP",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312700",
+"R1": "0.0423",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"DFIX"
+]
+},
+{
+"id": "2312739",
+"R1": "0.0334",
+"groups": [
+"1",
+"2"
+],
+"partial": 20,
+"flags": [
+"SIMU",
+"SAME",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312998",
+"R1": "0.0472",
+"groups": [
+"-1"
+],
+"partial": 20,
+"flags": [
+"ABIN",
+"DFIX",
+"SADI",
+"SIMU",
+"RIGU",
+"FLAT",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312952",
+"R1": "0.0446",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"EADP",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312992",
+"R1": "0.0447",
+"groups": [
+"1",
+"2"
+],
+"partial": 48,
+"flags": [
+"ABIN",
+"SADI",
+"SIMU",
+"DELU",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312993",
+"R1": "0.1012",
+"groups": [
+"1",
+"2"
+],
+"partial": 64,
+"flags": [
+"SADI",
+"SIMU",
+"FLAT",
+"AFIX 6",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312996",
+"R1": "0.0976",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312995",
+"R1": "0.0487",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"EXTI",
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312871",
+"R1": "0.0365",
+"groups": [
+"1",
+"2"
+],
+"partial": 14,
+"flags": [
+"EXTI",
+"EADP"
+]
+},
+{
+"id": "2312872",
+"R1": "0.0140",
+"groups": [
+"-1"
+],
+"partial": 1,
+"flags": [
+"DFIX",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312848",
+"R1": "0.0786",
+"groups": [
+"1",
+"2",
+"3",
+"4"
+],
+"partial": 160,
+"flags": [
+"ABIN",
+"SIMU",
+"EADP",
+"SAME"
+]
+},
+{
+"id": "2312810",
+"R1": "0.0331",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"EXTI",
+"ABIN",
+"SADI",
+"EADP",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312839",
+"R1": "0.0641",
+"groups": [
+"1",
+"2"
+],
+"partial": 100,
+"flags": [
+"ISOR",
+"EADP",
+"SAME"
+]
+},
+{
+"id": "2312811",
+"R1": "0.0607",
+"groups": [
+"1",
+"2",
+"3",
+"4"
+],
+"partial": 60,
+"flags": [
+"DFIX",
+"SADI",
+"EADP"
+]
+},
+{
+"id": "2312800",
+"R1": "0.0481",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"EADP"
+]
+},
+{
+"id": "2312808",
+"R1": "0.0337",
+"groups": [
+"1",
+"2"
+],
+"partial": 54,
+"flags": [
+"EXTI",
+"DFIX",
+"SIMU",
+"EADP",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312809",
+"R1": "0.0528",
+"groups": [
+"1",
+"2"
+],
+"partial": 30,
+"flags": [
+"SADI",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312845",
+"R1": "0.0367",
+"groups": [
+"1",
+"2"
+],
+"partial": 70,
+"flags": [
+"ISOR",
+"EADP",
+"SAME",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312844",
+"R1": "0.0393",
+"groups": [
+"1",
+"2",
+"3"
+],
+"partial": 24,
+"flags": [
+"ABIN",
+"SUMP",
+"RIGU",
+"EADP",
+"SAME"
+]
+},
+{
+"id": "2312847",
+"R1": "0.0584",
+"groups": [
+"-1"
+],
+"partial": 14,
+"flags": [
+"RIGU",
+"SAME"
+]
+},
+{
+"id": "2312857",
+"R1": "0.0619",
+"groups": [
+"1",
+"2"
+],
+"partial": 11,
+"flags": [
+"EXTI",
+"DFIX",
+"SIMU",
+"DELU",
+"ISOR",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312843",
+"R1": "0.0388",
+"groups": [
+"-1",
+"1",
+"2"
+],
+"partial": 54,
+"flags": [
+"SIMU",
+"EADP",
+"SAME",
+"FLAT",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312842",
+"R1": "0.0249",
+"groups": [
+"-1",
+"-2",
+"1",
+"2"
+],
+"partial": 47,
+"flags": [
+"DFIX",
+"SIMU",
+"RIGU",
+"EADP",
+"SAME",
+"FLAT"
+]
+},
+{
+"id": "2312868",
+"R1": "0.0327",
+"groups": [
+"1",
+"2"
+],
+"partial": 4,
+"flags": [
+"SADI"
+]
+},
+{
+"id": "2312841",
+"R1": "0.1115",
+"groups": [
+"1",
+"2",
+"3"
+],
+"partial": 18,
+"flags": [
+"SUMP",
+"RIGU",
+"ISOR",
+"EADP"
+]
+},
+{
+"id": "2312695",
+"R1": "0.0495",
+"groups": [
+"1",
+"2"
+],
+"partial": 4,
+"flags": [
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312681",
+"R1": "0.0545",
+"groups": [
+"1",
+"2"
+],
+"partial": 2,
+"flags": [
+"ISOR",
+"EADP"
+]
+},
+{
+"id": "2312669",
+"R1": "0.0325",
+"groups": [
+"1",
+"2"
+],
+"partial": 14,
+"flags": [
+"DFIX",
+"SADI",
+"SIMU",
+"RIGU",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312679",
+"R1": "0.0523",
+"groups": [
+"1",
+"2"
+],
+"partial": 2,
+"flags": [
+"DFIX"
+]
+},
+{
+"id": "2312690",
+"R1": "0.0556",
+"groups": [
+"1",
+"2"
+],
+"partial": 14,
+"flags": [
+"EXTI",
+"DFIX",
+"SADI",
+"SIMU",
+"RIGU",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312661",
+"R1": "0.0555",
+"groups": [
+"1",
+"2"
+],
+"partial": 28,
+"flags": [
+"SIMU",
+"RIGU",
+"SAME",
+"FLAT",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312424",
+"R1": "0.0542",
+"groups": [
+"1",
+"2"
+],
+"partial": 18,
+"flags": [
+"SADI",
+"SIMU",
+"RIGU",
+"ISOR",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312460",
+"R1": "0.0481",
+"groups": [
+"1",
+"2"
+],
+"partial": 20,
+"flags": [
+"EXTI",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312471",
+"R1": "0.0795",
+"groups": [
+"1",
+"2"
+],
+"partial": 8,
+"flags": [
+"DELU",
+"ISOR",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312379",
+"R1": "0.0440",
+"groups": [
+"-1"
+],
+"partial": 2,
+"flags": [
+"ABIN",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312380",
+"R1": "0.0640",
+"groups": [
+"-1"
+],
+"partial": 12,
+"flags": [
+"DFIX",
+"SADI",
+"SIMU",
+"RIGU",
+"DELU",
+"FLAT",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312394",
+"R1": "0.0292",
+"groups": [
+"-1"
+],
+"partial": 1,
+"flags": [
+"EXTI",
+"DFIX",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312383",
+"R1": "0.0363",
+"groups": [
+"1",
+"2"
+],
+"partial": 13,
+"flags": [
+"DFIX",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312375",
+"R1": "0.0499",
+"groups": [
+"-1",
+"1",
+"2",
+"3"
+],
+"partial": 30,
+"flags": [
+"SADI",
+"SIMU",
+"RIGU",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312532",
+"R1": "0.0312",
+"groups": [
+"1",
+"2"
+],
+"partial": 8,
+"flags": [
+"TWIN",
+"BASF",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312595",
+"R1": "0.0278",
+"groups": [
+"1",
+"2"
+],
+"partial": 32,
+"flags": [
+"FREE",
+"DFIX",
+"FLAT"
+]
+},
+{
+"id": "2312581",
+"R1": "0.0320",
+"groups": [
+"1",
+"2",
+"3"
+],
+"partial": 12,
+"flags": [
+"EXTI",
+"SUMP",
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312582",
+"R1": "0.0324",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"TWIN",
+"BASF",
+"EXTI",
+"SADI"
+]
+},
+{
+"id": "2312555",
+"R1": "0.0703",
+"groups": [
+"1",
+"2"
+],
+"partial": 2,
+"flags": [
+"DFIX",
+"SIMU",
+"ISOR"
+]
+},
+{
+"id": "2312554",
+"R1": "0.0730",
+"groups": [
+"1"
+],
+"partial": 12,
+"flags": []
+},
+{
+"id": "2312592",
+"R1": "0.0403",
+"groups": [
+"1",
+"2"
+],
+"partial": 2,
+"flags": [
+"DFIX",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312547",
+"R1": "0.0372",
+"groups": [
+"1",
+"2"
+],
+"partial": 21,
+"flags": [
+"DFIX"
+]
+},
+{
+"id": "2312588",
+"R1": "0.0407",
+"groups": [
+"1",
+"2",
+"3"
+],
+"partial": 46,
+"flags": [
+"SUMP",
+"DFIX",
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312548",
+"R1": "0.0332",
+"groups": [
+"1",
+"2"
+],
+"partial": 16,
+"flags": [
+"TWIN",
+"BASF",
+"EADP",
+"SAME",
+"FLAT"
+]
+},
+{
+"id": "2312528",
+"R1": "0.0856",
+"groups": [
+"1",
+"2"
+],
+"partial": 8,
+"flags": [
+"DELU"
+]
+},
+{
+"id": "2312529",
+"R1": "0.0473",
+"groups": [
+"1",
+"2"
+],
+"partial": 12,
+"flags": [
+"EXTI",
+"ABIN",
+"AFIX 13",
+"AFIX 137"
+]
+},
+{
+"id": "2312505",
+"R1": "0.0373",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"SADI",
+"SIMU",
+"RIGU"
+]
+},
+{
+"id": "2312504",
+"R1": "0.0309",
+"groups": [
+"1",
+"2"
+],
+"partial": 6,
+"flags": [
+"SADI",
+"RIGU"
+]
+}
+]

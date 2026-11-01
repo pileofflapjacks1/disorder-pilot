@@ -1,0 +1,25 @@
+{
+ "id": "2244172",
+ "type": "group_large",
+ "control": false,
+ "sites": [
+  {
+   "type": "group_large",
+   "n_minor": 6,
+   "recall": 0.833,
+   "detected": true,
+   "truth_occ": 0.3893,
+   "occ": 0.41974999999999996,
+   "occ_err": 0.03
+  }
+ ],
+ "n_partial": 10,
+ "fp_atoms": [],
+ "false_positive": false,
+ "all_detected": true,
+ "R1": 0.048337648926114495,
+ "wR2": 0.1190015568836278,
+ "npar": 274,
+ "dR1": -0.0009513567818961247,
+ "dwR2": -0.0012579060973194611
+}

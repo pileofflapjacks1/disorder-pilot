@@ -1,0 +1,25 @@
+{
+ "id": "2243733",
+ "rms": 0.11894968686977207,
+ "thr": 0.5947484343488604,
+ "n_cand": 3,
+ "clusters": [
+  {
+   "atoms": [
+    "C17",
+    "C20",
+    "C18"
+   ],
+   "error": "ArgumentError: Python argument types in\n    angle_parameter.__init__(angle_parameter)\ndid not match C++ signature:\n    __init__(_object",
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.052331036122805166,
+  "wR2": 0.1516486819714612
+ },
+ "final": {
+  "R1": 0.052331036122805166,
+  "wR2": 0.1516486819714612
+ }
+}

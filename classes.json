@@ -1,0 +1,1416 @@
+{
+ "2312720": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.455,
+    "n_minor": 2,
+    "n_major": 2,
+    "minor": [
+     "C49B",
+     "C50B"
+    ],
+    "major": [
+     "C49A",
+     "C50A"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      0.011352,
+      0.251224,
+      0.811298
+     ],
+     [
+      -0.033947,
+      0.142541,
+      0.753786
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0336"
+ },
+ "2312721": {
+  "ok": false,
+  "why": "unsupported BASF TWIN",
+  "R1": "0.0370"
+ },
+ "2312754": {
+  "ok": false,
+  "why": "unsupported EADP SAME",
+  "R1": "0.0949"
+ },
+ "2312741": {
+  "ok": false,
+  "why": "unsupported SAME",
+  "R1": "0.0366"
+ },
+ "2312780": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.116,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "CL3"
+    ],
+    "major": [
+     "I1"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.715065,
+      0.743206,
+      0.302609
+     ]
+    ],
+    "minor_el": [
+     "CL"
+    ]
+   },
+   {
+    "fv": 3,
+    "type": "group_small",
+    "minor_occ": 0.095,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "C9B"
+    ],
+    "major": [
+     "C9A"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.930452,
+      0.044631,
+      -0.012979
+     ]
+    ],
+    "minor_el": [
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 2,
+  "R1": "0.0267"
+ },
+ "2312794": {
+  "ok": false,
+  "why": "unsupported BASF HKLF",
+  "R1": "0.1500"
+ },
+ "2312781": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "subst",
+    "minor_occ": 0.111,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "CL3"
+    ],
+    "major": [
+     "I1"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.714767,
+      0.73482,
+      0.304968
+     ]
+    ],
+    "minor_el": [
+     "CL"
+    ]
+   }
+  ],
+  "type": "subst",
+  "n_sites": 1,
+  "R1": "0.0226"
+ },
+ "2312760": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0251"
+ },
+ "2312762": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.494,
+    "n_minor": 2,
+    "n_major": 2,
+    "minor": [
+     "C15",
+     "O16"
+    ],
+    "major": [
+     "C15X",
+     "O16X"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      0.770192,
+      0.979763,
+      0.048548
+     ],
+     [
+      0.783374,
+      1.009816,
+      0.24458
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "O"
+    ]
+   },
+   {
+    "fv": 3,
+    "type": "discrete",
+    "minor_occ": 0.228,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "O29"
+    ],
+    "major": [
+     "O29X"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      0.92291,
+      0.798761,
+      1.472286
+     ]
+    ],
+    "minor_el": [
+     "O"
+    ]
+   },
+   {
+    "fv": 4,
+    "type": "discrete",
+    "minor_occ": 0.338,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "O30X"
+    ],
+    "major": [
+     "O30"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.924843,
+      0.392537,
+      1.105198
+     ]
+    ],
+    "minor_el": [
+     "O"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 3,
+  "R1": "0.0560"
+ },
+ "2312703": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0469"
+ },
+ "2312701": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.328,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "CL1D"
+    ],
+    "major": [
+     "CL1"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.376298,
+      0.543964,
+      0.184131
+     ]
+    ],
+    "minor_el": [
+     "CL"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0771"
+ },
+ "2312715": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.48,
+    "n_minor": 4,
+    "n_major": 4,
+    "minor": [
+     "C16A",
+     "C15A",
+     "C12A",
+     "C13A"
+    ],
+    "major": [
+     "C12",
+     "C13",
+     "C15",
+     "C16"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.798904,
+      0.401192,
+      0.873073
+     ],
+     [
+      0.897891,
+      0.38811,
+      0.923424
+     ],
+     [
+      0.783358,
+      0.652127,
+      0.929449
+     ],
+     [
+      0.882482,
+      0.637236,
+      0.979704
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0304"
+ },
+ "2312714": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.1236"
+ },
+ "2312700": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.091,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "O4D"
+    ],
+    "major": [
+     "O4"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      1.24601,
+      0.384209,
+      0.733033
+     ]
+    ],
+    "minor_el": [
+     "O"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0423"
+ },
+ "2312739": {
+  "ok": false,
+  "why": "unsupported SAME",
+  "R1": "0.0334"
+ },
+ "2312998": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0472"
+ },
+ "2312952": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.0446"
+ },
+ "2312992": {
+  "ok": false,
+  "why": "unsupported ABIN",
+  "R1": "0.0447"
+ },
+ "2312993": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "discrete",
+    "minor_occ": 0.147,
+    "n_minor": 17,
+    "n_major": 17,
+    "minor": [
+     "CU1A",
+     "O1A",
+     "N1A",
+     "C1A",
+     "C2A",
+     "C3A",
+     "C4A",
+     "C5A",
+     "C6A",
+     "C7A",
+     "C8A",
+     "C9A",
+     "C10A",
+     "C11A",
+     "C12A",
+     "C13A",
+     "C14A"
+    ],
+    "major": [
+     "CU1",
+     "O1",
+     "N1",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "C5",
+     "C6",
+     "C7",
+     "C8",
+     "C9",
+     "C10",
+     "C11",
+     "C12",
+     "C13",
+     "C14"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.0,
+      0.151249,
+      0.25
+     ],
+     [
+      0.048619,
+      0.285845,
+      0.288605
+     ],
+     [
+      0.080133,
+      0.003088,
+      0.285442
+     ],
+     [
+      0.204697,
+      0.379922,
+      0.347536
+     ],
+     [
+      0.318402,
+      0.363023,
+      0.382409
+     ],
+     [
+      0.376113,
+      0.235364,
+      0.394806
+     ],
+     [
+      0.32012,
+      0.124604,
+      0.37233
+     ],
+     [
+      0.206416,
+      0.141501,
+      0.337457
+     ],
+     [
+      0.148703,
+      0.269159,
+      0.32506
+     ],
+     [
+      0.517912,
+      0.245013,
+      0.433757
+     ],
+     [
+      0.505493,
+      0.113976,
+      0.456544
+     ],
+     [
+      0.448885,
+      0.36175,
+      0.45844
+     ],
+     [
+      0.743759,
+      0.267757,
+      0.424257
+     ],
+     [
+      0.157774,
+      0.014111,
+      0.319688
+     ],
+     [
+      0.043446,
+      -0.127783,
+      0.269223
+     ],
+     [
+      0.085992,
+      -0.248818,
+      0.287952
+     ],
+     [
+      0.042666,
+      -0.368986,
+      0.268808
+     ]
+    ],
+    "minor_el": [
+     "CU",
+     "O",
+     "N",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   }
+  ],
+  "type": "discrete",
+  "n_sites": 1,
+  "R1": "0.1012"
+ },
+ "2312996": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.298,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "F1A",
+     "F2A",
+     "F3A"
+    ],
+    "major": [
+     "F1",
+     "F2",
+     "F3"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      -0.029709,
+      0.851596,
+      0.524137
+     ],
+     [
+      -0.050245,
+      0.791991,
+      0.590057
+     ],
+     [
+      -0.003198,
+      0.560624,
+      0.554964
+     ]
+    ],
+    "minor_el": [
+     "F",
+     "F",
+     "F"
+    ]
+   },
+   {
+    "fv": 3,
+    "type": "group_small",
+    "minor_occ": 0.414,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "F4",
+     "F5",
+     "F6"
+    ],
+    "major": [
+     "F4A",
+     "F5A",
+     "F6A"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      1.124194,
+      1.306167,
+      0.710275
+     ],
+     [
+      1.167825,
+      1.158714,
+      0.661719
+     ],
+     [
+      1.140191,
+      0.974155,
+      0.72283
+     ]
+    ],
+    "minor_el": [
+     "F",
+     "F",
+     "F"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 2,
+  "R1": "0.0976"
+ },
+ "2312995": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 3,
+    "type": "group_small",
+    "minor_occ": 0.359,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "F1A",
+     "F2A",
+     "F3A"
+    ],
+    "major": [
+     "F1",
+     "F2",
+     "F3"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.914537,
+      0.096866,
+      0.507744
+     ],
+     [
+      1.063117,
+      0.233003,
+      0.503036
+     ],
+     [
+      0.943558,
+      0.206902,
+      0.402843
+     ]
+    ],
+    "minor_el": [
+     "F",
+     "F",
+     "F"
+    ]
+   },
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.4,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "F4",
+     "F5",
+     "F6"
+    ],
+    "major": [
+     "F4A",
+     "F5A",
+     "F6A"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      0.194874,
+      1.310943,
+      0.655273
+     ],
+     [
+      0.274203,
+      1.282623,
+      0.774128
+     ],
+     [
+      0.130998,
+      1.159586,
+      0.721903
+     ]
+    ],
+    "minor_el": [
+     "F",
+     "F",
+     "F"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 2,
+  "R1": "0.0487"
+ },
+ "2312871": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.0365"
+ },
+ "2312872": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0140"
+ },
+ "2312848": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.0786"
+ },
+ "2312810": {
+  "ok": false,
+  "why": "unsupported ABIN EADP",
+  "R1": "0.0331"
+ },
+ "2312839": {
+  "ok": false,
+  "why": "unsupported EADP SAME",
+  "R1": "0.0641"
+ },
+ "2312811": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.0607"
+ },
+ "2312800": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.0481"
+ },
+ "2312808": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.0337"
+ },
+ "2312809": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_large",
+    "minor_occ": 0.43,
+    "n_minor": 8,
+    "n_major": 8,
+    "minor": [
+     "C22A",
+     "C27A",
+     "C26A",
+     "C25A",
+     "C24A",
+     "C23A",
+     "O28A",
+     "C29A"
+    ],
+    "major": [
+     "C22",
+     "C27",
+     "C26",
+     "C25",
+     "C24",
+     "C23",
+     "O28",
+     "C29"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.141851,
+      0.196675,
+      0.031345
+     ],
+     [
+      0.277917,
+      0.2164,
+      -0.047868
+     ],
+     [
+      0.254556,
+      0.200373,
+      -0.1349
+     ],
+     [
+      0.095129,
+      0.164622,
+      -0.14272
+     ],
+     [
+      -0.040938,
+      0.144897,
+      -0.063508
+     ],
+     [
+      -0.01758,
+      0.160923,
+      0.023525
+     ],
+     [
+      -0.191529,
+      0.113223,
+      -0.079795
+     ],
+     [
+      -0.336291,
+      0.103903,
+      -0.005861
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "C",
+     "O",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_large",
+  "n_sites": 1,
+  "R1": "0.0528"
+ },
+ "2312845": {
+  "ok": false,
+  "why": "unsupported EADP SAME",
+  "R1": "0.0367"
+ },
+ "2312844": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.0393"
+ },
+ "2312847": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0584"
+ },
+ "2312857": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0619"
+ },
+ "2312843": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0388"
+ },
+ "2312842": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0249"
+ },
+ "2312868": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.057,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "CL1B"
+    ],
+    "major": [
+     "CL1A"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      1.285129,
+      0.823122,
+      0.904528
+     ]
+    ],
+    "minor_el": [
+     "CL"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0327"
+ },
+ "2312841": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.1115"
+ },
+ "2312695": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0495"
+ },
+ "2312681": {
+  "ok": false,
+  "why": "unsupported EADP",
+  "R1": "0.0545"
+ },
+ "2312669": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.476,
+    "n_minor": 1,
+    "n_major": 1,
+    "minor": [
+     "C7A"
+    ],
+    "major": [
+     "C7"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.498819,
+      0.331349,
+      0.617232
+     ]
+    ],
+    "minor_el": [
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0325"
+ },
+ "2312679": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0523"
+ },
+ "2312690": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.15,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "C15A",
+     "O15A",
+     "C16A"
+    ],
+    "major": [
+     "O15",
+     "C15",
+     "C16"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.9259,
+      0.771168,
+      0.520796
+     ],
+     [
+      0.859801,
+      0.820895,
+      0.513528
+     ],
+     [
+      0.989871,
+      0.793864,
+      0.570388
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "O",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0556"
+ },
+ "2312661": {
+  "ok": false,
+  "why": "unsupported SAME",
+  "R1": "0.0555"
+ },
+ "2312424": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_large",
+    "minor_occ": 0.463,
+    "n_minor": 5,
+    "n_major": 5,
+    "minor": [
+     "N1",
+     "C1",
+     "C2",
+     "C3",
+     "C4"
+    ],
+    "major": [
+     "N1A",
+     "C1A",
+     "C2A",
+     "C3A",
+     "C4A"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      0.732651,
+      0.714346,
+      0.736382
+     ],
+     [
+      0.794731,
+      0.709164,
+      0.783661
+     ],
+     [
+      0.854105,
+      0.62401,
+      0.783364
+     ],
+     [
+      0.849104,
+      0.540766,
+      0.729585
+     ],
+     [
+      0.782382,
+      0.542598,
+      0.677078
+     ]
+    ],
+    "minor_el": [
+     "N",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_large",
+  "n_sites": 1,
+  "R1": "0.0542"
+ },
+ "2312460": {
+  "ok": false,
+  "why": "error TypeError int() argument must be a string, a bytes-like object or a real number, not 'atom",
+  "R1": "0.0481"
+ },
+ "2312471": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.466,
+    "n_minor": 2,
+    "n_major": 2,
+    "minor": [
+     "C9A",
+     "C10A"
+    ],
+    "major": [
+     "C9B",
+     "C10B"
+    ],
+    "minor_sign": 1,
+    "minor_xyz": [
+     [
+      -0.168967,
+      0.476371,
+      -0.044888
+     ],
+     [
+      -0.103664,
+      0.582737,
+      -0.029394
+     ]
+    ],
+    "minor_el": [
+     "C",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0795"
+ },
+ "2312379": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0440"
+ },
+ "2312380": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0640"
+ },
+ "2312394": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0292"
+ },
+ "2312383": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0363"
+ },
+ "2312375": {
+  "ok": false,
+  "why": "negative PART",
+  "R1": "0.0499"
+ },
+ "2312532": {
+  "ok": false,
+  "why": "unsupported BASF TWIN",
+  "R1": "0.0312"
+ },
+ "2312595": {
+  "ok": false,
+  "why": "unsupported FREE RTAB",
+  "R1": "0.0278"
+ },
+ "2312581": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.0320"
+ },
+ "2312582": {
+  "ok": false,
+  "why": "unsupported BASF TWIN",
+  "R1": "0.0324"
+ },
+ "2312555": {
+  "ok": false,
+  "why": "PART atoms with fixed/non-FVAR occupancy",
+  "R1": "0.0703"
+ },
+ "2312554": {
+  "ok": false,
+  "why": "no heavy-atom free-variable site (H-only or PART without FVAR)",
+  "R1": "0.0730"
+ },
+ "2312592": {
+  "ok": false,
+  "why": "unsupported RTAB",
+  "R1": "0.0403"
+ },
+ "2312547": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.368,
+    "n_minor": 4,
+    "n_major": 4,
+    "minor": [
+     "S1B",
+     "C46B",
+     "O14A",
+     "C45A"
+    ],
+    "major": [
+     "S1",
+     "C45",
+     "C46",
+     "O14"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.584053,
+      0.939711,
+      0.06804
+     ],
+     [
+      0.655495,
+      0.96256,
+      -0.002765
+     ],
+     [
+      0.532731,
+      0.975458,
+      0.097466
+     ],
+     [
+      0.622333,
+      0.893067,
+      0.103517
+     ]
+    ],
+    "minor_el": [
+     "S",
+     "C",
+     "O",
+     "C"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0372"
+ },
+ "2312588": {
+  "ok": false,
+  "why": ">2 parts",
+  "R1": "0.0407"
+ },
+ "2312548": {
+  "ok": false,
+  "why": "unsupported BASF EADP EXYZ SAME TWIN",
+  "R1": "0.0332"
+ },
+ "2312528": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.447,
+    "n_minor": 4,
+    "n_major": 4,
+    "minor": [
+     "F3B",
+     "F4B",
+     "F5B",
+     "F6B"
+    ],
+    "major": [
+     "F3A",
+     "F4A",
+     "F5A",
+     "F6A"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.056629,
+      -0.066119,
+      0.829728
+     ],
+     [
+      0.100102,
+      -0.208284,
+      0.774623
+     ],
+     [
+      0.229827,
+      -0.074048,
+      0.716263
+     ],
+     [
+      0.154472,
+      0.014316,
+      0.796365
+     ]
+    ],
+    "minor_el": [
+     "F",
+     "F",
+     "F",
+     "F"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0856"
+ },
+ "2312529": {
+  "ok": false,
+  "why": "unsupported ABIN",
+  "R1": "0.0473"
+ },
+ "2312505": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.457,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "O3A",
+     "O4A",
+     "O2A"
+    ],
+    "major": [
+     "O3",
+     "O4",
+     "O2"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.264553,
+      0.983706,
+      0.216588
+     ],
+     [
+      0.129357,
+      0.982605,
+      0.274364
+     ],
+     [
+      0.119624,
+      0.84537,
+      0.225798
+     ]
+    ],
+    "minor_el": [
+     "O",
+     "O",
+     "O"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0373"
+ },
+ "2312504": {
+  "ok": true,
+  "sites": [
+   {
+    "fv": 2,
+    "type": "group_small",
+    "minor_occ": 0.374,
+    "n_minor": 3,
+    "n_major": 3,
+    "minor": [
+     "O3A",
+     "O2A",
+     "O4A"
+    ],
+    "major": [
+     "O3",
+     "O2",
+     "O4"
+    ],
+    "minor_sign": -1,
+    "minor_xyz": [
+     [
+      0.714951,
+      0.947501,
+      0.782347
+     ],
+     [
+      0.877115,
+      0.833857,
+      0.761439
+     ],
+     [
+      0.851618,
+      0.982739,
+      0.725994
+     ]
+    ],
+    "minor_el": [
+     "O",
+     "O",
+     "O"
+    ]
+   }
+  ],
+  "type": "group_small",
+  "n_sites": 1,
+  "R1": "0.0309"
+ }
+}

@@ -1,0 +1,3 @@
+2312857 cand 5 [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [2 rej occ1.60 dwR2 +0.0003] [2 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 8s
+2312809 cand 6 [2 ACC occ0.36 dwR2 -0.0436] [1 ACC occ0.11 dwR2 -0.0510] [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 50s
+2312471 cand 9 [1 rej occ0.05 dwR2 -0.0038] [1 rej occ0.07 dwR2 -0.0017] [1 rej occ0.15 dwR2 -0.0002] 52s

@@ -1,0 +1,34 @@
+{
+ "id": "2312115",
+ "type": "group_large",
+ "control": false,
+ "sites": [
+  {
+   "type": "group_large",
+   "n_minor": 18,
+   "recall": 0.222,
+   "detected": false,
+   "truth_occ": 0.5,
+   "occ": 0.46271,
+   "occ_err": 0.037
+  }
+ ],
+ "n_partial": 16,
+ "fp_atoms": [
+  "C16",
+  "C901",
+  "C903",
+  "C21",
+  "C904",
+  "C22",
+  "C905",
+  "C25"
+ ],
+ "false_positive": true,
+ "all_detected": false,
+ "R1": 0.04752092729641457,
+ "wR2": 0.1556609198103857,
+ "npar": 324,
+ "dR1": 0.007654273929857153,
+ "dwR2": 0.013784646328658362
+}

@@ -1,0 +1,84 @@
+{
+ "id": "2243921",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [
+  "EADP"
+ ],
+ "deposited_R1": "0.0391",
+ "sites": [
+  {
+   "fv": 2,
+   "type": "group_small",
+   "minor_occ": 0.4987,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "Li3"
+   ],
+   "major": [
+    "Li2"
+   ],
+   "minor_el": [
+    "LI"
+   ],
+   "minor_xyz": [
+    [
+     0.688379,
+     0.438758,
+     1.083533
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "Li3"
+    ],
+    "major": [
+     "Li2"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "LI1": "Li1",
+  "LI2A": "Li2",
+  "LI2B": "Li3",
+  "C1": "C1",
+  "C2": "C2",
+  "C3": "C3",
+  "C4": "C4",
+  "C5": "C5",
+  "C6": "C6",
+  "N1": "N1",
+  "H1": "H1",
+  "N2": "N2",
+  "N3": "N3",
+  "H3": "H2",
+  "N4": "N4",
+  "H4": "H3",
+  "N5": "N5",
+  "N6": "N6",
+  "H6": "H4",
+  "O1": "O1",
+  "O2": "O2",
+  "O3": "O3",
+  "O4": "O4",
+  "O5": "O5",
+  "O6": "O6",
+  "O7": "O7",
+  "O8": "O8",
+  "O9": "O9",
+  "O10": "O10",
+  "H7A": "H5",
+  "H7B": "H6",
+  "H8A": "H7",
+  "H8B": "H8",
+  "H9A": "H9",
+  "H9B": "H10",
+  "H10A": "H11",
+  "H10B": "H12"
+ }
+}

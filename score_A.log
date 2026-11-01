@@ -1,0 +1,39 @@
+2243678 group_small det [0.0] occErr [None] FP 0 dR1 +0.0039
+2243856 group_small det [0.0] occErr [None] FP 0 dR1 +0.0031
+2244245 group_small det [0.0] occErr [None] FP 0 dR1 +0.0063
+2243634 group_small det [0.0] occErr [None] FP 0 dR1 +0.0060
+2312504 group_small det [0.0] occErr [None] FP 0 dR1 +0.0025
+2244161 group_small det [0.0] occErr [None] FP 0 dR1 +0.0095
+2243977 group_small det [0.0] occErr [None] FP 0 dR1 +0.0020
+2312281 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0120
+2312701 group_small det [0.0] occErr [None] FP 0 dR1 +0.1005
+2244051 group_small det [0.0] occErr [None] FP 0 dR1 +0.0177
+2244172 group_large det [0.0] occErr [None] FP 0 dR1 +0.0025
+2312424 group_large det [0.0] occErr [None] FP 0 dR1 +0.0091
+2243577 group_large det [0.0] occErr [None] FP 0 dR1 +0.0181
+2243762 group_large det [0.0] occErr [None] FP 0 dR1 +0.0447
+2243733 group_large det [0.0] occErr [None] FP 0 dR1 +0.0259
+2244240 group_large det [0.0] occErr [None] FP 0 dR1 +0.0470
+2312115 group_large det [0.0] occErr [None] FP 0 dR1 +0.0093
+2312808 group_large det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0190
+2243770 group_large det [0.0] occErr [None] FP 0 dR1 +0.0155
+2243801 group_large det [0.0] occErr [None] FP 0 dR1 +0.0154
+2243988 discrete det [0.0] occErr [None] FP 0 dR1 +0.0072
+2312064 discrete det [0.0] occErr [None] FP 0 dR1 +0.0076
+2243827 discrete det [0.0] occErr [None] FP 0 dR1 +0.0167
+2312661 discrete det [0.0] occErr [None] FP 0 dR1 +0.0038
+2312714 discrete det [0.0, 0.0, 0.0, 0.0, 0.0] occErr [None, None, None, None, None] FP 0 dR1 +0.0104
+2244087 discrete det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0198
+2312871 discrete det [0.0] occErr [None] FP 0 dR1 +0.0073
+2312993 discrete det [0.0] occErr [None] FP 0 dR1 +0.1266
+2243569 discrete det [0.0] occErr [None] FP 0 dR1 +0.0084
+2312981 control det [] occErr [] FP 0 dR1 -0.0000
+2312866 control det [] occErr [] FP 0 dR1 -0.0000
+2312879 control det [] occErr [] FP 0 dR1 -0.0000
+2312997 control det [] occErr [] FP 0 dR1 +0.0000
+2312859 control det [] occErr [] FP 0 dR1 +0.0000
+2312991 control det [] occErr [] FP 0 dR1 +0.0000
+2312966 control det [] occErr [] FP 0 dR1 -0.0000
+2312850 control det [] occErr [] FP 0 dR1 -0.0000
+2312969 control det [] occErr [] FP 0 dR1 -0.0000
+2312994 control det [] occErr [] FP 0 dR1 -0.0000

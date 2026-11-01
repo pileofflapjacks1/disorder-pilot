@@ -1,0 +1,86 @@
+[
+{
+"id": "2312762",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0560",
+"sites": [
+[
+"group_small",
+2,
+0.4944
+],
+[
+"discrete",
+1,
+0.2281
+],
+[
+"discrete",
+1,
+0.3384
+]
+]
+},
+{
+"id": "2312857",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0619",
+"sites": [
+[
+"group_small",
+1,
+0.25
+]
+]
+},
+{
+"id": "2312471",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0795",
+"sites": [
+[
+"group_small",
+2,
+0.4656
+]
+]
+},
+{
+"id": "2312383",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0363",
+"sites": [
+[
+"group_small",
+2,
+0.25
+]
+]
+},
+{
+"id": "2312754",
+"ok": false,
+"why": "ValueError: restraint names unknown atom 0.04",
+"sites": []
+},
+{
+"id": "2312592",
+"ok": false,
+"why": "ValueError: restraint names unknown atom H7B",
+"sites": []
+},
+{
+"id": "2312703",
+"ok": false,
+"why": "PART atoms outside a two-part site",
+"sites": []
+}
+]

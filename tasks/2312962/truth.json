@@ -1,0 +1,14 @@
+{
+ "id": "2312962",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0109",
+ "sites": [],
+ "relabel": {
+  "EU1": "Eu1",
+  "SN1": "Sn1",
+  "AS1": "As1"
+ }
+}

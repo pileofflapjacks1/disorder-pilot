@@ -1,0 +1,52 @@
+{
+ "id": "2312115",
+ "rms": 0.29604546518295355,
+ "thr": 1.4802273259147678,
+ "n_cand": 25,
+ "clusters": [
+  {
+   "atoms": [
+    "C16",
+    "C17",
+    "C20",
+    "C25",
+    "O5",
+    "O6",
+    "C21",
+    "C22"
+   ],
+   "mode": "peak",
+   "R1": 0.04758756554983225,
+   "wR2": 0.15682369133945392,
+   "minor_occ": 0.54049,
+   "npd": [],
+   "accepted": true
+  },
+  {
+   "atoms": [
+    "C33"
+   ],
+   "error": "InvalidConstraint: Invalid secondary_planar_xh_site constraint involving C44: bad connectivity",
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "O9"
+   ],
+   "mode": "peak",
+   "R1": 0.048856041123522646,
+   "wR2": 0.16017651487623505,
+   "minor_occ": 0.09301000000000004,
+   "npd": [],
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.049158255518771454,
+  "wR2": 0.16144431764584324
+ },
+ "final": {
+  "R1": 0.04758756554983225,
+  "wR2": 0.15682369133945392
+ }
+}

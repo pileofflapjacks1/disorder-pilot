@@ -1,0 +1,66 @@
+{
+ "id": "2312993",
+ "rms": 1.011423503443507,
+ "thr": 5.057117517217535,
+ "n_cand": 10,
+ "clusters": [
+  {
+   "atoms": [
+    "O1"
+   ],
+   "mode": "peak",
+   "R1": 0.3151984277559034,
+   "wR2": 0.6547783775855287,
+   "minor_occ": 0.84956,
+   "npd": [
+    "O1",
+    "O901",
+    "N1",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "N1",
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "error": "ArgumentError: Python argument types in\n    secondary_planar_xh_site.__init__(secondary_planar_xh_site)\ndid not match C++ signature:\n  ",
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C7",
+    "C8",
+    "C10",
+    "C9"
+   ],
+   "error": "RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 362.445 arg_limit = 50",
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.22325927335779203,
+  "wR2": 0.5311441768964544
+ },
+ "final": {
+  "R1": 0.22325927335779203,
+  "wR2": 0.5311441768964544
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "id": "2243770",
+ "rms": 0.24380560040874652,
+ "thr": 1.2190280020437325,
+ "n_cand": 2,
+ "clusters": [
+  {
+   "atoms": [
+    "C32"
+   ],
+   "error": "ArgumentError: Python argument types in\n    secondary_planar_xh_site.__init__(secondary_planar_xh_site)\ndid not match C++ signature:\n  ",
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C20"
+   ],
+   "mode": "adp",
+   "R1": 0.09205526154203811,
+   "wR2": 0.16349148543731348,
+   "minor_occ": 0.014120000000000021,
+   "npd": [],
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.092025627117591,
+  "wR2": 0.1634392911558644
+ },
+ "final": {
+  "R1": 0.092025627117591,
+  "wR2": 0.1634392911558644
+ }
+}

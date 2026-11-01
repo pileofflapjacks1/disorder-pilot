@@ -1,0 +1,30 @@
+{
+ "id": "2312115",
+ "type": "group_large",
+ "control": false,
+ "sites": [
+  {
+   "type": "group_large",
+   "n_minor": 18,
+   "recall": 1.0,
+   "detected": true,
+   "truth_occ": 0.5,
+   "occ": 0.49528333333333335,
+   "occ_err": 0.005
+  }
+ ],
+ "n_partial": 40,
+ "fp_atoms": [
+  "Ag5",
+  "Ag5B",
+  "Ag6",
+  "Ag6B"
+ ],
+ "false_positive": true,
+ "all_detected": true,
+ "R1": 0.03803056930207395,
+ "wR2": 0.1388047988785931,
+ "npar": 376,
+ "dR1": -0.001836084064483469,
+ "dwR2": -0.0030714746031342555
+}

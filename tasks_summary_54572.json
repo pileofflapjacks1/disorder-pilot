@@ -1,0 +1,581 @@
+[
+{
+"id": "2312720",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0336",
+"sites": [
+[
+"group_small",
+2,
+0.4547
+]
+]
+},
+{
+"id": "2312721",
+"ok": false,
+"why": "ValueError: duplicate atom labels (RESI-based model)",
+"sites": []
+},
+{
+"id": "2312754",
+"ok": false,
+"why": "ValueError: restraint names unknown atom 0.04",
+"sites": []
+},
+{
+"id": "2312741",
+"ok": false,
+"why": "unsupported SAME",
+"sites": []
+},
+{
+"id": "2312780",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0267",
+"sites": [
+[
+"group_small",
+1,
+0.116
+],
+[
+"group_small",
+1,
+0.0952
+]
+]
+},
+{
+"id": "2312794",
+"ok": false,
+"why": "unsupported BASF HKLF",
+"sites": []
+},
+{
+"id": "2312781",
+"ok": true,
+"control": false,
+"type": "subst",
+"deposited_R1": "0.0226",
+"sites": [
+[
+"subst",
+1,
+0.1106
+]
+]
+},
+{
+"id": "2312760",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0251",
+"sites": [
+[
+"group_small",
+2,
+0.2915
+]
+]
+},
+{
+"id": "2312762",
+"ok": false,
+"why": "ValueError: partial atoms left after stripping",
+"sites": []
+},
+{
+"id": "2312703",
+"ok": false,
+"why": "PART atoms outside a two-part site",
+"sites": []
+},
+{
+"id": "2312701",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0771",
+"sites": [
+[
+"group_small",
+1,
+0.328
+]
+]
+},
+{
+"id": "2312715",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0304",
+"sites": [
+[
+"group_small",
+4,
+0.4797
+]
+]
+},
+{
+"id": "2312714",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312700",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0423",
+"sites": [
+[
+"group_small",
+1,
+0.0909
+]
+]
+},
+{
+"id": "2312739",
+"ok": false,
+"why": "unsupported SAME",
+"sites": []
+},
+{
+"id": "2312998",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312952",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312992",
+"ok": false,
+"why": "unsupported ABIN",
+"sites": []
+},
+{
+"id": "2312993",
+"ok": true,
+"control": false,
+"type": "discrete",
+"deposited_R1": "0.1012",
+"sites": [
+[
+"discrete",
+17,
+0.1469
+]
+]
+},
+{
+"id": "2312996",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0976",
+"sites": [
+[
+"group_small",
+3,
+0.2984
+],
+[
+"group_small",
+3,
+0.414
+]
+]
+},
+{
+"id": "2312995",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0487",
+"sites": [
+[
+"group_small",
+3,
+0.3595
+],
+[
+"group_small",
+3,
+0.3998
+]
+]
+},
+{
+"id": "2312871",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312872",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312848",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312810",
+"ok": false,
+"why": "unsupported ABIN EADP",
+"sites": []
+},
+{
+"id": "2312839",
+"ok": false,
+"why": "unsupported EADP SAME",
+"sites": []
+},
+{
+"id": "2312811",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312800",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312808",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312809",
+"ok": true,
+"control": false,
+"type": "group_large",
+"deposited_R1": "0.0528",
+"sites": [
+[
+"group_large",
+8,
+0.4296
+]
+]
+},
+{
+"id": "2312845",
+"ok": false,
+"why": "unsupported EADP SAME",
+"sites": []
+},
+{
+"id": "2312844",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312847",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312857",
+"ok": false,
+"why": "ValueError: partial atoms left after stripping",
+"sites": []
+},
+{
+"id": "2312843",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312842",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312868",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0327",
+"sites": [
+[
+"group_small",
+1,
+0.0575
+]
+]
+},
+{
+"id": "2312841",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312695",
+"ok": false,
+"why": "PART atoms outside a two-part site",
+"sites": []
+},
+{
+"id": "2312681",
+"ok": false,
+"why": "unsupported EADP",
+"sites": []
+},
+{
+"id": "2312669",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0325",
+"sites": [
+[
+"group_small",
+1,
+0.4764
+]
+]
+},
+{
+"id": "2312679",
+"ok": false,
+"why": "no heavy-atom two-part site",
+"sites": []
+},
+{
+"id": "2312690",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0556",
+"sites": [
+[
+"group_small",
+3,
+0.1504
+]
+]
+},
+{
+"id": "2312661",
+"ok": false,
+"why": "unsupported SAME",
+"sites": []
+},
+{
+"id": "2312424",
+"ok": true,
+"control": false,
+"type": "group_large",
+"deposited_R1": "0.0542",
+"sites": [
+[
+"group_large",
+5,
+0.4632
+]
+]
+},
+{
+"id": "2312460",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0481",
+"sites": [
+[
+"group_small",
+3,
+0.2725
+]
+]
+},
+{
+"id": "2312471",
+"ok": false,
+"why": "ValueError: partial atoms left after stripping",
+"sites": []
+},
+{
+"id": "2312379",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312380",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312394",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312383",
+"ok": false,
+"why": "ValueError: partial atoms left after stripping",
+"sites": []
+},
+{
+"id": "2312375",
+"ok": false,
+"why": "negative PART",
+"sites": []
+},
+{
+"id": "2312532",
+"ok": false,
+"why": "unsupported BASF TWIN",
+"sites": []
+},
+{
+"id": "2312595",
+"ok": true,
+"control": false,
+"type": "discrete",
+"deposited_R1": "0.0278",
+"sites": [
+[
+"discrete",
+8,
+0.2
+]
+]
+},
+{
+"id": "2312581",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312582",
+"ok": false,
+"why": "unsupported BASF TWIN",
+"sites": []
+},
+{
+"id": "2312555",
+"ok": false,
+"why": "PART atoms outside a two-part site",
+"sites": []
+},
+{
+"id": "2312554",
+"ok": false,
+"why": "PART atoms outside a two-part site",
+"sites": []
+},
+{
+"id": "2312592",
+"ok": false,
+"why": "ValueError: restraint names unknown atom H7B",
+"sites": []
+},
+{
+"id": "2312547",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0372",
+"sites": [
+[
+"group_small",
+4,
+0.3684
+]
+]
+},
+{
+"id": "2312588",
+"ok": false,
+"why": ">2 parts",
+"sites": []
+},
+{
+"id": "2312548",
+"ok": false,
+"why": "unsupported BASF EADP EXYZ SAME TWIN",
+"sites": []
+},
+{
+"id": "2312528",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0856",
+"sites": [
+[
+"group_small",
+4,
+0.4465
+]
+]
+},
+{
+"id": "2312529",
+"ok": false,
+"why": "unsupported ABIN",
+"sites": []
+},
+{
+"id": "2312505",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0373",
+"sites": [
+[
+"group_small",
+3,
+0.4567
+]
+]
+},
+{
+"id": "2312504",
+"ok": true,
+"control": false,
+"type": "group_small",
+"deposited_R1": "0.0309",
+"sites": [
+[
+"group_small",
+3,
+0.3741
+]
+]
+}
+]

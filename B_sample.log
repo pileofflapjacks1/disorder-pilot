@@ -1,0 +1,43 @@
+2243856 cand 1 [1 ACC occ0.26 dwR2 -0.0073] 8s
+2244245 cand 1 [1 ACC occ0.21 dwR2 -0.0096] 15s
+2243634 cand 18 [2 ACC occ0.26 dwR2 -0.0114] [5 rej occ0.82 dwR2 -0.0120] [2 rej occ-0.01 dwR2 -0.0062] 766s
+2312504 cand 36 [1 rej occ0.07 dwR2 -0.0016] [1 ACC occ0.14 dwR2 -0.0019] [1 rej occ0.08 dwR2 -0.0032] 361s
+2244161 cand 3 [2 ACC occ0.49 dwR2 -0.0143] [1 rej occ0.37 dwR2 -0.0162] 5s
+2243977 cand 10 [4 ACC occ0.19 dwR2 -0.0038] [1 rej occ0.23 dwR2 -0.0047] [1 rej occ0.17 dwR2 -0.0041] 200s
+2312281 cand 7 [2 ACC occ0.38 dwR2 -0.0181] [4 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] [1 rej occ0.15 dwR2 -0.0191] 83s
+2312701 cand 1 [1 rej occ-0.21 dwR2 -0.0038] 8s
+2244051 cand 2 [2 ACC occ0.23 dwR2 -0.0409] 5s
+2244172 cand 0  4s
+2312424 cand 0  3s
+2243577 cand 2 [2 ACC occ0.37 dwR2 -0.0385] 20s
+2243678 cand 11 [2 rej occ-0.03 dwR2 -0.0002] [1 rej occ-0.05 dwR2 -0.0002] [3 ACC occ0.35 dwR2 -0.0034] 1798s
+2243733 cand 3 [3 rej ArgumentError: Python argument types in
+    angle_parameter.] 6s
+2244240 cand 4 [4 ACC occ0.47 dwR2 -0.1099] 27s
+2243762 cand 7 [1 ACC occ0.51 dwR2 -0.0171] [1 ACC occ0.53 dwR2 -0.0327] [1 ACC occ0.28 dwR2 -0.0638] 317s
+2312808 cand 12 [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [8 ACC occ0.15 dwR2 -0.0159] [1 rej occ0.06 dwR2 -0.0169] 63s
+2243770 cand 2 [1 rej ArgumentError: Python argument types in
+    secondary_planar] [1 rej occ0.01 dwR2 +0.0001] 22s
+2243801 cand 5 [4 ACC occ0.20 dwR2 -0.0287] [1 ACC occ0.14 dwR2 -0.0347] 5s
+2312115 cand 25 [8 ACC occ0.54 dwR2 -0.0046] [1 rej InvalidConstraint: Invalid secondary_planar_xh_site constrai] [1 rej occ0.09 dwR2 -0.0013] 195s
+2312064 cand 8 [3 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] [5 ACC occ0.11 dwR2 -0.0063] 21s
+2243827 cand 13 [13 ACC occ0.07 dwR2 -0.0106] 11s
+2243988 cand 13 [1 ACC occ0.53 dwR2 -0.0062] [1 rej occ-0.03 dwR2 -0.0063] [1 rej occ0.02 dwR2 -0.0062] 101s
+2312661 cand 5 [1 ACC occ0.16 dwR2 -0.0069] [3 ACC occ0.24 dwR2 -0.0098] [1 rej occ0.16 dwR2 -0.0115] 227s
+2244087 cand 3 [2 ACC occ0.15 dwR2 -0.0226] [1 ACC occ0.11 dwR2 -0.0268] 24s
+2312871 cand 7 [7 ACC occ0.18 dwR2 -0.0133] 120s
+2312993 cand 10 [1 rej occ0.85 dwR2 +0.1236] [5 rej ArgumentError: Python argument types in
+    secondary_planar] [4 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 3s
+2243569 cand 7 [1 rej occ-0.70 dwR2 -0.0002] [3 ACC occ0.37 dwR2 -0.0398] [3 rej occ0.21 dwR2 -0.0416] 86s
+2312981 cand 0  1s
+2312866 cand 0  1s
+2312879 cand 1 [1 rej occ1.04 dwR2 +0.0039] 1s
+2312997 cand 3 [2 rej occ0.04 dwR2 -0.0029] [1 ACC occ0.06 dwR2 -0.0031] 8s
+2312859 cand 0  2s
+2312991 cand 1 [1 rej occ-0.02 dwR2 +0.0000] 9s
+2312966 cand 9 [3 rej occ0.16 dwR2 -0.0005] [2 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [2 rej occ-0.03 dwR2 -0.0002] 94s
+2312850 cand 2 [2 rej ArgumentError: Python argument types in
+    secondary_planar] 1s
+2312969 cand 6 [6 ACC occ0.19 dwR2 -0.0262] 62s
+2312994 cand 1 [1 rej occ0.24 dwR2 -0.0002] 14s
+2312714 cand 18 [1 rej occ0.97 dwR2 -0.0013] [1 rej occ0.06 dwR2 -0.0018] [1 rej occ-0.03 dwR2 +0.0001] 910s

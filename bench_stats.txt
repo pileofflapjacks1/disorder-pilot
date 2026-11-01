@@ -1,0 +1,44 @@
+survey CIFs 1500 res+hkl 1219
+ with disorder groups 261  no groups+no partial 887
+generation attempts (disordered candidates) 259
+   EXCL unsupported 115
+   group_small 44
+   EXCL negative PART 35
+   EXCL >2 parts 29
+   discrete 6
+   group_large 6
+   EXCL no heavy-atom two-part site 5
+   EXCL ValueError: duplicate atom labels (RESI-based model) 5
+   EXCL PART atoms outside a two-part site 5
+   subst 2
+   EXCL IndexError: list index out of range 2
+   EXCL ValueError: restraint names unknown atom 0.02 2
+   EXCL ValueError: restraint names unknown atom H7B 1
+   EXCL IndexError: tuple index out of range 1
+   EXCL ValueError: restraint names unknown atom 0.04 1
+tasks: disordered 121 controls 36
+ by type Counter({'group_small': 73, 'group_large': 24, 'discrete': 20, 'subst': 4})
+ sites 143 sites/task mean 1.18 max 5
+ site types Counter({'group_small': 85, 'discrete': 29, 'group_large': 25, 'subst': 4})
+ minor occ median 0.330 IQR 0.206-0.434 min 0.029
+  group_small n_minor median 3 range 1-4; minor occ median 0.35
+  group_large n_minor median 6 range 5-24; minor occ median 0.29
+  discrete n_minor median 3 range 1-18; minor occ median 0.35
+  subst n_minor median 1.5 range 1-16; minor occ median 0.09
+ minor elements [('C', 363), ('O', 88), ('F', 44), ('N', 24), ('S', 10), ('CL', 10), ('BR', 4), ('CU', 1), ('SN', 1), ('P', 1)]
+ soft (EADP/EXYZ/SAME) dropped in ref 63
+ eval group_small {'evaluated': 73, 'ref_ok': 67, 'eligible': 51, 'low_signal': 16, 'engine_error': 5, 'ref_mismatch': 1} dR1(A-ref) median 0.0044
+ eval discrete {'evaluated': 20, 'engine_error': 1, 'ref_ok': 19, 'eligible': 9, 'low_signal': 10} dR1(A-ref) median 0.0019
+ eval group_large {'evaluated': 24, 'ref_ok': 16, 'low_signal': 2, 'eligible': 14, 'engine_error': 6, 'ref_mismatch': 2} dR1(A-ref) median 0.0154
+ eval subst {'not_evaluated': 3, 'evaluated': 1, 'ref_ok': 1, 'eligible': 1} dR1(A-ref) median 0.0037
+ engine errors [('RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto', 7), ('Sorry: Not a SHELX reflection file: /Users/joe/Projects/diso', 3), ('RuntimeError: scitbx Error: /Users/runner/miniforge#/conda-b', 1), ('Timeout: reference did not finish in # h (killed #-#-#)', 1)]
+FUNNEL disordered candidates 259 tasks 121 excluded 138
+   negative PART 35
+   >2 parts 29
+   EADP/SAME/EXYZ on ordered atoms 21
+   twinned/HKLF5 (TWIN/BASF/HKLF) 19
+   parse/generation error 12
+   PART atoms outside a two-part site 11
+   ABIN/HFIX 5
+   no heavy-atom two-part site 5
+   SUMP 1

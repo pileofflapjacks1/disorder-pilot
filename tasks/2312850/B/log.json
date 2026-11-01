@@ -1,0 +1,24 @@
+{
+ "id": "2312850",
+ "rms": 0.08121564679716403,
+ "thr": 0.40607823398582016,
+ "n_cand": 2,
+ "clusters": [
+  {
+   "atoms": [
+    "C9",
+    "C10"
+   ],
+   "error": "ArgumentError: Python argument types in\n    secondary_planar_xh_site.__init__(secondary_planar_xh_site)\ndid not match C++ signature:\n  ",
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.057045812799548644,
+  "wR2": 0.16552385990936533
+ },
+ "final": {
+  "R1": 0.057045812799548644,
+  "wR2": 0.16552385990936533
+ }
+}

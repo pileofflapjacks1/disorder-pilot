@@ -1,0 +1,21 @@
+{
+ "id": "2312965",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0290",
+ "sites": [],
+ "relabel": {
+  "MO1": "Mo1",
+  "SE1": "Se1",
+  "O1": "O1",
+  "CL1": "Cl1",
+  "CL2": "Cl2",
+  "CL3": "Cl3",
+  "CL4": "Cl4",
+  "CL5": "Cl5",
+  "CL6": "Cl6",
+  "CL7": "Cl7"
+ }
+}

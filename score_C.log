@@ -1,0 +1,39 @@
+2243856 group_small det [1.0] occErr [0.015] FP 0 dR1 -0.0000
+2244245 group_small det [0.25] occErr [0.033] FP 0 dR1 +0.0004
+2243634 group_small det [1.0] occErr [0.005] FP 0 dR1 +0.0002
+2244161 group_small det [0.0] occErr [None] FP 0 dR1 +0.0095
+2312504 group_small det [1.0] occErr [0.038] FP 0 dR1 +0.0007
+2312281 group_small det [1.0, 0.0] occErr [0.029, None] FP 3 dR1 -0.0063
+2312701 group_small det [1.0] occErr [0.009] FP 0 dR1 +0.0056
+2243977 group_small det [1.0] occErr [0.095] FP 0 dR1 +0.0015
+2244051 group_small det [1.0] occErr [0.01] FP 0 dR1 +0.0005
+2244172 group_large det [0.83] occErr [0.03] FP 0 dR1 -0.0010
+2312424 group_large det [0.0] occErr [None] FP 0 dR1 +0.0091
+2243577 group_large det [0.12] occErr [0.009] FP 0 dR1 +0.0118
+2243733 group_large det [0.11] occErr [0.628] FP 0 dR1 +0.0060
+2243762 group_large det [0.4] occErr [0.001] FP 0 dR1 +0.0010
+2244240 group_large det [0.8] occErr [0.0] FP 0 dR1 +0.0001
+2312808 group_large det [0.5, 0.0] occErr [0.005, None] FP 0 dR1 +0.0134
+2243678 group_small det [1.0] occErr [0.014] FP 2 dR1 -0.0000
+2243770 group_large det [0.8] occErr [0.268] FP 0 dR1 +0.0034
+2312115 group_large det [1.0] occErr [0.005] FP 4 dR1 -0.0018
+2243801 group_large det [0.4] occErr [0.033] FP 0 dR1 +0.0111
+2243988 discrete det [0.5] occErr [0.036] FP 0 dR1 +0.0016
+2243827 discrete det [0.0] occErr [None] FP 0 dR1 +0.0167
+2312064 discrete det [0.75] occErr [0.011] FP 0 dR1 +0.0038
+2244087 discrete det [0.43, 0.0] occErr [0.039, None] FP 0 dR1 +0.0042
+2312661 discrete det [0.88] occErr [0.058] FP 1 dR1 -0.0047
+2312871 discrete det [0.43] occErr [0.083] FP 1 dR1 +0.0051
+2312993 discrete det [1.0] occErr [0.37] FP 8 dR1 +0.0094
+2312981 control det [] occErr [] FP 2 dR1 -0.0015
+2312866 control det [] occErr [] FP 0 dR1 -0.0000
+2312879 control det [] occErr [] FP 2 dR1 -0.0158
+2312997 control det [] occErr [] FP 0 dR1 +0.0000
+2312859 control det [] occErr [] FP 0 dR1 +0.0000
+2312991 control det [] occErr [] FP 0 dR1 +0.0000
+2243569 discrete det [0.67] occErr [0.007] FP 1 dR1 +0.0053
+2312850 control det [] occErr [] FP 0 dR1 -0.0000
+2312966 control det [] occErr [] FP 0 dR1 -0.0000
+2312994 control det [] occErr [] FP 0 dR1 -0.0000
+2312969 control det [] occErr [] FP 12 dR1 -0.0142
+2312714 discrete det [0.0, 0.0, 0.0, 1.0, 1.0] occErr [None, None, None, 0.013, 0.025] FP 0 dR1 +0.0043

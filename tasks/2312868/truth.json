@@ -1,0 +1,77 @@
+{
+ "id": "2312868",
+ "ok": true,
+ "control": false,
+ "type": "group_small",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0327",
+ "sites": [
+  {
+   "fv": 2,
+   "type": "group_small",
+   "minor_occ": 0.0575,
+   "full_occ": 1.0,
+   "n_minor": 1,
+   "n_major": 1,
+   "minor_sign": -1,
+   "minor": [
+    "Cl2"
+   ],
+   "major": [
+    "Cl1"
+   ],
+   "minor_el": [
+    "CL"
+   ],
+   "minor_xyz": [
+    [
+     1.285129,
+     0.823122,
+     0.904528
+    ]
+   ],
+   "all_side": {
+    "minor": [
+     "Cl2"
+    ],
+    "major": [
+     "Cl1"
+    ]
+   }
+  }
+ ],
+ "relabel": {
+  "CL1A": "Cl1",
+  "CL1B": "Cl2",
+  "S1": "S1",
+  "S2": "S2",
+  "O1": "O1",
+  "O2": "O2",
+  "O3": "O3",
+  "N3": "N1",
+  "C2": "C1",
+  "C4": "C2",
+  "C5": "C3",
+  "C6": "C4",
+  "H6": "H1",
+  "C7": "C5",
+  "C8": "C6",
+  "H8": "H2",
+  "C9": "C7",
+  "H1B": "H3",
+  "C10": "C8",
+  "H10": "H4",
+  "C11": "C9",
+  "H1A": "H5",
+  "C12": "C10",
+  "H12": "H6",
+  "C13": "C11",
+  "H13A": "H7",
+  "H13B": "H8",
+  "C14": "C12",
+  "H14A": "H9",
+  "H14B": "H10",
+  "C15": "C13",
+  "H3": "H11"
+ }
+}

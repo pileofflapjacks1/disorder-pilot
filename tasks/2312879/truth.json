@@ -1,0 +1,24 @@
+{
+ "id": "2312879",
+ "ok": true,
+ "control": true,
+ "type": "control",
+ "soft_dropped_in_ref": [],
+ "deposited_R1": "0.0695",
+ "sites": [],
+ "relabel": {
+  "AU1": "Au1",
+  "AU2": "Au2",
+  "C1": "C1",
+  "H1": "H1",
+  "C2": "C2",
+  "H2": "H2",
+  "C3": "C3",
+  "C4": "C4",
+  "CL1": "Cl1",
+  "CL2": "Cl2",
+  "N1": "N1",
+  "N2": "N2",
+  "S1": "S1"
+ }
+}

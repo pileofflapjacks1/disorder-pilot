@@ -1,0 +1,46 @@
+{
+ "id": "2312809",
+ "rms": 0.11884812033813559,
+ "thr": 0.5942406016906779,
+ "n_cand": 6,
+ "clusters": [
+  {
+   "atoms": [
+    "O4",
+    "C32"
+   ],
+   "mode": "peak",
+   "R1": 0.06190910769375484,
+   "wR2": 0.1988795158776881,
+   "minor_occ": 0.36302,
+   "npd": [],
+   "accepted": true
+  },
+  {
+   "atoms": [
+    "Cl3"
+   ],
+   "mode": "peak",
+   "R1": 0.059852347959087455,
+   "wR2": 0.19148079760027362,
+   "minor_occ": 0.10599999999999998,
+   "npd": [],
+   "accepted": true
+  },
+  {
+   "atoms": [
+    "C5"
+   ],
+   "error": "RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 940.549 arg_limit = 50",
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.07260834369940283,
+  "wR2": 0.2424678596579912
+ },
+ "final": {
+  "R1": 0.059852347959087455,
+  "wR2": 0.19148079760027362
+ }
+}
