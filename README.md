@@ -71,4 +71,6 @@ System C cost about $0.56 per structure in API usage.
 
 ## Data and credit
 
+The code is MIT-licensed (see [`LICENSE`](LICENSE)). The licence covers the code and write-ups, not the structural data.
+
 The crystal structures come from the [Crystallography Open Database](https://www.crystallography.net/cod/), which is dedicated to the public domain under CC0. Each structure belongs to its original authors; cite them via their COD entry IDs (the task folder names).
