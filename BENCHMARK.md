@@ -86,7 +86,7 @@ Everything is refined with cctbx/smtbx (cctbx-base 2025.11, Python 3.12), which 
 | Free-variable DFIX/DANG targets | Resolved from FVAR instead of read literally |
 | Damped, shift-limited solver | 40 cycles |
 | Riding H across PARTs | AFIX groups re-issued where riding H on both PARTs share one parent |
-| cctbx bug | Patched locally; report drafted in `docs/upstream/cctbx_occupancy_issue.md`. In `iotbx/shelx/parsers.py`, a free-variable occupancy group of more than 2 atoms gets chained pairwise constraints (1–2, 2–3, 3–4). On COD 2312780 that puts an atom on the wrong side of the disorder. Linking every member to the first member fixes it. |
+| cctbx bug | Patched locally; reported upstream as cctbx/cctbx_project#1284. In `iotbx/shelx/parsers.py`, a free-variable occupancy group of more than 2 atoms gets chained pairwise constraints (1–2, 2–3, 3–4). On COD 2312780 that puts an atom on the wrong side of the disorder. Linking every member to the first member fixes it. |
 
 **Engine check:** after these fixes, 9 of 10 test structures re-refine within 0.0015 of the deposited R1.
 

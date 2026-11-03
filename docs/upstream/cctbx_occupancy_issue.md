@@ -1,4 +1,6 @@
-# Draft issue for cctbx/cctbx_project (not yet filed)
+# Issue for cctbx/cctbx_project
+
+Filed 2026-11-02 as https://github.com/cctbx/cctbx_project/issues/1284
 
 **Title:** `iotbx.shelx` parser: free-variable occupancy groups of more than 2 atoms are constrained incorrectly
 
