@@ -1,0 +1,422 @@
+{
+ "case": "08",
+ "base_minor_occ": 0.189,
+ "bonds": [
+  {
+   "a": "C20",
+   "b": "O1",
+   "d": 1.297,
+   "expected": 1.271,
+   "basis": "partner C901",
+   "hirshfeld": 0.0042
+  },
+  {
+   "a": "C20",
+   "b": "O2",
+   "d": 1.257,
+   "expected": 1.271,
+   "basis": "partner C901",
+   "hirshfeld": 0.0061,
+   "flag": "rigid-bond test 0.0061"
+  },
+  {
+   "a": "C20",
+   "b": "C19",
+   "d": 1.518,
+   "expected": 1.532,
+   "basis": "partner C901",
+   "hirshfeld": 0.0079,
+   "flag": "rigid-bond test 0.0079"
+  },
+  {
+   "a": "C21",
+   "b": "O1",
+   "d": 1.498,
+   "expected": 1.43,
+   "basis": "covalent sum",
+   "hirshfeld": 0.0004
+  },
+  {
+   "a": "C21",
+   "b": "C22",
+   "d": 1.512,
+   "expected": 1.513,
+   "basis": "partner C904",
+   "hirshfeld": 0.0147,
+   "flag": "rigid-bond test 0.0147"
+  },
+  {
+   "a": "C21",
+   "b": "C23",
+   "d": 1.505,
+   "expected": 1.513,
+   "basis": "partner C904",
+   "hirshfeld": 0.0016
+  },
+  {
+   "a": "C21",
+   "b": "C24",
+   "d": 1.513,
+   "expected": 1.513,
+   "basis": "partner C904",
+   "hirshfeld": 0.0039
+  },
+  {
+   "a": "C23",
+   "b": "C21",
+   "d": 1.505,
+   "expected": 1.548,
+   "basis": "partner C902",
+   "hirshfeld": 0.0016
+  },
+  {
+   "a": "C24",
+   "b": "C21",
+   "d": 1.513,
+   "expected": 1.513,
+   "basis": "partner C904",
+   "hirshfeld": 0.0039
+  },
+  {
+   "a": "C901",
+   "b": "O901",
+   "d": 1.317,
+   "expected": 1.277,
+   "basis": "partner C20"
+  },
+  {
+   "a": "C901",
+   "b": "O902",
+   "d": 1.226,
+   "expected": 1.277,
+   "basis": "partner C20"
+  },
+  {
+   "a": "C901",
+   "b": "C19",
+   "d": 1.532,
+   "expected": 1.518,
+   "basis": "partner C20"
+  },
+  {
+   "a": "C902",
+   "b": "O901",
+   "d": 1.508,
+   "expected": 1.498,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C902",
+   "b": "C22",
+   "d": 1.931,
+   "expected": 1.512,
+   "basis": "partner C21",
+   "flag": "+0.42 \u00c5 vs partner C21"
+  },
+  {
+   "a": "C902",
+   "b": "C903",
+   "d": 1.548,
+   "expected": 1.512,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C902",
+   "b": "C904",
+   "d": 1.475,
+   "expected": 1.512,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C903",
+   "b": "C902",
+   "d": 1.548,
+   "expected": 1.505,
+   "basis": "partner C23"
+  },
+  {
+   "a": "C904",
+   "b": "C902",
+   "d": 1.475,
+   "expected": 1.512,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C904",
+   "b": "C22",
+   "d": 1.55,
+   "expected": 1.512,
+   "basis": "partner C21"
+  },
+  {
+   "a": "O1",
+   "b": "C20",
+   "d": 1.297,
+   "expected": 1.412,
+   "basis": "partner O901",
+   "flag": "-0.12 \u00c5 vs partner O901",
+   "hirshfeld": 0.0042
+  },
+  {
+   "a": "O1",
+   "b": "C21",
+   "d": 1.498,
+   "expected": 1.412,
+   "basis": "partner O901",
+   "hirshfeld": 0.0004
+  },
+  {
+   "a": "O2",
+   "b": "C20",
+   "d": 1.257,
+   "expected": 1.226,
+   "basis": "partner O902",
+   "hirshfeld": 0.0061,
+   "flag": "rigid-bond test 0.0061"
+  },
+  {
+   "a": "O901",
+   "b": "C901",
+   "d": 1.317,
+   "expected": 1.397,
+   "basis": "partner O1"
+  },
+  {
+   "a": "O901",
+   "b": "C902",
+   "d": 1.508,
+   "expected": 1.397,
+   "basis": "partner O1",
+   "flag": "+0.11 \u00c5 vs partner O1"
+  },
+  {
+   "a": "O902",
+   "b": "C901",
+   "d": 1.226,
+   "expected": 1.257,
+   "basis": "partner O2"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O1",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0249,
+   "iso": false,
+   "aniso": 1.98
+  },
+  {
+   "label": "O901",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0249,
+   "iso": true
+  },
+  {
+   "label": "O2",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0388,
+   "iso": false,
+   "aniso": 3.38
+  },
+  {
+   "label": "O902",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0298,
+   "iso": true
+  },
+  {
+   "label": "C20",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0267,
+   "iso": false,
+   "aniso": 1.5
+  },
+  {
+   "label": "C901",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0104,
+   "iso": true
+  },
+  {
+   "label": "C21",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0312,
+   "iso": false,
+   "aniso": 2.4
+  },
+  {
+   "label": "C902",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0261,
+   "iso": true
+  },
+  {
+   "label": "C23",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0465,
+   "iso": false,
+   "aniso": 2.67
+  },
+  {
+   "label": "C903",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0445,
+   "iso": true
+  },
+  {
+   "label": "C24",
+   "part": 1,
+   "occ": 0.811,
+   "ueq": 0.0394,
+   "iso": false,
+   "aniso": 2.11
+  },
+  {
+   "label": "C904",
+   "part": 2,
+   "occ": 0.189,
+   "ueq": 0.0511,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O1",
+   "rho_sigma": 1.5,
+   "partner": "O901",
+   "split": 0.66,
+   "mid_sigma": -4.8
+  },
+  {
+   "label": "O901",
+   "rho_sigma": 6.9,
+   "partner": "O1",
+   "split": 0.66,
+   "mid_sigma": -4.8
+  },
+  {
+   "label": "O2",
+   "rho_sigma": 3.6,
+   "partner": "O902",
+   "split": 0.92,
+   "mid_sigma": -9.2
+  },
+  {
+   "label": "O902",
+   "rho_sigma": 18.2,
+   "partner": "O2",
+   "split": 0.92,
+   "mid_sigma": -9.2
+  },
+  {
+   "label": "C20",
+   "rho_sigma": 0.1,
+   "partner": "C901",
+   "split": 0.23,
+   "mid_sigma": 0.3
+  },
+  {
+   "label": "C901",
+   "rho_sigma": 0.4,
+   "partner": "C20",
+   "split": 0.23,
+   "mid_sigma": 0.3
+  },
+  {
+   "label": "C21",
+   "rho_sigma": 1.9,
+   "partner": "C904",
+   "split": 0.72,
+   "mid_sigma": 0.9
+  },
+  {
+   "label": "C902",
+   "rho_sigma": 13.9,
+   "partner": "C21",
+   "split": 0.84,
+   "mid_sigma": -1.1
+  },
+  {
+   "label": "C23",
+   "rho_sigma": -0.7,
+   "partner": "C902",
+   "split": 0.92,
+   "mid_sigma": 2.3
+  },
+  {
+   "label": "C903",
+   "rho_sigma": 17.3,
+   "partner": "C23",
+   "split": 0.99,
+   "mid_sigma": -0.1
+  },
+  {
+   "label": "C24",
+   "rho_sigma": -2.6,
+   "partner": "C904",
+   "split": 1.01,
+   "mid_sigma": -3.8
+  },
+  {
+   "label": "C904",
+   "rho_sigma": 4.8,
+   "partner": "C21",
+   "split": 0.72,
+   "mid_sigma": 0.9
+  }
+ ],
+ "map_rms": 0.06452547792960606,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0288,
+   "wR2": 0.079,
+   "minor_occ": 0.191,
+   "max_shift": 0.07,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0288,
+   "wR2": 0.079,
+   "minor_occ": 0.191,
+   "max_shift": 0.07,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0287,
+   "wR2": 0.0789,
+   "minor_occ": 0.19,
+   "max_shift": 0.05,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "C20\u2013O2 rigid-bond test 0.0061",
+   "C20\u2013C19 rigid-bond test 0.0079",
+   "C21\u2013C22 rigid-bond test 0.0147",
+   "C902\u2013C22 +0.42 \u00c5 vs partner C21",
+   "O1\u2013C20 -0.12 \u00c5 vs partner O901",
+   "O2\u2013C20 rigid-bond test 0.0061",
+   "O901\u2013C902 +0.11 \u00c5 vs partner O1"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": [
+   "GooF falls from 1.05 to 0.78 with the deposited weighting scheme"
+  ]
+ }
+}

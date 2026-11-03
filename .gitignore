@@ -9,3 +9,4 @@ _*.res
 .DS_Store
 # Reflection data (157 MB; regenerated from the CIFs by tools/gen_tasks.py)
 *.hkl
+

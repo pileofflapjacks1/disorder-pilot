@@ -1,0 +1,72 @@
+{
+ "case": "07",
+ "base_minor_occ": 0.246,
+ "bonds": [
+  {
+   "a": "C903",
+   "b": "S901",
+   "d": 1.674,
+   "expected": 1.81,
+   "basis": "covalent sum"
+  },
+  {
+   "a": "C903",
+   "b": "C47",
+   "d": 1.52,
+   "expected": 1.54,
+   "basis": "covalent sum"
+  },
+  {
+   "a": "C903",
+   "b": "C902",
+   "d": 1.478,
+   "expected": 1.54,
+   "basis": "covalent sum"
+  }
+ ],
+ "adps": [
+  {
+   "label": "C903",
+   "part": 2,
+   "occ": 0.246,
+   "ueq": 0.1459,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "C903",
+   "rho_sigma": -1.1
+  }
+ ],
+ "map_rms": 0.19219068630945477,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0565,
+   "wR2": 0.1307,
+   "minor_occ": 0.246,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0565,
+   "wR2": 0.1307,
+   "minor_occ": 0.246,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

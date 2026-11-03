@@ -1,0 +1,118 @@
+{
+ "case": "02",
+ "base_minor_occ": 0.041,
+ "bonds": [
+  {
+   "a": "Au3",
+   "b": "Au1",
+   "d": 1.219,
+   "expected": 2.8,
+   "basis": "covalent sum",
+   "flag": "short contact"
+  },
+  {
+   "a": "Au3",
+   "b": "Cl1",
+   "d": 1.21,
+   "expected": 2.39,
+   "basis": "covalent sum",
+   "flag": "short contact"
+  },
+  {
+   "a": "Au3",
+   "b": "Cl2",
+   "d": 2.211,
+   "expected": 2.39,
+   "basis": "covalent sum"
+  },
+  {
+   "a": "Au4",
+   "b": "Au2",
+   "d": 1.211,
+   "expected": 2.8,
+   "basis": "covalent sum",
+   "flag": "short contact"
+  },
+  {
+   "a": "Au4",
+   "b": "C1",
+   "d": 2.221,
+   "expected": 2.17,
+   "basis": "covalent sum"
+  },
+  {
+   "a": "Au4",
+   "b": "N1",
+   "d": 1.724,
+   "expected": 2.11,
+   "basis": "covalent sum",
+   "flag": "-0.39 \u00c5 vs covalent sum"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Au3",
+   "part": 0,
+   "occ": 0.041,
+   "ueq": 0.031,
+   "iso": true
+  },
+  {
+   "label": "Au4",
+   "part": 0,
+   "occ": 0.041,
+   "ueq": 0.0327,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Au3",
+   "rho_sigma": 16.7,
+   "ripple": "AU1 1.22"
+  },
+  {
+   "label": "Au4",
+   "rho_sigma": 16.4,
+   "ripple": "AU2 1.21"
+  }
+ ],
+ "map_rms": 0.6290671870059698,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0537,
+   "wR2": 0.1814,
+   "minor_occ": 0.041,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0537,
+   "wR2": 0.1814,
+   "minor_occ": 0.041,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "Au3\u2013Au1 short contact",
+   "Au3\u2013Cl1 short contact",
+   "Au4\u2013Au2 short contact",
+   "Au4\u2013N1 -0.39 \u00c5 vs covalent sum"
+  ],
+  "adp": [],
+  "map": [
+   "Au3 1.22 \u00c5 from heavy atom AU1 (Fourier-ripple distance)",
+   "Au4 1.21 \u00c5 from heavy atom AU2 (Fourier-ripple distance)"
+  ],
+  "stability": [],
+  "other": []
+ }
+}

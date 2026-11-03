@@ -1,0 +1,84 @@
+{
+ "case": "04",
+ "base_minor_occ": 0.139,
+ "bonds": [
+  {
+   "a": "O2",
+   "b": "C6",
+   "d": 1.264,
+   "expected": 1.335,
+   "basis": "partner O902",
+   "hirshfeld": 0.0025
+  },
+  {
+   "a": "O902",
+   "b": "C6",
+   "d": 1.335,
+   "expected": 1.264,
+   "basis": "partner O2"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O2",
+   "part": 1,
+   "occ": 0.861,
+   "ueq": 0.1132,
+   "iso": false,
+   "aniso": 3.93
+  },
+  {
+   "label": "O902",
+   "part": 2,
+   "occ": 0.139,
+   "ueq": 0.1098,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O2",
+   "rho_sigma": -0.6,
+   "partner": "O902",
+   "split": 1.07,
+   "mid_sigma": -1.8
+  },
+  {
+   "label": "O902",
+   "rho_sigma": 3.8,
+   "partner": "O2",
+   "split": 1.07,
+   "mid_sigma": -1.8
+  }
+ ],
+ "map_rms": 0.09233771631283381,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0667,
+   "wR2": 0.198,
+   "minor_occ": 0.137,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0667,
+   "wR2": 0.198,
+   "minor_occ": 0.138,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

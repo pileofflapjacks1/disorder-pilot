@@ -1,0 +1,12 @@
+case,verdict,confidence_1to3,notes
+01,unsure,,
+02,unsure,,
+03,unsure,,
+04,overfit,,"candidate.res is not good; deposited.res looks better (Olex2)"
+05,overfit,,"deposited is a better fit than candidate (corrected from an earlier real)"
+06,overfit,,"deposited is better than candidate"
+07,overfit,,"deposited is better than candidate; but candidate looks way better than the previous cases"
+08,unsure,,"pretty much even; almost no visible difference between the two"
+09,overfit,,"deposited is better"
+10,overfit,,"deposited looks better overall: its FeCl3 is better than the candidate's disorder model; the C11/C12 disorder could be modelled either way"
+11,overfit,,"deposited looks a little better; however the modelled disorder in candidate looks pretty good"

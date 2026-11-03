@@ -1,0 +1,109 @@
+{
+ "case": "03",
+ "base_minor_occ": 0.022,
+ "bonds": [
+  {
+   "a": "Se1",
+   "b": "O4",
+   "d": 1.643,
+   "expected": 1.898,
+   "basis": "partner Se1B",
+   "flag": "-0.25 \u00c5 vs partner Se1B",
+   "hirshfeld": 0.0
+  },
+  {
+   "a": "Se1",
+   "b": "O6",
+   "d": 1.63,
+   "expected": 1.898,
+   "basis": "partner Se1B",
+   "flag": "-0.27 \u00c5 vs partner Se1B",
+   "hirshfeld": 0.0005
+  },
+  {
+   "a": "Se1B",
+   "b": "O2",
+   "d": 2.043,
+   "expected": 1.636,
+   "basis": "partner Se1",
+   "flag": "+0.41 \u00c5 vs partner Se1"
+  },
+  {
+   "a": "Se1B",
+   "b": "O4",
+   "d": 1.753,
+   "expected": 1.636,
+   "basis": "partner Se1",
+   "flag": "+0.12 \u00c5 vs partner Se1"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Se1",
+   "part": 1,
+   "occ": 0.478,
+   "ueq": 0.0099,
+   "iso": false,
+   "aniso": 3.36
+  },
+  {
+   "label": "Se1B",
+   "part": 2,
+   "occ": 0.022,
+   "ueq": 0.0068,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Se1",
+   "rho_sigma": -0.6,
+   "partner": "Se1B",
+   "split": 2.22,
+   "mid_sigma": 0.3
+  },
+  {
+   "label": "Se1B",
+   "rho_sigma": 10.2,
+   "partner": "Se1",
+   "split": 2.22,
+   "mid_sigma": 0.3
+  }
+ ],
+ "map_rms": 0.33781557015391994,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0164,
+   "wR2": 0.039,
+   "minor_occ": 0.022,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0164,
+   "wR2": 0.039,
+   "minor_occ": 0.022,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "Se1\u2013O4 -0.25 \u00c5 vs partner Se1B",
+   "Se1\u2013O6 -0.27 \u00c5 vs partner Se1B",
+   "Se1B\u2013O2 +0.41 \u00c5 vs partner Se1",
+   "Se1B\u2013O4 +0.12 \u00c5 vs partner Se1",
+   "Se1/Se1B split by 2.22 \u00c5 (large for a disorder split)"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

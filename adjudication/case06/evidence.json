@@ -1,0 +1,287 @@
+{
+ "case": "06",
+ "base_minor_occ": 0.04,
+ "bonds": [
+  {
+   "a": "Ag5",
+   "b": "Ag2",
+   "d": 3.091,
+   "expected": 3.099,
+   "basis": "partner Ag5B",
+   "hirshfeld": 0.0053,
+   "flag": "rigid-bond test 0.0053"
+  },
+  {
+   "a": "Ag5",
+   "b": "Ag3",
+   "d": 3.079,
+   "expected": 3.099,
+   "basis": "partner Ag5B",
+   "hirshfeld": 0.0048
+  },
+  {
+   "a": "Ag5",
+   "b": "Ag6",
+   "d": 2.97,
+   "expected": 3.099,
+   "basis": "partner Ag5B",
+   "flag": "-0.13 \u00c5 vs partner Ag5B",
+   "hirshfeld": 0.0044
+  },
+  {
+   "a": "Ag5",
+   "b": "S1",
+   "d": 2.534,
+   "expected": 2.256,
+   "basis": "partner Ag5B",
+   "flag": "+0.28 \u00c5 vs partner Ag5B"
+  },
+  {
+   "a": "Ag5",
+   "b": "S3",
+   "d": 2.533,
+   "expected": 2.256,
+   "basis": "partner Ag5B",
+   "flag": "+0.28 \u00c5 vs partner Ag5B",
+   "hirshfeld": 0.0018
+  },
+  {
+   "a": "Ag5",
+   "b": "S5",
+   "d": 2.489,
+   "expected": 2.256,
+   "basis": "partner Ag5B",
+   "flag": "+0.23 \u00c5 vs partner Ag5B",
+   "hirshfeld": 0.018
+  },
+  {
+   "a": "Ag5B",
+   "b": "Ag2",
+   "d": 3.138,
+   "expected": 3.079,
+   "basis": "partner Ag5"
+  },
+  {
+   "a": "Ag5B",
+   "b": "Ag3",
+   "d": 3.061,
+   "expected": 3.079,
+   "basis": "partner Ag5"
+  },
+  {
+   "a": "Ag5B",
+   "b": "S1",
+   "d": 2.311,
+   "expected": 2.533,
+   "basis": "partner Ag5",
+   "flag": "-0.22 \u00c5 vs partner Ag5"
+  },
+  {
+   "a": "Ag5B",
+   "b": "S3",
+   "d": 2.201,
+   "expected": 2.533,
+   "basis": "partner Ag5",
+   "flag": "-0.33 \u00c5 vs partner Ag5"
+  },
+  {
+   "a": "Ag6",
+   "b": "Ag2",
+   "d": 3.132,
+   "expected": 3.032,
+   "basis": "partner Ag6B",
+   "flag": "+0.10 \u00c5 vs partner Ag6B",
+   "hirshfeld": 0.0055
+  },
+  {
+   "a": "Ag6",
+   "b": "Ag3",
+   "d": 3.098,
+   "expected": 3.032,
+   "basis": "partner Ag6B",
+   "hirshfeld": 0.0053,
+   "flag": "rigid-bond test 0.0053"
+  },
+  {
+   "a": "Ag6",
+   "b": "Ag5",
+   "d": 2.97,
+   "expected": 3.032,
+   "basis": "partner Ag6B",
+   "hirshfeld": 0.0044
+  },
+  {
+   "a": "Ag6",
+   "b": "S2",
+   "d": 2.532,
+   "expected": 2.174,
+   "basis": "partner Ag6B",
+   "flag": "+0.36 \u00c5 vs partner Ag6B",
+   "hirshfeld": 0.001
+  },
+  {
+   "a": "Ag6",
+   "b": "S4",
+   "d": 2.492,
+   "expected": 2.174,
+   "basis": "partner Ag6B",
+   "flag": "+0.32 \u00c5 vs partner Ag6B",
+   "hirshfeld": 0.0047
+  },
+  {
+   "a": "Ag6",
+   "b": "S5",
+   "d": 2.481,
+   "expected": 2.174,
+   "basis": "partner Ag6B",
+   "flag": "+0.31 \u00c5 vs partner Ag6B",
+   "hirshfeld": 0.0098
+  },
+  {
+   "a": "Ag6B",
+   "b": "Ag2",
+   "d": 3.019,
+   "expected": 3.098,
+   "basis": "partner Ag6"
+  },
+  {
+   "a": "Ag6B",
+   "b": "Ag3",
+   "d": 3.045,
+   "expected": 3.098,
+   "basis": "partner Ag6"
+  },
+  {
+   "a": "Ag6B",
+   "b": "S2",
+   "d": 2.158,
+   "expected": 2.492,
+   "basis": "partner Ag6",
+   "flag": "-0.33 \u00c5 vs partner Ag6"
+  },
+  {
+   "a": "Ag6B",
+   "b": "S4",
+   "d": 2.189,
+   "expected": 2.492,
+   "basis": "partner Ag6",
+   "flag": "-0.30 \u00c5 vs partner Ag6"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Ag5",
+   "part": 1,
+   "occ": 0.911,
+   "ueq": 0.0396,
+   "iso": false,
+   "aniso": 2.62
+  },
+  {
+   "label": "Ag5B",
+   "part": 2,
+   "occ": 0.089,
+   "ueq": 0.0555,
+   "iso": true
+  },
+  {
+   "label": "Ag6",
+   "part": 1,
+   "occ": 0.96,
+   "ueq": 0.0416,
+   "iso": false,
+   "aniso": 2.72
+  },
+  {
+   "label": "Ag6B",
+   "part": 2,
+   "occ": 0.04,
+   "ueq": 0.0277,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Ag5",
+   "rho_sigma": -0.1,
+   "partner": "Ag5B",
+   "split": 0.56,
+   "mid_sigma": -2.0
+  },
+  {
+   "label": "Ag5B",
+   "rho_sigma": 2.0,
+   "partner": "Ag5",
+   "split": 0.56,
+   "mid_sigma": -2.0,
+   "ripple": "AG5 0.54"
+  },
+  {
+   "label": "Ag6",
+   "rho_sigma": -0.0,
+   "partner": "Ag6B",
+   "split": 0.75,
+   "mid_sigma": -0.6
+  },
+  {
+   "label": "Ag6B",
+   "rho_sigma": 7.2,
+   "partner": "Ag6",
+   "split": 0.75,
+   "mid_sigma": -0.6,
+   "ripple": "AG6 0.75"
+  }
+ ],
+ "map_rms": 0.27128832383446916,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0381,
+   "wR2": 0.1392,
+   "minor_occ": 0.04,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0381,
+   "wR2": 0.1392,
+   "minor_occ": 0.04,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.038,
+   "wR2": 0.1388,
+   "minor_occ": 0.04,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "Ag5\u2013Ag2 rigid-bond test 0.0053",
+   "Ag5\u2013Ag6 -0.13 \u00c5 vs partner Ag5B",
+   "Ag5\u2013S1 +0.28 \u00c5 vs partner Ag5B",
+   "Ag5\u2013S3 +0.28 \u00c5 vs partner Ag5B",
+   "Ag5\u2013S5 +0.23 \u00c5 vs partner Ag5B",
+   "Ag5B\u2013S1 -0.22 \u00c5 vs partner Ag5",
+   "Ag5B\u2013S3 -0.33 \u00c5 vs partner Ag5",
+   "Ag6\u2013Ag2 +0.10 \u00c5 vs partner Ag6B",
+   "Ag6\u2013Ag3 rigid-bond test 0.0053",
+   "Ag6\u2013S2 +0.36 \u00c5 vs partner Ag6B",
+   "Ag6\u2013S4 +0.32 \u00c5 vs partner Ag6B",
+   "Ag6\u2013S5 +0.31 \u00c5 vs partner Ag6B",
+   "Ag6B\u2013S2 -0.33 \u00c5 vs partner Ag6",
+   "Ag6B\u2013S4 -0.30 \u00c5 vs partner Ag6"
+  ],
+  "adp": [],
+  "map": [
+   "Ag5B 0.54 \u00c5 from heavy atom AG5 (Fourier-ripple distance)",
+   "Ag6B 0.75 \u00c5 from heavy atom AG6 (Fourier-ripple distance)"
+  ],
+  "stability": [],
+  "other": []
+ }
+}

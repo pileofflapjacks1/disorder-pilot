@@ -1,0 +1,184 @@
+{
+ "case": "10",
+ "base_minor_occ": 0.104,
+ "bonds": [
+  {
+   "a": "Cl1",
+   "b": "Fe2",
+   "d": 2.216,
+   "expected": 2.259,
+   "basis": "partner Cl1B",
+   "hirshfeld": 0.0039
+  },
+  {
+   "a": "Cl1B",
+   "b": "Fe2",
+   "d": 2.259,
+   "expected": 2.216,
+   "basis": "partner Cl1"
+  },
+  {
+   "a": "Cl2",
+   "b": "Fe2",
+   "d": 2.239,
+   "expected": 2.127,
+   "basis": "partner Cl2B",
+   "flag": "+0.11 \u00c5 vs partner Cl2B",
+   "hirshfeld": 0.002
+  },
+  {
+   "a": "Cl2B",
+   "b": "Fe2",
+   "d": 2.127,
+   "expected": 2.239,
+   "basis": "partner Cl2",
+   "flag": "-0.11 \u00c5 vs partner Cl2"
+  },
+  {
+   "a": "Cl3",
+   "b": "Fe2",
+   "d": 2.202,
+   "expected": 2.238,
+   "basis": "partner Cl3B",
+   "hirshfeld": 0.0022
+  },
+  {
+   "a": "Cl3B",
+   "b": "Fe2",
+   "d": 2.238,
+   "expected": 2.202,
+   "basis": "partner Cl3"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Cl1",
+   "part": 1,
+   "occ": 0.896,
+   "ueq": 0.0591,
+   "iso": false,
+   "aniso": 1.97
+  },
+  {
+   "label": "Cl2",
+   "part": 1,
+   "occ": 0.896,
+   "ueq": 0.0725,
+   "iso": false,
+   "aniso": 2.78
+  },
+  {
+   "label": "Cl3",
+   "part": 1,
+   "occ": 0.896,
+   "ueq": 0.063,
+   "iso": false,
+   "aniso": 1.56
+  },
+  {
+   "label": "Cl1B",
+   "part": 2,
+   "occ": 0.104,
+   "ueq": 0.0342,
+   "iso": true
+  },
+  {
+   "label": "Cl2B",
+   "part": 2,
+   "occ": 0.104,
+   "ueq": 0.1006,
+   "iso": true
+  },
+  {
+   "label": "Cl3B",
+   "part": 2,
+   "occ": 0.104,
+   "ueq": 0.0502,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Cl1",
+   "rho_sigma": 3.4,
+   "partner": "Cl1B",
+   "split": 0.55,
+   "mid_sigma": 1.7
+  },
+  {
+   "label": "Cl2",
+   "rho_sigma": 0.7,
+   "partner": "Cl2B",
+   "split": 0.96,
+   "mid_sigma": -0.6
+  },
+  {
+   "label": "Cl3",
+   "rho_sigma": 0.7,
+   "partner": "Cl3B",
+   "split": 0.6,
+   "mid_sigma": -1.0
+  },
+  {
+   "label": "Cl1B",
+   "rho_sigma": 3.1,
+   "partner": "Cl1",
+   "split": 0.55,
+   "mid_sigma": 1.7
+  },
+  {
+   "label": "Cl2B",
+   "rho_sigma": 7.3,
+   "partner": "Cl2",
+   "split": 0.96,
+   "mid_sigma": -0.6
+  },
+  {
+   "label": "Cl3B",
+   "rho_sigma": 3.5,
+   "partner": "Cl3",
+   "split": 0.6,
+   "mid_sigma": -1.0
+  }
+ ],
+ "map_rms": 0.13056511664097148,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0772,
+   "wR2": 0.2323,
+   "minor_occ": 0.152,
+   "max_shift": 0.33,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0771,
+   "wR2": 0.2319,
+   "minor_occ": 0.149,
+   "max_shift": 0.32,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0747,
+   "wR2": 0.2258,
+   "minor_occ": 0.104,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "Cl2\u2013Fe2 +0.11 \u00c5 vs partner Cl2B",
+   "Cl2B\u2013Fe2 -0.11 \u00c5 vs partner Cl2"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [
+   "perturbed seed 1: atoms moved up to 0.33 \u00c5",
+   "perturbed seed 2: atoms moved up to 0.32 \u00c5"
+  ],
+  "other": []
+ }
+}

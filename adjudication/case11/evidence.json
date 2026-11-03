@@ -1,0 +1,378 @@
+{
+ "case": "11",
+ "base_minor_occ": 0.193,
+ "bonds": [
+  {
+   "a": "C21",
+   "b": "O1",
+   "d": 1.494,
+   "expected": 1.43,
+   "basis": "covalent sum",
+   "hirshfeld": 0.0002
+  },
+  {
+   "a": "C21",
+   "b": "C22",
+   "d": 1.513,
+   "expected": 1.484,
+   "basis": "partner C24B",
+   "hirshfeld": 0.0
+  },
+  {
+   "a": "C21",
+   "b": "C23",
+   "d": 1.505,
+   "expected": 1.484,
+   "basis": "partner C24B",
+   "hirshfeld": 0.0023
+  },
+  {
+   "a": "C21",
+   "b": "C24",
+   "d": 1.525,
+   "expected": 1.484,
+   "basis": "partner C24B",
+   "hirshfeld": 0.0019
+  },
+  {
+   "a": "C21B",
+   "b": "O1B",
+   "d": 1.502,
+   "expected": 1.494,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C21B",
+   "b": "C22B",
+   "d": 1.503,
+   "expected": 1.513,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C21B",
+   "b": "C23B",
+   "d": 1.523,
+   "expected": 1.513,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C21B",
+   "b": "C24B",
+   "d": 1.484,
+   "expected": 1.513,
+   "basis": "partner C21"
+  },
+  {
+   "a": "C22",
+   "b": "C21",
+   "d": 1.513,
+   "expected": 1.484,
+   "basis": "partner C24B",
+   "hirshfeld": 0.0
+  },
+  {
+   "a": "C22B",
+   "b": "C21B",
+   "d": 1.503,
+   "expected": 1.505,
+   "basis": "partner C23"
+  },
+  {
+   "a": "C23",
+   "b": "C21",
+   "d": 1.505,
+   "expected": 1.503,
+   "basis": "partner C21B",
+   "hirshfeld": 0.0023
+  },
+  {
+   "a": "C23B",
+   "b": "C21B",
+   "d": 1.523,
+   "expected": 1.505,
+   "basis": "partner C23"
+  },
+  {
+   "a": "C24",
+   "b": "C21",
+   "d": 1.525,
+   "expected": 1.484,
+   "basis": "partner C24B",
+   "hirshfeld": 0.0019
+  },
+  {
+   "a": "C24B",
+   "b": "C21B",
+   "d": 1.484,
+   "expected": 1.513,
+   "basis": "partner C21"
+  },
+  {
+   "a": "O1",
+   "b": "C20",
+   "d": 1.321,
+   "expected": 1.39,
+   "basis": "partner O1B",
+   "hirshfeld": 0.0029
+  },
+  {
+   "a": "O1",
+   "b": "C21",
+   "d": 1.494,
+   "expected": 1.39,
+   "basis": "partner O1B",
+   "flag": "+0.10 \u00c5 vs partner O1B",
+   "hirshfeld": 0.0002
+  },
+  {
+   "a": "O1B",
+   "b": "C20",
+   "d": 1.277,
+   "expected": 1.408,
+   "basis": "partner O1",
+   "flag": "-0.13 \u00c5 vs partner O1"
+  },
+  {
+   "a": "O1B",
+   "b": "C21B",
+   "d": 1.502,
+   "expected": 1.408,
+   "basis": "partner O1"
+  },
+  {
+   "a": "O2",
+   "b": "C20",
+   "d": 1.23,
+   "expected": 1.186,
+   "basis": "partner O2B",
+   "hirshfeld": 0.0066,
+   "flag": "rigid-bond test 0.0066"
+  },
+  {
+   "a": "O2B",
+   "b": "C20",
+   "d": 1.186,
+   "expected": 1.23,
+   "basis": "partner O2"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O1",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.0246,
+   "iso": false,
+   "aniso": 1.9
+  },
+  {
+   "label": "O2",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.0384,
+   "iso": false,
+   "aniso": 3.39
+  },
+  {
+   "label": "C21",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.031,
+   "iso": false,
+   "aniso": 2.39
+  },
+  {
+   "label": "C22",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.0424,
+   "iso": false,
+   "aniso": 2.97
+  },
+  {
+   "label": "C23",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.0456,
+   "iso": false,
+   "aniso": 2.64
+  },
+  {
+   "label": "C24",
+   "part": 1,
+   "occ": 0.807,
+   "ueq": 0.0394,
+   "iso": false,
+   "aniso": 2.05
+  },
+  {
+   "label": "O1B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.0245,
+   "iso": true
+  },
+  {
+   "label": "O2B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.0316,
+   "iso": true
+  },
+  {
+   "label": "C21B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.0284,
+   "iso": true
+  },
+  {
+   "label": "C22B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.05,
+   "iso": true
+  },
+  {
+   "label": "C23B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.0438,
+   "iso": true
+  },
+  {
+   "label": "C24B",
+   "part": 2,
+   "occ": 0.193,
+   "ueq": 0.0485,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O1",
+   "rho_sigma": 1.5,
+   "partner": "O1B",
+   "split": 0.65,
+   "mid_sigma": -4.8
+  },
+  {
+   "label": "O2",
+   "rho_sigma": 3.6,
+   "partner": "O2B",
+   "split": 0.92,
+   "mid_sigma": -9.2
+  },
+  {
+   "label": "C21",
+   "rho_sigma": 1.9,
+   "partner": "C24B",
+   "split": 0.71,
+   "mid_sigma": 0.9
+  },
+  {
+   "label": "C22",
+   "rho_sigma": -2.9,
+   "partner": "C24B",
+   "split": 1.54,
+   "mid_sigma": -0.1
+  },
+  {
+   "label": "C23",
+   "rho_sigma": -0.7,
+   "partner": "C21B",
+   "split": 0.91,
+   "mid_sigma": 2.1
+  },
+  {
+   "label": "C24",
+   "rho_sigma": -2.5,
+   "partner": "C24B",
+   "split": 1.03,
+   "mid_sigma": -3.8
+  },
+  {
+   "label": "O1B",
+   "rho_sigma": 6.3,
+   "partner": "O1",
+   "split": 0.65,
+   "mid_sigma": -4.8
+  },
+  {
+   "label": "O2B",
+   "rho_sigma": 18.0,
+   "partner": "O2",
+   "split": 0.92,
+   "mid_sigma": -9.2
+  },
+  {
+   "label": "C21B",
+   "rho_sigma": 14.4,
+   "partner": "C21",
+   "split": 0.85,
+   "mid_sigma": -0.8
+  },
+  {
+   "label": "C22B",
+   "rho_sigma": 18.0,
+   "partner": "C23",
+   "split": 1.68,
+   "mid_sigma": -2.6
+  },
+  {
+   "label": "C23B",
+   "rho_sigma": 17.6,
+   "partner": "C23",
+   "split": 1.0,
+   "mid_sigma": 0.1
+  },
+  {
+   "label": "C24B",
+   "rho_sigma": 4.7,
+   "partner": "C21",
+   "split": 0.71,
+   "mid_sigma": 0.9
+  }
+ ],
+ "map_rms": 0.06452547792960606,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0252,
+   "wR2": 0.0688,
+   "minor_occ": 0.192,
+   "max_shift": 0.02,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0252,
+   "wR2": 0.0688,
+   "minor_occ": 0.193,
+   "max_shift": 0.02,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0251,
+   "wR2": 0.0687,
+   "minor_occ": 0.193,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "O1\u2013C21 +0.10 \u00c5 vs partner O1B",
+   "O1B\u2013C20 -0.13 \u00c5 vs partner O1",
+   "O2\u2013C20 rigid-bond test 0.0066",
+   "C22B/C23 split by 1.68 \u00c5 (large for a disorder split)"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": [
+   "GooF falls from 1.05 to 0.68 with the deposited weighting scheme"
+  ]
+ }
+}

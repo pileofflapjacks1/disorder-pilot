@@ -1,0 +1,11 @@
+snum {
+  hkl {
+    hkl_stat_file = '/Users/joe/Projects/disorder-pilot/adjudication/case04/candidate.hkl'
+  }
+  solution {
+    current_atomic_volume = '17.9'
+  }
+  history {
+    current_node = '47a65013f34af56cbca8be0431f1dfbe'
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "case": "09",
+ "base_minor_occ": 0.215,
+ "bonds": [
+  {
+   "a": "N7",
+   "b": "C54",
+   "d": 1.267,
+   "expected": 1.48,
+   "basis": "covalent sum"
+  }
+ ],
+ "adps": [
+  {
+   "label": "N7",
+   "part": 2,
+   "occ": 0.215,
+   "ueq": 0.19,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "N7",
+   "rho_sigma": -0.8
+  }
+ ],
+ "map_rms": 0.19219068630945477,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0517,
+   "wR2": 0.1214,
+   "minor_occ": 0.211,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0517,
+   "wR2": 0.1214,
+   "minor_occ": 0.211,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [
+   "N7 Ueq 0.190"
+  ],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

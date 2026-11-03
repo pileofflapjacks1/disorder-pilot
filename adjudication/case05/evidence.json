@@ -1,0 +1,60 @@
+{
+ "case": "05",
+ "base_minor_occ": 0.369,
+ "bonds": [
+  {
+   "a": "Cl91",
+   "b": "C901",
+   "d": 1.678,
+   "expected": 1.76,
+   "basis": "covalent sum"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Cl91",
+   "part": 2,
+   "occ": 0.369,
+   "ueq": 0.9439,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Cl91",
+   "rho_sigma": -3.3
+  }
+ ],
+ "map_rms": 0.08917562840355188,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0381,
+   "wR2": 0.1009,
+   "minor_occ": 0.369,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0381,
+   "wR2": 0.1009,
+   "minor_occ": 0.369,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [
+   "Cl91 Ueq 0.944"
+  ],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

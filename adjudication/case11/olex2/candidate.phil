@@ -1,0 +1,8 @@
+snum {
+  hkl {
+    hkl_stat_file = '/Users/joe/Projects/disorder-pilot/adjudication/case11/candidate.hkl'
+  }
+  history {
+    current_node = '7188656d497f721c111cc332086c01bb'
+  }
+}
