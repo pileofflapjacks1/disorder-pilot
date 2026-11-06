@@ -20,16 +20,22 @@ Under the preregistered rule, INCONCLUSIVE means revise and then rerun on new ta
 - **Model:** `run_c.py` pins `--model claude-opus-5-5`. The CLI's default model changed during the pilot.
 - **Version control:** PREREGISTRATION.md is version-controlled from 2026-11-01 onward. Earlier states are recorded in its dated amendments.
 
-## Round-2 pool expansion (paused 2026-11-05)
-- **Done so far:**
+## Round-2 pool expansion (done 2026-11-06)
+- **New tasks:**
   - Fetched 3,000 more COD CIFs (`cand3_cif.txt`).
-  - Built 196 new tasks with `tools/expand_pool.py`: 100 group_small, 59 group_large, 28 discrete, 9 subst. The pool is in `pool_b3.json` and the build log in `gen_b3.log`.
-- **In progress:** reference + A refinements for the 87 group_large + discrete tasks (`queue_b3.txt`, log `refA_b3.log`). Each task has a 1-hour cap, and finished tasks are skipped on restart. To resume:
+  - Built 196 disordered tasks with `tools/expand_pool.py` (`pool_b3.json`, `gen_b3.log`).
+  - Built 39 controls from 40 ordered structures in the same batch, drawn with seed 20261106 (`ctl_b3.txt`, `gen_ctl_b3.log`). One was excluded because a restraint names an unknown atom.
+- **Reference + A refinements:** 1-hour cap per task. Logs are `refA_b3.log` and `refA_ctl_b3.log`.
+- **Eligibility:** same rule as the pilot, counted with `tools/count_eligible.py`. Lists are in `eligible_b3.json`.
 
-  ```bash
-  cd /Users/joe/Projects/disorder-pilot && nohup caffeinate -i env/bin/python tools/run_queue.py $PWD queue_b3.txt refA_b3.log 3600 > run_queue_b3.out 2>&1 &
-  ```
-- **After the refinements:**
-  - Count the eligible tasks per type.
-  - Then delete the raw downloads in `data/` (Joe's request). Every task keeps its own extracted .res/.hkl, and the CIFs can be re-fetched with `rsync -a --files-from=cand3_cif.txt rsync://www.crystallography.net/cif/ data/cif/` (likewise `cand_cif.txt` and `cand2_cif.txt`).
+  | Type | Eligible (new) | Unused from pilot | Errors / timeouts | R1 mismatch | Low signal |
+  |---|---|---|---|---|---|
+  | group_small | not refined yet (100 built) | 39 | – | – | – |
+  | group_large | 37 | 3 | 17 | 0 | 5 |
+  | discrete | 23 | 0 | 1 | 0 | 4 |
+  | control | 30 | 4 | 9 | 0 | – |
+
+  Errors are smtbx RuntimeErrors (an internal error in weighting_schemes.h, and debye_waller arg_limit exceeded), "Not a SHELX reflection file" parse failures, and one timeout (2242842).
+- **Raw downloads deleted 2026-11-06** (`data/cif`, 2.9 GB). Every task keeps its own `input/` .res and .hkl. To re-fetch: `rsync -a --files-from=cand3_cif.txt rsync://www.crystallography.net/cif/ data/cif/` (likewise `cand_cif.txt` and `cand2_cif.txt`).
+- **Round 2 still needs:** a new preregistration, sampling from these lists with a new seed, and a decision on whether to strengthen B first.
 - **Prior art (verified):** see `docs/prior_art_2026-11-05.md`. CrystalPilot is the closest work.

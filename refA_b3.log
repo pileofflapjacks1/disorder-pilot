@@ -1,0 +1,96 @@
+2240351 ref R1 0.0307 wR2 0.0701 | A R1 0.0392 wR2 0.0883 (dR1 +0.0085) | 7s
+2240555 ERROR RuntimeError: smtbx Internal Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/smtbx/refinement/weighting_schemes.h(38)
+2240424 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 56.7327 arg_limit = 50
+2240625 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2240625/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2240650 ref R1 0.0457 wR2 0.0982 | A R1 0.1941 wR2 0.4176 (dR1 +0.1484) | 112s
+2240728 ref R1 0.0521 wR2 0.1487 | A R1 0.0536 wR2 0.1518 (dR1 +0.0015) | 54s
+2240769 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2240769/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2240942 ref R1 0.0445 wR2 0.1605 | A R1 0.0768 wR2 0.2574 (dR1 +0.0323) | 61s
+2241146 ref R1 0.0469 wR2 0.1323 | A R1 0.0816 wR2 0.2154 (dR1 +0.0347) | 27s
+2241149 ref R1 0.0274 wR2 0.0715 | A R1 0.0317 wR2 0.0798 (dR1 +0.0043) | 25s
+2240538 ref R1 0.0446 wR2 0.1225 | A R1 0.0533 wR2 0.1521 (dR1 +0.0087) | 463s
+2241208 ref R1 0.0349 wR2 0.0843 | A R1 0.0435 wR2 0.1059 (dR1 +0.0086) | 145s
+2241240 ref R1 0.0634 wR2 0.1481 | A R1 0.0668 wR2 0.1543 (dR1 +0.0034) | 5s
+2240666 ref R1 0.0500 wR2 0.1274 | A R1 0.0568 wR2 0.1452 (dR1 +0.0068) | 548s
+2241264 ERROR RuntimeError: smtbx Internal Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/smtbx/refinement/weighting_schemes.h(38)
+2241337 ref R1 0.0486 wR2 0.1422 | A R1 0.0911 wR2 0.2395 (dR1 +0.0425) | 20s
+2241322 ref R1 0.0397 wR2 0.1074 | A R1 0.0391 wR2 0.1070 (dR1 -0.0006) | 33s
+2241430 ref R1 0.0499 wR2 0.1467 | A R1 0.0511 wR2 0.1500 (dR1 +0.0012) | 657s
+2241177 ref R1 0.0413 wR2 0.1092 | A R1 0.0408 wR2 0.1078 (dR1 -0.0005) | 914s
+2241566 ref R1 0.0262 wR2 0.0697 | A R1 0.0277 wR2 0.0744 (dR1 +0.0015) | 5s
+2241534 ref R1 0.0555 wR2 0.1284 | A R1 0.0633 wR2 0.1425 (dR1 +0.0078) | 38s
+2241657 ref R1 0.0236 wR2 0.0644 | A R1 0.0274 wR2 0.0757 (dR1 +0.0037) | 4s
+2241647 ref R1 0.0272 wR2 0.0744 | A R1 0.0369 wR2 0.1029 (dR1 +0.0097) | 28s
+2241710 ref R1 0.0532 wR2 0.1274 | A R1 0.0763 wR2 0.1789 (dR1 +0.0232) | 10s
+2241666 ref R1 0.0506 wR2 0.1313 | A R1 0.0671 wR2 0.1712 (dR1 +0.0165) | 66s
+2241783 ref R1 0.0464 wR2 0.1207 | A R1 0.0590 wR2 0.1523 (dR1 +0.0126) | 78s
+2240514 ref R1 0.0404 wR2 0.0982 | A R1 0.0437 wR2 0.1062 (dR1 +0.0033) | 1584s
+2241932 ref R1 0.0332 wR2 0.0847 | A R1 0.0651 wR2 0.1616 (dR1 +0.0319) | 80s
+2241967 ref R1 0.0370 wR2 0.1016 | A R1 0.0494 wR2 0.1423 (dR1 +0.0124) | 52s
+2241994 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2241994/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2241940 ref R1 0.0424 wR2 0.1113 | A R1 0.0703 wR2 0.1973 (dR1 +0.0279) | 76s
+2242100 ref R1 0.0189 wR2 0.0463 | A R1 0.0193 wR2 0.0471 (dR1 +0.0004) | 45s
+2242135 ref R1 0.0419 wR2 0.1031 | A R1 0.0488 wR2 0.1222 (dR1 +0.0069) | 36s
+2242192 ref R1 0.0355 wR2 0.0840 | A R1 0.0484 wR2 0.1177 (dR1 +0.0129) | 39s
+2242243 ref R1 0.0400 wR2 0.1037 | A R1 0.0717 wR2 0.1890 (dR1 +0.0316) | 8s
+2241870 ref R1 0.0475 wR2 0.0744 | A R1 0.0498 wR2 0.0789 (dR1 +0.0023) | 414s
+2242252 ref R1 0.0533 wR2 0.1268 | A R1 0.0837 wR2 0.1993 (dR1 +0.0304) | 13s
+2242250 ref R1 0.0519 wR2 0.1245 | A R1 0.0565 wR2 0.1331 (dR1 +0.0046) | 169s
+2242379 ref R1 0.0223 wR2 0.0514 | A R1 0.0494 wR2 0.1155 (dR1 +0.0271) | 13s
+2242537 ref R1 0.0811 wR2 0.2723 | A R1 0.0874 wR2 0.2860 (dR1 +0.0063) | 41s
+2242558 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2242558/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2241451 ref R1 0.0542 wR2 0.1570 | A R1 0.0665 wR2 0.1907 (dR1 +0.0123) | 1420s
+2242619 ref R1 0.0583 wR2 0.1272 | A R1 0.0807 wR2 0.1793 (dR1 +0.0224) | 89s
+2242702 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2242702/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2242366 ref R1 0.0405 wR2 0.1087 | A R1 0.0457 wR2 0.1239 (dR1 +0.0052) | 279s
+2242810 ref R1 0.0347 wR2 0.0851 | A R1 0.0654 wR2 0.1733 (dR1 +0.0307) | 22s
+2242627 ref R1 0.0481 wR2 0.1082 | A R1 0.0496 wR2 0.1110 (dR1 +0.0015) | 91s
+2242871 ref R1 0.0491 wR2 0.1318 | A R1 0.1229 wR2 0.2994 (dR1 +0.0738) | 11s
+2242897 ref R1 0.0266 wR2 0.0761 | A R1 0.0326 wR2 0.0977 (dR1 +0.0059) | 64s
+2242911 ref R1 0.0283 wR2 0.0759 | A R1 0.0687 wR2 0.1834 (dR1 +0.0403) | 8s
+2242980 ref R1 0.0302 wR2 0.0867 | A R1 0.0917 wR2 0.2478 (dR1 +0.0615) | 6s
+2243015 ref R1 0.0287 wR2 0.0684 | A R1 0.0456 wR2 0.1096 (dR1 +0.0168) | 9s
+2242858 ref R1 0.0616 wR2 0.2115 | A R1 0.0864 wR2 0.2740 (dR1 +0.0249) | 263s
+2243022 ref R1 0.0317 wR2 0.0765 | A R1 0.0329 wR2 0.0797 (dR1 +0.0012) | 190s
+2243021 ref R1 0.0357 wR2 0.0795 | A R1 0.0387 wR2 0.0900 (dR1 +0.0030) | 277s
+2243044 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (isotropic): arg = 51.2383 arg_limit = 50
+2243055 ref R1 0.0405 wR2 0.1126 | A R1 0.0811 wR2 0.2171 (dR1 +0.0406) | 16s
+2243056 ref R1 0.0459 wR2 0.1090 | A R1 0.0776 wR2 0.1719 (dR1 +0.0318) | 21s
+2243063 ref R1 0.0488 wR2 0.1298 | A R1 0.0565 wR2 0.1526 (dR1 +0.0077) | 59s
+2243075 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2243075/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2243097 ref R1 0.0505 wR2 0.1296 | A R1 0.0547 wR2 0.1370 (dR1 +0.0042) | 12s
+2243098 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 52.5332 arg_limit = 50
+2243023 ref R1 0.0331 wR2 0.0814 | A R1 0.0355 wR2 0.0901 (dR1 +0.0024) | 243s
+2243099 ref R1 0.0630 wR2 0.1343 | A R1 0.0670 wR2 0.1397 (dR1 +0.0041) | 12s
+2243100 ref R1 0.0659 wR2 0.1925 | A R1 0.0685 wR2 0.1989 (dR1 +0.0026) | 13s
+2243104 ref R1 0.0431 wR2 0.1169 | A R1 0.0529 wR2 0.1344 (dR1 +0.0098) | 10s
+2243105 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 73.0033 arg_limit = 50
+2243129 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2243129/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2243187 ERROR RuntimeError: smtbx Internal Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/smtbx/refinement/weighting_schemes.h(38)
+2243136 ref R1 0.0396 wR2 0.1052 | A R1 0.0452 wR2 0.1217 (dR1 +0.0056) | 13s
+2243214 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2243214/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2243215 ERROR Sorry: Not a SHELX reflection file: /Users/joe/Projects/disorder-pilot/tasks/2243215/input/data.hkl
+  =intensities can only be used for SHELX reflection file
+2243235 ERROR RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 50.0736 arg_limit = 50
+2243236 ref R1 0.0441 wR2 0.1009 | A R1 0.0518 wR2 0.1209 (dR1 +0.0078) | 65s
+2243234 ref R1 0.0514 wR2 0.1670 | A R1 0.0907 wR2 0.2630 (dR1 +0.0393) | 740s
+2243293 ref R1 0.0437 wR2 0.1118 | A R1 0.1472 wR2 0.3448 (dR1 +0.1035) | 17s
+2243315 ref R1 0.0466 wR2 0.1123 | A R1 0.0765 wR2 0.1731 (dR1 +0.0298) | 17s
+2243368 ref R1 0.0874 wR2 0.1555 | A R1 0.0928 wR2 0.1619 (dR1 +0.0054) | 66s
+2243252 ref R1 0.0586 wR2 0.1791 | A R1 0.0577 wR2 0.1772 (dR1 -0.0009) | 2004s
+2242115 ref R1 0.0524 wR2 0.1546 | A R1 0.0562 wR2 0.1670 (dR1 +0.0039) | 3096s
+2242842 ERROR Timeout: reference + A did not finish in 3600 s
+2243402 ref R1 0.0470 wR2 0.1194 | A R1 0.0692 wR2 0.1712 (dR1 +0.0223) | 237s
+2243431 ref R1 0.0394 wR2 0.1129 | A R1 0.0458 wR2 0.1312 (dR1 +0.0064) | 26s
+2243391 ref R1 0.0508 wR2 0.1106 | A R1 0.0749 wR2 0.1594 (dR1 +0.0241) | 941s
+2243432 ref R1 0.0606 wR2 0.1151 | A R1 0.0630 wR2 0.1191 (dR1 +0.0024) | 27s
+2243377 ref R1 0.0672 wR2 0.1501 | A R1 0.0927 wR2 0.2005 (dR1 +0.0255) | 3196s
+2243396 ref R1 0.0353 wR2 0.0949 | A R1 0.0375 wR2 0.1012 (dR1 +0.0022) | 2517s
