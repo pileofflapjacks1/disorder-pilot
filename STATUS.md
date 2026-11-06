@@ -19,3 +19,17 @@ Under the preregistered rule, INCONCLUSIVE means revise and then rerun on new ta
 ## Notes
 - **Model:** `run_c.py` pins `--model claude-opus-5-5`. The CLI's default model changed during the pilot.
 - **Version control:** PREREGISTRATION.md is version-controlled from 2026-11-01 onward. Earlier states are recorded in its dated amendments.
+
+## Round-2 pool expansion (paused 2026-11-05)
+- **Done so far:**
+  - Fetched 3,000 more COD CIFs (`cand3_cif.txt`).
+  - Built 196 new tasks with `tools/expand_pool.py`: 100 group_small, 59 group_large, 28 discrete, 9 subst. The pool is in `pool_b3.json` and the build log in `gen_b3.log`.
+- **In progress:** reference + A refinements for the 87 group_large + discrete tasks (`queue_b3.txt`, log `refA_b3.log`). Each task has a 1-hour cap, and finished tasks are skipped on restart. To resume:
+
+  ```bash
+  cd /Users/joe/Projects/disorder-pilot && nohup caffeinate -i env/bin/python tools/run_queue.py $PWD queue_b3.txt refA_b3.log 3600 > run_queue_b3.out 2>&1 &
+  ```
+- **After the refinements:**
+  - Count the eligible tasks per type.
+  - Then delete the raw downloads in `data/` (Joe's request). Every task keeps its own extracted .res/.hkl, and the CIFs can be re-fetched with `rsync -a --files-from=cand3_cif.txt rsync://www.crystallography.net/cif/ data/cif/` (likewise `cand_cif.txt` and `cand2_cif.txt`).
+- **Prior art (verified):** see `docs/prior_art_2026-11-05.md`. CrystalPilot is the closest work.
