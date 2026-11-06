@@ -15,6 +15,7 @@ FIXED = ('CELL', 'LATT', 'SYMM', 'SFAC', 'UNIT', 'HKLF', 'WGHT', 'OMIT', 'SHEL')
 
 class S:
     versions = []  # list of res texts; versions[-1] is current
+    marks = []     # len(versions) just before each `set`; undo returns to the newest mark
     refined = None  # last Result for current version (None if current not refined)
     submitted = False
     calls = 0
@@ -28,10 +29,13 @@ def cur():
 def load():
     hist = os.path.join(STATE, 'history.json')
     S.versions = json.load(open(hist)) if os.path.exists(hist) else [open(os.path.join(STATE, 'model.res')).read()]
+    marks = os.path.join(STATE, 'marks.json')
+    S.marks = json.load(open(marks)) if os.path.exists(marks) else []
 
 
 def save():
     json.dump(S.versions, open(os.path.join(STATE, 'history.json'), 'w'))
+    json.dump(S.marks, open(os.path.join(STATE, 'marks.json'), 'w'))
     open(os.path.join(STATE, 'current.res'), 'w').write(cur())
 
 
@@ -95,8 +99,8 @@ def t_set(args):
     dup = sorted(set(l for l in labels if labels.count(l) > 1))
     if dup: return 'REJECTED: duplicate atom labels ' + ' '.join(dup)
     if any(len(l) > 4 for l in labels): return 'REJECTED: atom labels must be at most 4 characters'
-    S.versions.append(new.text()); S.refined = None; save()
-    return 'model replaced (version %d, %d atoms). Call refine to refine it.' % (len(S.versions), len(new.atoms))
+    S.marks.append(len(S.versions)); S.versions.append(new.text()); S.refined = None; save()
+    return 'model replaced (now version %d, %d atoms). Call refine to refine it; undo returns to version %d.' % (len(S.versions), len(new.atoms), S.marks[-1])
 
 
 def t_refine(args):
@@ -109,16 +113,19 @@ def t_refine(args):
     S.versions.append(r.model_text); S.refined = r; save()
     m = X.Model(r.model_text)
     npd = X.npd_atoms(m, r.xs.unit_cell())
-    out = 'refined %d cycles: R1 %.4f  wR2 %.4f  GooF %.3f  params %d\nFVAR %s' % (r.n_iter, r.r1, r.wr2, r.gof, r.npar, ' '.join('%.4f' % v for v in m.fvar))
+    out = 'now version %d. refined %d cycles: R1 %.4f  wR2 %.4f  GooF %.3f  params %d\nFVAR %s' % (len(S.versions), r.n_iter, r.r1, r.wr2, r.gof, r.npar, ' '.join('%.4f' % v for v in m.fvar))
     if npd: out += '\nNON-POSITIVE-DEFINITE ADPs: ' + ' '.join(npd)
     if r.fixedH: out += '\nriding H fixed at input positions (bond-count mismatch): ' + ','.join(r.fixedH)
     return out
 
 
 def t_undo(args):
-    if len(S.versions) < 2: return 'nothing to undo'
-    S.versions.pop(); S.refined = None; save()
-    return 'reverted to version %d' % len(S.versions)
+    # Undo the last `set` together with any refinements of it, so undo after set -> refine returns to the
+    # model before the edit (the pilot's undo stepped back one version and left the edit in place).
+    if not S.marks: return 'nothing to undo (current version %d is the starting model or its refinement)' % len(S.versions)
+    n = S.marks.pop(); dropped = len(S.versions) - n
+    S.versions = S.versions[:n]; S.refined = None; save()
+    return 'undid your last set (%d version(s) dropped); now version %d, the model before that edit' % (dropped, len(S.versions))
 
 
 def t_submit(args):
@@ -144,7 +151,7 @@ TOOLS = {
             {'res': {'type': 'string', 'description': 'complete .res text'}}),
     'refine': (t_refine, 'Least-squares refinement of the current model; the refined model becomes current.',
                {'cycles': {'type': 'integer', 'description': 'max cycles (default 40)'}}),
-    'undo': (t_undo, 'Revert to the previous model version.', {}),
+    'undo': (t_undo, 'Undo your last set (and any refinements of it): returns to the model as it was before that edit.', {}),
     'submit': (t_submit, 'Submit the current model as your final answer.', {}),
 }
 

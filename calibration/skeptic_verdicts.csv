@@ -1,0 +1,12 @@
+case,verdict,reasoning
+01,real,"C27B on a 16.7 sigma peak with negative midpoint; largest peak falls 1.54 to 0.83; sensible ADPs; occupancy 0.296 stable; C26-C24 mismatch needs restraints"
+02,artefact,"Au3/Au4 at 0.041 occupancy 1.21-1.22 A from Au1/Au2 (ripple distance); impossible Au-Au 1.22, Au-Cl 1.21, Au-N 1.72 A contacts; 6.52 e/A3 peak remains"
+03,unsure,"10.2 sigma peak is real density not at ripple distance, but a 2.2% Se1B 2.22 A from Se1 with Se-O 2.04/1.75 A is not chemically coherent; possibly twinning/supercell ghost"
+04,overfit,"no fit improvement (R1 0.0670 to 0.0667, wR2 up); O902 on marginal 3.8 sigma peak with Ueq 0.110"
+05,overfit,"Cl91 on negative density (-3.3 sigma) with Ueq 0.944, not physical"
+06,artefact,"Ag5B/Ag6B 0.54/0.75 A from Ag5/Ag6 (ripple distance); Ag-S 2.16-2.31 vs 2.48-2.53 A; series termination or absorption"
+07,overfit,"C903 on -1.1 sigma density, Ueq 0.146; R1 barely changes; largest peak worsens 1.34 to 1.76"
+08,real,"minor atoms on 13.9-18.2 sigma peaks; strongly negative O midpoints; occupancy stable 0.189-0.191; model incomplete (C902-C22 1.93 A)"
+09,overfit,"N7 on -0.8 sigma density 0.10 A from H38; Ueq 0.19; N7-C54 1.267 vs 1.48 A expected"
+10,overfit,"minor Cl set moves 0.32-0.33 A and occupancy jumps under perturbation; inconsistent minor Ueq; only Cl2B on a clear peak"
+11,real,"minor atoms on 14-18 sigma peaks with negative O midpoints; bonds within 0.10 A of partners; occupancy stable; largest peak 1.69 to 0.30; GooF 0.68 reflects old weights"
