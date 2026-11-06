@@ -12,7 +12,7 @@ Under the preregistered rule, INCONCLUSIVE means revise and then rerun on new ta
    - dev task 2312471.
 
    Scoring also gets a Hamilton R-test.
-3. **Baseline:** strengthen B on the dev set only, before freezing it.
+3. **Baseline: B2 drafted 2026-11-06** (`tools/system_b2.py`, `RESULTS_B2.md`). It is tuned on the pilot tasks only. On those tasks it detects fewer sites than B (5/36 vs 9/36) but has far fewer false positives (1/29 vs 10/29, controls 1/10 vs 2/10). Most of B's lost credit came from implausible models. Before freezing, Joe decides how the GO rule uses B and B2, and whether to add a 'plausible detection' metric.
 4. **Rerun:** a new preregistration, then a rerun on fresh tasks. 39 eligible `group_small` and 3 `group_large` tasks are still unused, and discrete needs more CIFs.
 5. **Upstream:** filed 2026-11-02 as https://github.com/cctbx/cctbx_project/issues/1284.
 

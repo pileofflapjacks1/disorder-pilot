@@ -1,0 +1,76 @@
+{
+ "id": "2312966",
+ "params": {
+  "WIN": [
+   0.4,
+   1.6
+  ],
+  "RIPPLE_MAX": 1.3,
+  "MAX_TRIES": 5,
+  "OCC_MIN": 0.08,
+  "GEOM_MAX_FRAC": 0.25,
+  "UEQ_MAX_RATIO": 3.0,
+  "OCC_STAB": 0.1
+ },
+ "rms": 0.10109549672853449,
+ "thr": 0.5054774836426724,
+ "n_cand": 9,
+ "clusters": [
+  {
+   "atoms": [
+    "O4",
+    "S1",
+    "C34"
+   ],
+   "mode": "peak",
+   "R1": 0.021117092118893933,
+   "wR2": 0.04923002787143915,
+   "minor_occ": 0.1583,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "N1",
+    "C2"
+   ],
+   "error": "RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 68.8822 arg_limit = 50",
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C5",
+    "C23"
+   ],
+   "mode": "peak",
+   "R1": 0.021387828724609138,
+   "wR2": 0.04970669423325109,
+   "minor_occ": -0.07668000000000008,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C12",
+    "C14"
+   ],
+   "mode": "peak",
+   "R1": 0.021363737569730295,
+   "wR2": 0.04955690318684468,
+   "minor_occ": -0.1623699999999999,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.021375845834397413,
+  "wR2": 0.04968354802476382
+ },
+ "final": {
+  "R1": 0.021375845834397413,
+  "wR2": 0.04968354802476382
+ }
+}
