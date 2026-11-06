@@ -1,0 +1,18 @@
+{
+ "id": "2312504",
+ "type": "group_small",
+ "sites": [
+  {
+   "type": "group_small",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.333,
+   "n_bonds": 3,
+   "bad_atoms": [
+    "O9",
+    "O10",
+    "O11"
+   ]
+  }
+ ]
+}

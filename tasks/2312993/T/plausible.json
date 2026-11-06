@@ -1,0 +1,16 @@
+{
+ "id": "2312993",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.028,
+   "n_bonds": 36,
+   "bad_atoms": [
+    "Cu2"
+   ]
+  }
+ ]
+}

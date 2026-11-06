@@ -23,17 +23,42 @@ The 3 dev tasks are unchanged for B2: no detections, and one false positive (231
 ## Reading
 
 1. **B2 trades recall for precision.** False-positive structures fall from 10 to 1 among the disordered tasks and from 2 to 1 among the controls. Detection falls from 9 to 5 sites.
-2. **Most of the lost detections were not physical models.** B2 lost 5 sites that B detected, one in each of 5 structures.
-   - **Four were implausible:** 2243634, 2243977, 2243801 and 2243569. B's accepted split had impossible minor-part ADPs (Ueq up to 1.0, or 0.0001 Å²), more than 25% of its bonds off from the partner geometry, or both. Two of these, 2243801 and 2243569, are adjudication cases 04 and 05, which the expert judged overfit.
-   - **One was a narrow loss:** 2243827. Its geometry was fine (13% of bonds flagged), but the minor occupancy was 0.07, below the 0.08 floor, and one minor Ueq was just above 3× the median.
-   - **One went the other way:** in 2312714, B2 found a site B missed.
+2. **Some of the lost detections were real.** This corrects an earlier draft, which said four of the five lost sites came from implausible models. That draft wrongly looked at B2's own trial splits rather than B's accepted models. On B's actual models, 7 of its 9 detected sites pass the plausibility checks below, so B2's lower detection is partly a real loss. One site went the other way: in 2312714, B2 found a site B missed.
 3. **The only remaining control false positive is 2312969.** It is the ester group the expert scored "pretty much even" (adjudication case 08), and the strongest candidate for disorder missing from the deposited model.
 4. **A SIMU restraint on the minor part (option `MINOR_U='simu'`) did not rescue the rejected splits.** Their ADPs became more reasonable, but their geometry still failed (0.53 and 0.40 of bonds flagged). The default stays at no ADP restraint, as in B.
 
 ## What this means for round 2
 
-- **The detection metric rewards implausible models.** A site counts as detected when its atoms are in the right places, even if their ADPs are impossible. B's pilot score includes such credit, and C's may too; C was not checked.
+- **The detection metric scores positions only.** A site counts as detected when its atoms are in the right places, whatever their ADPs or geometry. The section below tests whether a plausibility check can fix that. It cannot, as defined.
 - B2 is a **stricter** baseline, not one that detects more. It has lower detection than B, so against B2 the preregistered GO threshold (C − B ≥ 0.15) would be *easier* to meet. That cuts against the point of a stronger baseline. Options for the preregistration (Joe's decision):
   1. Report both B and B2, and apply the GO rule against the higher of the two detection rates.
   2. Add a co-primary **plausible detection** metric, a detected site whose split also passes B2's gates, and apply it to every system, including C. This would also make C's numbers comparable on plausibility.
 - **Cost:** B2 averages about 3.6 min per structure on the laptop, including scoring. There is no API cost.
+
+## Plausible detection: failed calibration (2026-11-06)
+
+**The rule** is in `tools/plausible.py` and was written before it was computed for C. A detected site is *plausible* if its matched minor atoms, in the re-refined submission, pass B2's gates with B2's thresholds:
+- occupancy ≥ 0.08;
+- Ueq between 0.005 and 3× the median, and no NPD atoms;
+- at most 25% of their bonds flagged for geometry (more than 0.10 Å off the partner's matching bond).
+
+**The calibration** ran the same check on the deposited models, the experts' own published disorder. They were scored as system `T`, with EADP, EXYZ and SAME stripped where the engine does not support them, as the adjudication did.
+
+| Variant (post hoc, pilot data) | Deposited sites passing | B (sample) | B2 | C |
+|---|---|---|---|---|
+| **As defined** | **12/38** | 7/9 | 5/5 | 11/20 |
+| ADP + occupancy only | 27/38 | 8/9 | 5/5 | 15/20 |
+| Geometry ≤ 0.5 + ADP | 15/38 | 8/9 | 5/5 | 12/20 |
+| Geometry only (≤ 0.25) | 15/38 | 7/9 | 5/5 | 13/20 |
+
+**Reading:**
+- **As defined, the check rejects 26 of 38 published disorder sites.** It cannot serve as a measure of plausibility. No variant passes even three quarters of the deposited sites.
+- **Part of the ADP failure is an artefact.** Stripping the deposited EADP and SAME restraints lets those minor atoms refine freely.
+- **The same applies to B2's acceptance gates.** They would reject most published disorder, so B2's low false-positive rate is partly over-strictness, not skill.
+- **Simple geometric and ADP rules do not separate real disorder from overfit disorder, just as R1 could not in the adjudication.** Judging disorder still needs expert review.
+
+**Recommendation for round 2:**
+- Keep raw detection as the primary metric, with the GO rule applied against the higher of B's and B2's detection rates.
+- Report plausibility only as a descriptive, exploratory metric, with this calibration attached.
+- Keep blinded expert adjudication for false positives that lower R1.
+- B2's gates should be re-calibrated against deposited models before B2 is frozen. On the pilot data the ADP + occupancy variant comes closest; it passes 27 of the 38 deposited sites.

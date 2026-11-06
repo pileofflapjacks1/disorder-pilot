@@ -1,0 +1,20 @@
+{
+ "id": "2312871",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 1.0,
+   "n_bonds": 12,
+   "bad_atoms": [
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11"
+   ]
+  }
+ ]
+}

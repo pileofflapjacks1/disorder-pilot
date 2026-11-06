@@ -1,0 +1,48 @@
+{
+ "id": "2312714",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 0,
+   "bad_atoms": []
+  },
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.0,
+   "n_bonds": 0,
+   "bad_atoms": [
+    "O38"
+   ]
+  },
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 0,
+   "bad_atoms": []
+  },
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 0,
+   "bad_atoms": []
+  },
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 0,
+   "bad_atoms": []
+  }
+ ]
+}

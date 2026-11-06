@@ -1,0 +1,11 @@
+{
+ "id": "2243827",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  }
+ ]
+}

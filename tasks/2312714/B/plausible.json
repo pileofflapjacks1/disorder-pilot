@@ -1,0 +1,31 @@
+{
+ "id": "2312714",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  },
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  },
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  },
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  },
+  {
+   "type": "discrete",
+   "detected": false,
+   "plausible": false
+  }
+ ]
+}

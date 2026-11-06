@@ -1,0 +1,29 @@
+{
+ "id": "2244087",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.556,
+   "n_bonds": 9,
+   "bad_atoms": [
+    "O3",
+    "O5",
+    "C23",
+    "C24"
+   ]
+  },
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 1.0,
+   "n_bonds": 3,
+   "bad_atoms": [
+    "S4"
+   ]
+  }
+ ]
+}

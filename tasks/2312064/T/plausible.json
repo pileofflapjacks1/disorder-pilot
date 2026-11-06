@@ -1,0 +1,14 @@
+{
+ "id": "2312064",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 6,
+   "bad_atoms": []
+  }
+ ]
+}

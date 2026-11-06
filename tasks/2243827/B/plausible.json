@@ -1,0 +1,14 @@
+{
+ "id": "2243827",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.29,
+   "n_bonds": 31,
+   "bad_atoms": []
+  }
+ ]
+}

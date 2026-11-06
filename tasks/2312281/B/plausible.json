@@ -1,0 +1,16 @@
+{
+ "id": "2312281",
+ "type": "group_small",
+ "sites": [
+  {
+   "type": "group_small",
+   "detected": false,
+   "plausible": false
+  },
+  {
+   "type": "group_small",
+   "detected": false,
+   "plausible": false
+  }
+ ]
+}

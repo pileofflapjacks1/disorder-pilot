@@ -1,0 +1,16 @@
+{
+ "id": "2243569",
+ "type": "discrete",
+ "sites": [
+  {
+   "type": "discrete",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.667,
+   "n_bonds": 3,
+   "bad_atoms": [
+    "Cl92"
+   ]
+  }
+ ]
+}

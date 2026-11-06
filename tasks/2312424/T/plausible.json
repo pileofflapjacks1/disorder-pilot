@@ -1,0 +1,14 @@
+{
+ "id": "2312424",
+ "type": "group_large",
+ "sites": [
+  {
+   "type": "group_large",
+   "detected": true,
+   "plausible": false,
+   "geom_frac": 0.7,
+   "n_bonds": 10,
+   "bad_atoms": []
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+2243634 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2244245 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP EXYZ SAME
+2243856 T P
+2244161 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2243977 T d[]
+2312281 T d[] d[]
+2312701 T d[]
+2244051 T d[]
+2244172 T P
+2312424 T d[]
+2243577 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP SAME
+2243762 T ValueError: unsupported instructions (smtbx would ignore them silently): SAME
+2243733 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2312504 T d['O9', 'O10', 'O11']
+2312808 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2243678 T d['N4']
+2243801 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2243770 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP EXYZ SAME
+2244240 T P
+2243827 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP SAME
+2312661 T ValueError: unsupported instructions (smtbx would ignore them silently): SAME
+2312064 T P
+2312115 T P
+2312714 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2312871 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2244087 T ValueError: unsupported instructions (smtbx would ignore them silently): EADP
+2243988 T P
+2243569 T ValueError: unsupported instructions (smtbx would ignore them silently): SAME
+2312993 T d['Cu2']
+2312471 T d[]
+2312857 T P
+2312809 T d[]
