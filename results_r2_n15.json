@@ -1,0 +1,391 @@
+{
+ "n": 15,
+ "results": {
+  "A": {
+   "group_small": {
+    "n_tasks": 15,
+    "missing": [],
+    "n_sites": 20,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.00870217719858117
+   },
+   "group_large": {
+    "n_tasks": 14,
+    "missing": [
+     "2240538"
+    ],
+    "n_sites": 15,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.018793199956052147
+   },
+   "discrete": {
+    "n_tasks": 14,
+    "missing": [
+     "2241940"
+    ],
+    "n_sites": 15,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.0068374587184254244
+   },
+   "all_disordered": {
+    "n_tasks": 43,
+    "missing": [
+     "2240538",
+     "2241940"
+    ],
+    "n_sites": 50,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.0077538793789579535
+   },
+   "control": {
+    "n_tasks": 15,
+    "fp_structures": 0,
+    "fp_ids": [],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": 8.269565587859518e-10
+   }
+  },
+  "B": {
+   "group_small": {
+    "n_tasks": 15,
+    "missing": [],
+    "n_sites": 20,
+    "detected": 13,
+    "detection": 0.65,
+    "plausible": 13,
+    "plausible_n_tasks": 15,
+    "all_detected": 10,
+    "occ_mae": 0.1103076923076923,
+    "fp_structures": 8,
+    "median_dR1": 0.0015548542234362916
+   },
+   "group_large": {
+    "n_tasks": 14,
+    "missing": [
+     "2240538"
+    ],
+    "n_sites": 15,
+    "detected": 3,
+    "detection": 0.2,
+    "plausible": 3,
+    "plausible_n_tasks": 14,
+    "all_detected": 3,
+    "occ_mae": 0.17633333333333334,
+    "fp_structures": 1,
+    "median_dR1": 0.004705699038878516
+   },
+   "discrete": {
+    "n_tasks": 13,
+    "missing": [
+     "2243293",
+     "2241940"
+    ],
+    "n_sites": 14,
+    "detected": 6,
+    "detection": 0.42857142857142855,
+    "plausible": 4,
+    "plausible_n_tasks": 13,
+    "all_detected": 5,
+    "occ_mae": 0.1085,
+    "fp_structures": 4,
+    "median_dR1": 0.002368017496522476
+   },
+   "all_disordered": {
+    "n_tasks": 42,
+    "missing": [
+     "2240538",
+     "2243293",
+     "2241940"
+    ],
+    "n_sites": 49,
+    "detected": 22,
+    "detection": 0.4489795918367347,
+    "plausible": 20,
+    "plausible_n_tasks": 42,
+    "all_detected": 18,
+    "occ_mae": 0.11881818181818182,
+    "fp_structures": 13,
+    "median_dR1": 0.00236862726890906
+   },
+   "control": {
+    "n_tasks": 15,
+    "fp_structures": 4,
+    "fp_ids": [
+     "2241546",
+     "2242356",
+     "2242750",
+     "2241198"
+    ],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": 2.407658586389694e-10
+   }
+  },
+  "B2": {
+   "group_small": {
+    "n_tasks": 15,
+    "missing": [],
+    "n_sites": 20,
+    "detected": 8,
+    "detection": 0.4,
+    "plausible": 8,
+    "plausible_n_tasks": 15,
+    "all_detected": 5,
+    "occ_mae": 0.15725,
+    "fp_structures": 5,
+    "median_dR1": 0.003181803904272154
+   },
+   "group_large": {
+    "n_tasks": 13,
+    "missing": [
+     "2242911",
+     "2240538"
+    ],
+    "n_sites": 14,
+    "detected": 5,
+    "detection": 0.35714285714285715,
+    "plausible": 4,
+    "plausible_n_tasks": 13,
+    "all_detected": 4,
+    "occ_mae": 0.1576,
+    "fp_structures": 3,
+    "median_dR1": 0.005587314310192042
+   },
+   "discrete": {
+    "n_tasks": 14,
+    "missing": [
+     "2241940"
+    ],
+    "n_sites": 15,
+    "detected": 4,
+    "detection": 0.26666666666666666,
+    "plausible": 3,
+    "plausible_n_tasks": 14,
+    "all_detected": 3,
+    "occ_mae": 0.0955,
+    "fp_structures": 2,
+    "median_dR1": 0.0052797976927400556
+   },
+   "all_disordered": {
+    "n_tasks": 42,
+    "missing": [
+     "2242911",
+     "2240538",
+     "2241940"
+    ],
+    "n_sites": 49,
+    "detected": 17,
+    "detection": 0.3469387755102041,
+    "plausible": 15,
+    "plausible_n_tasks": 42,
+    "all_detected": 12,
+    "occ_mae": 0.1428235294117647,
+    "fp_structures": 10,
+    "median_dR1": 0.004820002189098513
+   },
+   "control": {
+    "n_tasks": 15,
+    "fp_structures": 3,
+    "fp_ids": [
+     "2241546",
+     "2242356",
+     "2242750"
+    ],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": 2.407658586389694e-10
+   }
+  },
+  "C": {
+   "group_small": {
+    "n_tasks": 0,
+    "missing": [
+     "2312304",
+     "2243663",
+     "2312158",
+     "2244088",
+     "2312505",
+     "2312460",
+     "2243767",
+     "2243543",
+     "2243848",
+     "2312780",
+     "2243750",
+     "2312868",
+     "2244115",
+     "2312278",
+     "2312720"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "group_large": {
+    "n_tasks": 0,
+    "missing": [
+     "2242252",
+     "2243853",
+     "2243063",
+     "2242897",
+     "2243315",
+     "2241240",
+     "2243236",
+     "2243056",
+     "2242911",
+     "2240538",
+     "2242810",
+     "2241149",
+     "2243055",
+     "2243023",
+     "2243136"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "discrete": {
+    "n_tasks": 0,
+    "missing": [
+     "2241451",
+     "2242115",
+     "2242379",
+     "2242135",
+     "2243293",
+     "2242366",
+     "2241932",
+     "2241534",
+     "2242192",
+     "2241940",
+     "2242537",
+     "2243431",
+     "2240666",
+     "2243396",
+     "2243432"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "all_disordered": {
+    "n_tasks": 0,
+    "missing": [
+     "2312304",
+     "2243663",
+     "2312158",
+     "2244088",
+     "2312505",
+     "2312460",
+     "2243767",
+     "2243543",
+     "2243848",
+     "2312780",
+     "2243750",
+     "2312868",
+     "2244115",
+     "2312278",
+     "2312720",
+     "2242252",
+     "2243853",
+     "2243063",
+     "2242897",
+     "2243315",
+     "2241240",
+     "2243236",
+     "2243056",
+     "2242911",
+     "2240538",
+     "2242810",
+     "2241149",
+     "2243055",
+     "2243023",
+     "2243136",
+     "2241451",
+     "2242115",
+     "2242379",
+     "2242135",
+     "2243293",
+     "2242366",
+     "2241932",
+     "2241534",
+     "2242192",
+     "2241940",
+     "2242537",
+     "2243431",
+     "2240666",
+     "2243396",
+     "2243432"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "control": {
+    "n_tasks": 0,
+    "fp_structures": 0,
+    "fp_ids": [],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": null
+   }
+  }
+ },
+ "best_baseline": "B",
+ "sanity": {
+  "A_detects_0": true,
+  "A_fp_0": true,
+  "B2_detects_gt0": true
+ }
+}

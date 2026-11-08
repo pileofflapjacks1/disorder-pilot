@@ -1,0 +1,360 @@
+{
+ "n": 10,
+ "results": {
+  "A": {
+   "group_small": {
+    "n_tasks": 10,
+    "missing": [],
+    "n_sites": 13,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.00695714881236144
+   },
+   "group_large": {
+    "n_tasks": 9,
+    "missing": [
+     "2240538"
+    ],
+    "n_sites": 10,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.02983252053314634
+   },
+   "discrete": {
+    "n_tasks": 9,
+    "missing": [
+     "2241940"
+    ],
+    "n_sites": 9,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.01217819921811096
+   },
+   "all_disordered": {
+    "n_tasks": 28,
+    "missing": [
+     "2240538",
+     "2241940"
+    ],
+    "n_sites": 32,
+    "detected": 0,
+    "detection": 0.0,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": 0.010440188208346066
+   },
+   "control": {
+    "n_tasks": 10,
+    "fp_structures": 0,
+    "fp_ids": [],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": 8.609113838486948e-10
+   }
+  },
+  "B": {
+   "group_small": {
+    "n_tasks": 10,
+    "missing": [],
+    "n_sites": 13,
+    "detected": 8,
+    "detection": 0.6153846153846154,
+    "plausible": 8,
+    "plausible_n_tasks": 10,
+    "all_detected": 7,
+    "occ_mae": 0.13025,
+    "fp_structures": 5,
+    "median_dR1": 0.001440364811238274
+   },
+   "group_large": {
+    "n_tasks": 9,
+    "missing": [
+     "2240538"
+    ],
+    "n_sites": 10,
+    "detected": 2,
+    "detection": 0.2,
+    "plausible": 2,
+    "plausible_n_tasks": 9,
+    "all_detected": 2,
+    "occ_mae": 0.148,
+    "fp_structures": 1,
+    "median_dR1": 0.0049448915544706915
+   },
+   "discrete": {
+    "n_tasks": 8,
+    "missing": [
+     "2243293",
+     "2241940"
+    ],
+    "n_sites": 8,
+    "detected": 4,
+    "detection": 0.5,
+    "plausible": 2,
+    "plausible_n_tasks": 8,
+    "all_detected": 4,
+    "occ_mae": 0.12275,
+    "fp_structures": 2,
+    "median_dR1": 0.002960987634941077
+   },
+   "all_disordered": {
+    "n_tasks": 27,
+    "missing": [
+     "2240538",
+     "2243293",
+     "2241940"
+    ],
+    "n_sites": 31,
+    "detected": 14,
+    "detection": 0.45161290322580644,
+    "plausible": 12,
+    "plausible_n_tasks": 27,
+    "all_detected": 13,
+    "occ_mae": 0.13064285714285714,
+    "fp_structures": 8,
+    "median_dR1": 0.00267548538754047
+   },
+   "control": {
+    "n_tasks": 10,
+    "fp_structures": 3,
+    "fp_ids": [
+     "2241546",
+     "2242356",
+     "2242750"
+    ],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": -1.3346070533437615e-09
+   }
+  },
+  "B2": {
+   "group_small": {
+    "n_tasks": 10,
+    "missing": [],
+    "n_sites": 13,
+    "detected": 4,
+    "detection": 0.3076923076923077,
+    "plausible": 4,
+    "plausible_n_tasks": 10,
+    "all_detected": 3,
+    "occ_mae": 0.206,
+    "fp_structures": 2,
+    "median_dR1": 0.004196962072848575
+   },
+   "group_large": {
+    "n_tasks": 8,
+    "missing": [
+     "2242911",
+     "2240538"
+    ],
+    "n_sites": 9,
+    "detected": 4,
+    "detection": 0.4444444444444444,
+    "plausible": 3,
+    "plausible_n_tasks": 8,
+    "all_detected": 3,
+    "occ_mae": 0.1665,
+    "fp_structures": 3,
+    "median_dR1": 0.00874058485255506
+   },
+   "discrete": {
+    "n_tasks": 9,
+    "missing": [
+     "2241940"
+    ],
+    "n_sites": 9,
+    "detected": 3,
+    "detection": 0.3333333333333333,
+    "plausible": 2,
+    "plausible_n_tasks": 9,
+    "all_detected": 3,
+    "occ_mae": 0.10766666666666666,
+    "fp_structures": 1,
+    "median_dR1": 0.007759334209639458
+   },
+   "all_disordered": {
+    "n_tasks": 27,
+    "missing": [
+     "2242911",
+     "2240538",
+     "2241940"
+    ],
+    "n_sites": 31,
+    "detected": 11,
+    "detection": 0.3548387096774194,
+    "plausible": 9,
+    "plausible_n_tasks": 27,
+    "all_detected": 9,
+    "occ_mae": 0.1648181818181818,
+    "fp_structures": 6,
+    "median_dR1": 0.005212120241424995
+   },
+   "control": {
+    "n_tasks": 10,
+    "fp_structures": 3,
+    "fp_ids": [
+     "2241546",
+     "2242356",
+     "2242750"
+    ],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": -1.3346070533437615e-09
+   }
+  },
+  "C": {
+   "group_small": {
+    "n_tasks": 0,
+    "missing": [
+     "2312304",
+     "2243663",
+     "2312158",
+     "2244088",
+     "2312505",
+     "2312460",
+     "2243767",
+     "2243543",
+     "2243848",
+     "2312780"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "group_large": {
+    "n_tasks": 0,
+    "missing": [
+     "2242252",
+     "2243853",
+     "2243063",
+     "2242897",
+     "2243315",
+     "2241240",
+     "2243236",
+     "2243056",
+     "2242911",
+     "2240538"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "discrete": {
+    "n_tasks": 0,
+    "missing": [
+     "2241451",
+     "2242115",
+     "2242379",
+     "2242135",
+     "2243293",
+     "2242366",
+     "2241932",
+     "2241534",
+     "2242192",
+     "2241940"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "all_disordered": {
+    "n_tasks": 0,
+    "missing": [
+     "2312304",
+     "2243663",
+     "2312158",
+     "2244088",
+     "2312505",
+     "2312460",
+     "2243767",
+     "2243543",
+     "2243848",
+     "2312780",
+     "2242252",
+     "2243853",
+     "2243063",
+     "2242897",
+     "2243315",
+     "2241240",
+     "2243236",
+     "2243056",
+     "2242911",
+     "2240538",
+     "2241451",
+     "2242115",
+     "2242379",
+     "2242135",
+     "2243293",
+     "2242366",
+     "2241932",
+     "2241534",
+     "2242192",
+     "2241940"
+    ],
+    "n_sites": 0,
+    "detected": 0,
+    "detection": null,
+    "plausible": 0,
+    "plausible_n_tasks": 0,
+    "all_detected": 0,
+    "occ_mae": null,
+    "fp_structures": 0,
+    "median_dR1": null
+   },
+   "control": {
+    "n_tasks": 0,
+    "fp_structures": 0,
+    "fp_ids": [],
+    "fp_excused_real": [],
+    "fp_adjudicated": null,
+    "unadjudicated": [],
+    "median_dR1": null
+   }
+  }
+ },
+ "best_baseline": "B",
+ "sanity": {
+  "A_detects_0": true,
+  "A_fp_0": true,
+  "B2_detects_gt0": true
+ }
+}

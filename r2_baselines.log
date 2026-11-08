@@ -1,0 +1,621 @@
+2243104 cand 1 [1 rej occ0.11 dwR2 -0.0020] 21s
+2244073 cand 2 [1 ACC occ0.14 dwR2 -0.0090] [1 ACC occ0.26 dwR2 -0.0112] 37s
+2240942 cand 5 [5 ACC occ0.11 dwR2 -0.0752] 45s
+2243104 cand 1 [1 rej] 12s
+2244073 cand 5 [5 gate] 30s
+2243104 discrete det [0.0] occErr [None] FP 0 dR1 +0.0098
+2243104 discrete det [0.0] occErr [None] FP 0 dR1 +0.0098
+2244073 group_small det [0.0] occErr [None] FP 0 dR1 +0.0094
+2240942 cand 7 [7 gate] 60s
+2243104 discrete det [0.0] occErr [None] FP 0 dR1 +0.0098
+2244073 group_small det [0.33] occErr [0.009] FP 1 dR1 +0.0049
+2240942 group_large det [0.0] occErr [None] FP 0 dR1 +0.0322
+2244073 group_small det [0.0] occErr [None] FP 0 dR1 +0.0094
+2243104 B .
+2240942 group_large det [1.0] occErr [0.065] FP 0 dR1 +0.0070
+2244073 B .
+2243104 B2 .
+2240942 group_large det [0.0] occErr [None] FP 0 dR1 +0.0322
+2312304 cand 6 [6 ACC occ0.51 dwR2 -0.1683] 15s
+2244073 B2 .
+2240942 B P
+2243663 cand 2 [2 ACC occ0.46 dwR2 -0.0091] 7s
+2312304 cand 10 [10 rej] 16s
+2312304 group_small det [0.0] occErr [None] FP 0 dR1 +0.0462
+2240942 B2 .
+2243663 cand 2 [2 ACC] 10s
+2312304 group_small det [1.0] occErr [0.003] FP 4 dR1 +0.0010
+2243663 group_small det [0.0] occErr [None] FP 0 dR1 +0.0050
+2312304 group_small det [0.0] occErr [None] FP 0 dR1 +0.0462
+2243663 group_small det [1.0] occErr [0.041] FP 0 dR1 +0.0013
+2312158 cand 4 [4 ACC occ0.20 dwR2 -0.0722] 33s
+2243663 group_small det [1.0] occErr [0.029] FP 0 dR1 +0.0016
+2312304 B P
+2243663 B P
+2312304 B2 .
+2312158 cand 4 [4 ACC] 49s
+2243663 B2 P
+2312158 group_small det [0.0] occErr [None] FP 0 dR1 +0.0322
+2312158 group_small det [1.0] occErr [0.043] FP 2 dR1 +0.0016
+2312158 group_small det [1.0] occErr [0.043] FP 2 dR1 +0.0016
+2312158 B P
+2312158 B2 P
+2312460 cand 5 [4 ACC occ0.42 dwR2 -0.0562] [1 ACC occ0.15 dwR2 -0.0827] 35s
+2241286 cand 8 [1 rej occ0.03 dwR2 +0.0000] [1 rej occ0.02 dwR2 -0.0000] [1 rej occ0.03 dwR2 -0.0000] 783s
+2244088 cand 6 [4 rej occ0.63 dwR2 +0.0347] [1 rej occ0.07 dwR2 -0.0008] [1 rej occ0.48 dwR2 -0.0014] 324s
+2312460 cand 7 [7 gate] 37s
+2312460 group_small det [0.0] occErr [None] FP 0 dR1 +0.0267
+2312460 group_small det [1.0] occErr [0.153] FP 4 dR1 -0.0078
+2312460 group_small det [0.0] occErr [None] FP 0 dR1 +0.0267
+2312505 cand 8 [5 ACC occ0.23 dwR2 -0.0059] [3 rej occ0.03 dwR2 -0.0067] 383s
+2312460 B P
+2312460 B2 .
+2243767 cand 1 [1 ACC occ0.34 dwR2 -0.0078] 106s
+2244088 cand 8 [6 rej] [1 rej] [1 rej] 340s
+2244088 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0087
+2244088 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0087
+2244088 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0087
+2312505 cand 8 [5 rej] [3 rej] 565s
+2244088 B . .
+2312505 group_small det [0.0] occErr [None] FP 0 dR1 +0.0032
+2243767 cand 3 [3 ACC] 438s
+2243767 group_small det [0.0] occErr [None] FP 0 dR1 +0.0050
+2244088 B2 . .
+2243767 group_small det [0.33] occErr [0.01] FP 0 dR1 +0.0016
+2312505 group_small det [1.0] occErr [0.255] FP 4 dR1 +0.0007
+2312505 group_small det [0.0] occErr [None] FP 0 dR1 +0.0032
+2243767 group_small det [1.0] occErr [0.251] FP 0 dR1 +0.0009
+2312505 B P
+2243767 B .
+2312505 B2 .
+2243848 cand 2 [2 ACC occ0.40 dwR2 -0.0248] 20s
+2243543 cand 11 [1 ACC occ0.36 dwR2 -0.0052] [2 ACC occ0.13 dwR2 -0.0066] [3 ACC occ0.18 dwR2 -0.0077] 382s
+2243848 cand 3 [3 gate] 48s
+2243848 group_small det [0.0] occErr [None] FP 0 dR1 +0.0123
+2243848 group_small det [0.5] occErr [0.049] FP 0 dR1 +0.0027
+2243848 group_small det [0.0] occErr [None] FP 0 dR1 +0.0123
+2243767 B2 P
+2312780 cand 1 [1 rej occ0.14 dwR2 -0.0023] 7s
+2243848 B P
+2312780 cand 1 [1 rej] 6s
+2243848 B2 .
+2312780 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0052
+2312780 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0052
+2312780 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0052
+2241286 cand 8 [1 rej] [1 rej] [1 rej] [1 rej] [2 rej] 1470s
+2243750 cand 3 [2 ACC occ0.32 dwR2 -0.0227] [1 ACC occ0.14 dwR2 -0.0317] 67s
+2312780 B . .
+2312780 B2 . .
+2312868 cand 3 [3 ACC occ0.14 dwR2 -0.0033] 12s
+2241286 control det [] occErr [] FP 0 dR1 -0.0000
+2243750 cand 4 [2 gate] [2 ACC] 108s
+2312868 cand 3 [3 gate] 17s
+2243750 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0126
+2312868 group_small det [0.0] occErr [None] FP 0 dR1 +0.0088
+2312868 group_small det [0.0] occErr [None] FP 6 dR1 +0.0077
+2312868 group_small det [0.0] occErr [None] FP 0 dR1 +0.0088
+2243750 group_small det [1.0, 1.0] occErr [0.087, 0.012] FP 2 dR1 +0.0006
+2243750 group_small det [1.0, 0.0] occErr [0.089, None] FP 2 dR1 +0.0097
+2312868 B .
+2241286 control det [] occErr [] FP 0 dR1 -0.0000
+2312868 B2 .
+2243750 B P P
+2243750 B2 P .
+2312278 cand 2 [2 ACC occ0.48 dwR2 -0.0259] 26s
+2241286 control det [] occErr [] FP 0 dR1 -0.0000
+2312278 cand 3 [2 ACC] [1 rej] 42s
+2312278 group_small det [0.0] occErr [None] FP 0 dR1 +0.0118
+2312278 group_small det [1.0] occErr [0.109] FP 0 dR1 +0.0025
+2312278 group_small det [1.0] occErr [0.072] FP 0 dR1 -0.0002
+2241286 B 
+2312278 B P
+2312278 B2 P
+2241286 B2 
+2243543 cand 14 [3 gate] [3 ACC] [3 rej] [1 rej] [4 rej] 999s
+2312321 cand 6 [2 rej occ-0.90 dwR2 -0.0031] [4 rej occ0.01 dwR2 +0.2282] 11s
+2243543 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0030
+2312720 cand 2 [2 ACC occ0.46 dwR2 -0.0112] 110s
+2244115 cand 8 [3 ACC occ0.37 dwR2 -0.0108] [1 rej occ0.18 dwR2 -0.0139] [1 rej occ0.21 dwR2 -0.0115] 428s
+2312321 cand 6 [2 rej] [4 rej] 10s
+2312321 group_small det [0.0] occErr [None] FP 0 dR1 +0.0044
+2312321 group_small det [0.0] occErr [None] FP 0 dR1 +0.0044
+2312321 group_small det [0.0] occErr [None] FP 0 dR1 +0.0044
+2243543 group_small det [1.0, 1.0] occErr [0.496, 0.002] FP 7 dR1 -0.0000
+2312321 B .
+2312321 B2 .
+2312996 cand 5 [1 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] [3 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] [1 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] 18s
+2243543 group_small det [1.0, 0.0] occErr [0.501, None] FP 3 dR1 +0.0025
+2312996 cand 6 [3 rej] [3 rej] 14s
+2312996 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0032
+2312996 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0028
+2312996 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0028
+2243543 B P P
+2312996 B . .
+2312720 cand 4 [4 ACC] 259s
+2312720 group_small det [0.0] occErr [None] FP 0 dR1 +0.0069
+2312996 B2 . .
+2312720 group_small det [1.0] occErr [0.045] FP 0 dR1 +0.0004
+2243543 B2 P .
+2312720 group_small det [1.0] occErr [0.134] FP 4 dR1 +0.0026
+2312720 B P
+2243976 cand 11 [4 ACC occ0.26 dwR2 -0.0031] [2 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [1 rej occ0.25 dwR2 -0.0035] 292s
+2312146 cand 14 [3 ACC occ0.19 dwR2 -0.0054] [2 ACC occ0.25 dwR2 -0.0080] [1 rej occ0.21 dwR2 -0.0092] 255s
+2244115 cand 11 [3 ACC] [1 rej] [3 rej] [2 rej] [1 rej] 697s
+2312720 B2 P
+2243847 cand 2 [2 ACC occ0.38 dwR2 -0.0289] 23s
+2243847 cand 3 [3 ACC] 27s
+2243847 group_small det [0.0] occErr [None] FP 0 dR1 +0.0145
+2244115 group_small det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0065
+2243847 group_small det [0.67] occErr [0.078] FP 0 dR1 +0.0018
+2243847 group_small det [1.0] occErr [0.01] FP 0 dR1 +0.0034
+2243847 B P
+2244115 group_small det [0.0, 1.0] occErr [None, 0.139] FP 2 dR1 +0.0017
+2243847 B2 P
+2242252 cand 4 [4 ACC occ0.16 dwR2 -0.0581] 10s
+2242252 cand 6 [6 gate] 15s
+2242252 group_large det [0.0] occErr [None] FP 0 dR1 +0.0304
+2242252 group_large det [0.4] occErr [0.012] FP 0 dR1 +0.0049
+2242252 group_large det [0.0] occErr [None] FP 0 dR1 +0.0304
+2244115 group_small det [0.0, 1.0] occErr [None, 0.139] FP 2 dR1 +0.0017
+2312146 cand 19 [3 gate] [3 rej] [1 rej] [6 rej] [2 rej] 410s
+2242252 B .
+2312146 group_small det [0.0] occErr [None] FP 1 dR1 +0.0040
+2242252 B2 .
+2243853 cand 3 [1 ACC occ0.39 dwR2 -0.0223] [1 ACC occ0.34 dwR2 -0.0424] [1 rej occ-0.62 dwR2 -0.0668] 20s
+2312146 group_small det [0.0] occErr [None] FP 11 dR1 +0.0009
+2243853 cand 6 [6 ACC] 17s
+2244115 B . P
+2243853 group_large det [0.0] occErr [None] FP 0 dR1 +0.0306
+2312146 group_small det [0.0] occErr [None] FP 1 dR1 +0.0040
+2243853 group_large det [0.29] occErr [0.008] FP 0 dR1 +0.0155
+2243853 group_large det [0.57] occErr [0.119] FP 2 dR1 +0.0155
+2243976 cand 15 [4 rej] [4 ACC] [5 rej] [1 rej] [1 rej] 614s
+2243853 B .
+2243976 group_small det [0.0] occErr [None] FP 0 dR1 +0.0020
+2243853 B2 P
+2312146 B .
+2244115 B2 . P
+2312146 B2 .
+2242897 cand 5 [5 ACC occ0.39 dwR2 -0.0218] 30s
+2243315 cand 2 [2 ACC occ0.31 dwR2 -0.0133] 12s
+2243063 cand 7 [6 ACC occ0.26 dwR2 -0.0283] [1 rej occ0.01 dwR2 -0.0294] 71s
+2243976 group_small det [0.67] occErr [0.208] FP 2 dR1 +0.0002
+2243315 cand 5 [5 ACC] 16s
+2243315 group_large det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0298
+2242897 cand 5 [5 ACC] 50s
+2243315 group_large det [0.4, 0.0] occErr [0.029, None] FP 0 dR1 +0.0089
+2242897 group_large det [0.0] occErr [None] FP 0 dR1 +0.0059
+2243315 group_large det [0.6, 0.0] occErr [0.197, None] FP 2 dR1 +0.0140
+2242897 group_large det [0.83] occErr [0.102] FP 0 dR1 +0.0001
+2243315 B . .
+2243976 group_small det [0.67] occErr [0.036] FP 4 dR1 +0.0002
+2242897 group_large det [0.83] occErr [0.159] FP 0 dR1 +0.0027
+2243063 cand 7 [6 ACC] [1 rej] 105s
+2243063 group_large det [0.0] occErr [None] FP 0 dR1 +0.0077
+2243315 B2 P .
+2242897 B P
+2241240 cand 0  3s
+2243063 group_large det [0.67] occErr [0.194] FP 2 dR1 -0.0023
+2241240 cand 0  3s
+2241240 group_large det [0.0] occErr [None] FP 0 dR1 +0.0034
+2242897 B2 P
+2241240 group_large det [0.0] occErr [None] FP 0 dR1 +0.0034
+2241240 group_large det [0.0] occErr [None] FP 0 dR1 +0.0034
+2243063 group_large det [0.67] occErr [0.191] FP 2 dR1 -0.0016
+2243236 cand 1 [1 rej occ0.06 dwR2 -0.0009] 20s
+2243976 B P
+2241240 B .
+2243236 cand 1 [1 ACC] 13s
+2241240 B2 .
+2243063 B P
+2243236 group_large det [0.0] occErr [None] FP 0 dR1 +0.0078
+2243236 group_large det [0.0] occErr [None] FP 0 dR1 +0.0078
+2243056 cand 2 [2 ACC occ0.30 dwR2 -0.0473] 11s
+2243236 group_large det [0.12] occErr [0.018] FP 0 dR1 +0.0023
+2243063 B2 d['C904']
+2243976 B2 P
+2243236 B .
+2240538 ERROR IndexError: tuple index out of range
+2242911 cand 6 [6 rej occ0.27 dwR2 +0.0379] 6s
+2243056 cand 4 [4 gate] 19s
+2243236 B2 .
+2240538 ERROR IndexError: tuple index out of range
+2243056 group_large det [0.0] occErr [None] FP 0 dR1 +0.0318
+2240538 ERROR IndexError: tuple index out of range
+2242911 cand 7 [7 ACC] 10s
+2240538 NO SUBMISSION
+2243056 group_large det [0.4] occErr [0.013] FP 0 dR1 +0.0045
+2240538 NO SUBMISSION
+2242911 group_large det [0.0] occErr [None] FP 0 dR1 +0.0403
+2243056 group_large det [0.0] occErr [None] FP 0 dR1 +0.0318
+2242911 group_large det [0.0] occErr [None] FP 0 dR1 +0.0403
+2242810 cand 6 [1 ACC occ0.38 dwR2 -0.0108] [1 rej occ-0.09 dwR2 -0.0126] [1 ACC occ0.35 dwR2 -0.0292] 27s
+2240538 NO SCORE
+2242911 ERROR error: ShelX: scatterer parameter #10 '-6.92958' at line 113
+2243056 B .
+2240538 NO SCORE
+2242911 B .
+2241149 cand 6 [6 ACC occ0.16 dwR2 -0.0063] 11s
+2242810 cand 7 [7 gate] 21s
+2243056 B2 .
+2242911 B2 error: ShelX: scatterer parameter #10 '-6.92958' at line 113
+2242810 group_large det [0.0] occErr [None] FP 0 dR1 +0.0307
+2243055 cand 2 [2 ACC occ0.40 dwR2 -0.0863] 6s
+2242810 group_large det [0.33] occErr [0.173] FP 0 dR1 +0.0229
+2242810 group_large det [0.0] occErr [None] FP 0 dR1 +0.0307
+2241149 cand 6 [6 ACC] 20s
+2241149 group_large det [0.0] occErr [None] FP 0 dR1 +0.0043
+2243055 cand 5 [5 gate] 15s
+2242810 B .
+2243055 group_large det [0.0] occErr [None] FP 0 dR1 +0.0406
+2241149 group_large det [0.75] occErr [0.233] FP 0 dR1 +0.0008
+2243055 group_large det [0.4] occErr [0.002] FP 0 dR1 +0.0056
+2241149 group_large det [0.75] occErr [0.122] FP 0 dR1 +0.0010
+2242810 B2 .
+2243055 group_large det [0.0] occErr [None] FP 0 dR1 +0.0406
+2243136 cand 3 [2 ACC occ0.49 dwR2 -0.0121] [1 rej occ0.41 dwR2 -0.0134] 8s
+2243055 B .
+2241149 B P
+2243136 cand 5 [5 rej] 9s
+2243055 B2 .
+2243136 group_large det [0.0] occErr [None] FP 0 dR1 +0.0056
+2241149 B2 P
+2243136 group_large det [0.25] occErr [0.055] FP 0 dR1 +0.0012
+2243136 group_large det [0.0] occErr [None] FP 0 dR1 +0.0056
+2243136 B .
+2243136 B2 .
+2243234 cand 6 [5 rej ArgumentError: Python argument types in
+    secondary_planar] [1 ACC occ0.09 dwR2 -0.0054] 83s
+2243023 cand 13 [3 rej occ-0.01 dwR2 +0.0005] [2 rej occ-0.06 dwR2 -0.0001] [1 rej occ0.49 dwR2 -0.0000] 281s
+2241208 cand 6 [5 ACC occ0.21 dwR2 -0.0158] [1 rej occ0.21 dwR2 -0.0160] 179s
+2242250 cand 5 [3 rej occ0.19 dwR2 -0.0021] [1 rej occ-1.49 dwR2 -0.0005] [1 rej occ0.20 dwR2 -0.0007] 195s
+2241208 cand 6 [5 gate] [1 rej] 254s
+2241208 group_large det [0.0] occErr [None] FP 0 dR1 +0.0086
+2242250 cand 6 [3 rej] [2 rej] [1 rej] 262s
+2242250 group_large det [0.0] occErr [None] FP 0 dR1 +0.0046
+2243234 cand 6 [5 ACC] [1 ACC] 340s
+2242250 group_large det [0.0] occErr [None] FP 0 dR1 +0.0046
+2243234 group_large det [0.0] occErr [None] FP 0 dR1 +0.0393
+2242250 group_large det [0.0] occErr [None] FP 0 dR1 +0.0046
+2241208 group_large det [1.0] occErr [0.049] FP 1 dR1 +0.0017
+2242250 B .
+2243234 group_large det [0.0] occErr [None] FP 2 dR1 +0.0366
+2241208 group_large det [0.0] occErr [None] FP 0 dR1 +0.0086
+2242250 B2 .
+2243234 group_large det [0.5] occErr [0.224] FP 3 dR1 +0.0059
+2243023 cand 15 [4 rej] [2 rej] [1 rej] [1 rej] [2 rej] 457s
+2241208 B P
+2243234 B .
+2243023 group_large det [0.0] occErr [None] FP 0 dR1 +0.0024
+2241666 cand 4 [1 ACC occ0.39 dwR2 -0.0060] [1 ACC occ0.46 dwR2 -0.0328] [1 ACC occ0.17 dwR2 -0.0375] 89s
+2241208 B2 .
+2243023 group_large det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243015 cand 1 [1 ACC occ0.57 dwR2 -0.0372] 4s
+2243023 group_large det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243015 cand 2 [2 ACC] 9s
+2243234 B2 P
+2243015 group_large det [0.0] occErr [None] FP 0 dR1 +0.0168
+2243015 group_large det [0.14] occErr [0.003] FP 0 dR1 +0.0019
+2243023 B .
+2243015 group_large det [0.14] occErr [0.004] FP 2 dR1 +0.0035
+2243015 B .
+2243023 B2 .
+2241666 cand 8 [5 ACC] [3 ACC] 102s
+2243015 B2 .
+2242379 cand 1 [1 ACC occ0.18 dwR2 -0.0284] 5s
+2241666 group_large det [0.0] occErr [None] FP 0 dR1 +0.0165
+2242379 cand 1 [1 gate] 6s
+2242379 discrete det [0.0] occErr [None] FP 0 dR1 +0.0271
+2242379 discrete det [0.15] occErr [0.217] FP 0 dR1 +0.0137
+2241666 group_large det [0.4] occErr [0.002] FP 2 dR1 +0.0004
+2242379 discrete det [0.0] occErr [None] FP 0 dR1 +0.0271
+2242379 B .
+2241666 group_large det [1.0] occErr [0.023] FP 6 dR1 -0.0027
+2242379 B2 .
+2241666 B .
+2242135 cand 3 [1 rej occ-0.04 dwR2 -0.0004] [1 ACC occ0.17 dwR2 -0.0042] [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 40s
+2241666 B2 P
+2243293 cand 4 [2 ACC occ0.28 dwR2 -0.0341] [1 rej ArgumentError: Python argument types in
+    secondary_planar] [1 rej ArgumentError: Python argument types in
+    secondary_planar] 5s
+2243293 cand 4 [2 rej] [1 ACC] [1 gate] 12s
+2243293 discrete det [0.0] occErr [None] FP 0 dR1 +0.1035
+2242135 cand 3 [1 rej] [1 ACC] [1 ACC] 76s
+2243293 ERROR ArgumentError: Python argument types in
+    secondary_planar_xh_site.__init__(secondary_planar_xh_site)
+did not match C++ signature:
+  
+2242135 discrete det [0.0] occErr [None] FP 0 dR1 +0.0069
+2243293 discrete det [0.11] occErr [0.149] FP 0 dR1 +0.0738
+2242135 discrete det [0.25] occErr [0.007] FP 0 dR1 +0.0065
+2243293 B ArgumentError: Python argument types in
+    secondary_planar_xh_site.__init__(secondary_planar_xh_site)
+did not match C++ signature:
+  
+2242135 discrete det [0.5] occErr [0.049] FP 0 dR1 +0.0044
+2243293 B2 .
+2242135 B .
+2242135 B2 d['C901']
+2241932 cand 8 [8 rej occ0.24 dwR2 -0.0419] 82s
+2242366 cand 7 [1 ACC occ0.14 dwR2 -0.0043] [4 rej RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-b] [1 rej occ0.05 dwR2 -0.0060] 228s
+2241932 cand 11 [11 gate] 156s
+2241932 discrete det [0.0] occErr [None] FP 0 dR1 +0.0319
+2241932 discrete det [0.0] occErr [None] FP 0 dR1 +0.0319
+2241932 discrete det [0.0] occErr [None] FP 0 dR1 +0.0319
+2241932 B .
+2241932 B2 .
+2241534 cand 2 [2 ACC occ0.31 dwR2 -0.0097] 25s
+2241534 cand 3 [3 gate] 43s
+2241534 discrete det [0.0] occErr [None] FP 0 dR1 +0.0078
+2241534 discrete det [0.67] occErr [0.226] FP 0 dR1 +0.0025
+2241534 discrete det [0.0] occErr [None] FP 0 dR1 +0.0078
+2241534 B P
+2241534 B2 .
+2242192 cand 5 [4 ACC occ0.16 dwR2 -0.0303] [1 rej occ0.06 dwR2 -0.0304] 61s
+2242192 cand 6 [4 ACC] [1 rej] [1 rej] 115s
+2242192 discrete det [0.0] occErr [None] FP 0 dR1 +0.0129
+2242192 discrete det [1.0] occErr [0.024] FP 0 dR1 +0.0014
+2242192 discrete det [1.0] occErr [0.024] FP 0 dR1 +0.0015
+2242192 B P
+2242192 B2 P
+2241940 ERROR RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/scitbx/lstbx/normal_equations.h(161): SCITBX_ASS
+2241940 ERROR RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/scitbx/lstbx/normal_equations.h(161): SCITBX_ASS
+2241940 ERROR RuntimeError: scitbx Error: /Users/runner/miniforge3/conda-bld/cctbx-split_1765113579611/work/modules/cctbx_project/scitbx/lstbx/norma
+2241940 NO SUBMISSION
+2241940 NO SUBMISSION
+2241940 NO SCORE
+2241940 NO SCORE
+2242537 cand 8 [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [1 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [3 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 13s
+2242537 cand 8 [1 rej] [1 rej] [3 rej] [2 rej] [1 rej] 24s
+2242537 discrete det [0.0] occErr [None] FP 0 dR1 +0.0061
+2242537 discrete det [0.0] occErr [None] FP 0 dR1 +0.0061
+2242537 discrete det [0.0] occErr [None] FP 0 dR1 +0.0061
+2242537 B .
+2242537 B2 .
+2243431 cand 2 [1 ACC occ0.18 dwR2 -0.0133] [1 rej occ0.76 dwR2 -0.0138] 19s
+2243431 cand 3 [3 gate] 73s
+2243431 discrete det [0.0] occErr [None] FP 0 dR1 +0.0064
+2243431 discrete det [0.33] occErr [0.006] FP 0 dR1 +0.0016
+2243431 discrete det [0.0] occErr [None] FP 0 dR1 +0.0064
+2243431 B .
+2243431 B2 .
+2241451 cand 16 [7 ACC occ0.42 dwR2 -0.0239] [1 rej occ-0.19 dwR2 -0.0264] [4 ACC occ0.37 dwR2 -0.0350] 2126s
+2242366 cand 11 [1 ACC] [2 ACC] [4 rej] [2 rej] [2 rej] 2392s
+2242366 discrete det [0.0] occErr [None] FP 0 dR1 +0.0052
+2242366 discrete det [0.0] occErr [None] FP 2 dR1 +0.0035
+2240666 cand 12 [5 ACC occ0.45 dwR2 -0.0158] [1 ACC occ0.17 dwR2 -0.0214] [1 rej occ0.41 dwR2 -0.0232] 1587s
+2242115 cand 21 [2 ACC occ0.30 dwR2 -0.0113] [2 rej occ0.77 dwR2 -0.0104] [3 rej occ-0.05 dwR2 -0.0106] 3543s
+2242366 discrete det [0.12] occErr [0.011] FP 4 dR1 +0.0018
+2242366 B .
+2242366 B2 .
+2240666 cand 13 [5 ACC] [1 ACC] [3 rej] [1 rej] [2 rej] 2427s
+2240666 discrete det [0.0, 0.0] occErr [None, None] FP 0 dR1 +0.0068
+2240666 discrete det [0.0, 1.0] occErr [None, 0.052] FP 2 dR1 -0.0019
+2240666 discrete det [0.0, 1.0] occErr [None, 0.059] FP 3 dR1 -0.0016
+2240666 B . P
+2240666 B2 . P
+2243432 cand 0  3s
+2243432 cand 0  4s
+2243432 discrete det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243432 discrete det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243432 discrete det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243432 B .
+2243432 B2 .
+2242243 cand 4 [4 ACC occ0.33 dwR2 -0.0768] 6s
+2242243 cand 4 [4 gate] 10s
+2242243 discrete det [0.0] occErr [None] FP 0 dR1 +0.0316
+2242243 discrete det [0.8] occErr [0.001] FP 0 dR1 +0.0014
+2242243 discrete det [0.0] occErr [None] FP 0 dR1 +0.0316
+2242243 B P
+2242243 B2 .
+2242858 cand 9 [4 ACC occ0.32 dwR2 -0.0600] [2 ACC occ0.13 dwR2 -0.0689] [1 rej occ0.18 dwR2 -0.0695] 282s
+2241451 cand 21 [7 gate] [1 rej] [6 rej] [4 rej] [1 rej] 5190s
+2241451 discrete det [0.0] occErr [None] FP 0 dR1 +0.0122
+2242858 cand 10 [4 ACC] [3 gate] [1 rej] [1 rej] [1 rej] 589s
+2242858 discrete det [0.0] occErr [None] FP 0 dR1 +0.0249
+2242858 discrete det [1.0] occErr [0.027] FP 4 dR1 -0.0025
+2242858 discrete det [1.0] occErr [0.027] FP 0 dR1 +0.0007
+2242858 B P
+2242858 B2 P
+2241451 discrete det [0.5] occErr [0.206] FP 10 dR1 -0.0008
+2241451 discrete det [0.0] occErr [None] FP 0 dR1 +0.0122
+2243391 cand 12 [9 rej occ0.26 dwR2 -0.0289] [3 rej occ0.34 dwR2 -0.0073] 551s
+2243396 cand 23 [4 ACC occ0.15 dwR2 -0.0041] [2 rej occ0.08 dwR2 -0.0050] [1 rej occ0.04 dwR2 -0.0041] 4887s
+2242115 cand 26 [2 ACC] [1 rej] [2 rej] [2 rej] [3 rej] 5661s
+2243391 cand 12 [9 rej] [3 rej] 550s
+2241451 B d['C80']
+2243391 discrete det [0.0] occErr [None] FP 0 dR1 +0.0241
+2241451 B2 .
+2241657 cand 4 [1 ACC occ0.11 dwR2 -0.0080] [1 rej occ-0.02 dwR2 -0.0078] [1 rej occ0.02 dwR2 -0.0082] 6s
+2241657 cand 4 [1 ACC] [1 rej] [1 rej] [1 ACC] 10s
+2241657 discrete det [0.0] occErr [None] FP 0 dR1 +0.0037
+2241657 discrete det [1.0] occErr [0.076] FP 0 dR1 +0.0007
+2241657 discrete det [1.0] occErr [0.073] FP 2 dR1 -0.0000
+2241657 B P
+2241657 B2 P
+2242871 cand 2 [2 rej occ0.07 dwR2 -0.0049] 5s
+2242871 cand 4 [1 gate] [3 rej] 9s
+2242871 discrete det [0.0] occErr [None] FP 0 dR1 +0.0738
+2242871 discrete det [0.0] occErr [None] FP 0 dR1 +0.0738
+2243391 discrete det [0.0] occErr [None] FP 0 dR1 +0.0241
+2242871 discrete det [0.0] occErr [None] FP 0 dR1 +0.0738
+2242871 B .
+2242871 B2 .
+2242238 cand 4 [2 rej occ0.90 dwR2 -0.0007] [2 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] 11s
+2242238 cand 5 [2 rej] [2 rej] [1 rej] 17s
+2242238 control det [] occErr [] FP 0 dR1 +0.0000
+2242238 control det [] occErr [] FP 0 dR1 +0.0000
+2242238 control det [] occErr [] FP 0 dR1 +0.0000
+2242238 B 
+2242238 B2 
+2241211 cand 0  2s
+2241211 cand 0  2s
+2243391 discrete det [0.0] occErr [None] FP 0 dR1 +0.0241
+2241211 control det [] occErr [] FP 0 dR1 +0.0000
+2241211 control det [] occErr [] FP 0 dR1 +0.0000
+2241211 control det [] occErr [] FP 0 dR1 +0.0000
+2241211 B 
+2241211 B2 
+2242314 cand 2 [1 rej occ0.02 dwR2 +0.0005] [1 rej occ-0.01 dwR2 -0.0000] 20s
+2242115 discrete det [0.0] occErr [None] FP 0 dR1 +0.0036
+2242314 cand 3 [1 rej] [1 rej] [1 rej] 28s
+2242314 control det [] occErr [] FP 0 dR1 -0.0000
+2242314 control det [] occErr [] FP 0 dR1 -0.0000
+2242314 control det [] occErr [] FP 0 dR1 -0.0000
+2242314 B 
+2243391 B .
+2242314 B2 
+2241958 cand 17 [5 rej occ0.04 dwR2 -0.0042] [11 rej occ0.29 dwR2 +0.0002] [1 rej occ0.45 dwR2 -0.0004] 80s
+2241958 cand 17 [5 rej] [11 rej] [1 rej] 81s
+2241958 control det [] occErr [] FP 0 dR1 +0.0000
+2241958 control det [] occErr [] FP 0 dR1 +0.0000
+2243391 B2 .
+2241958 control det [] occErr [] FP 0 dR1 +0.0000
+2241958 B 
+2241958 B2 
+2242885 cand 0  7s
+2242885 cand 0  7s
+2242885 control det [] occErr [] FP 0 dR1 -0.0000
+2242885 control det [] occErr [] FP 0 dR1 -0.0000
+2242885 control det [] occErr [] FP 0 dR1 -0.0000
+2242885 B 
+2242885 B2 
+2242356 cand 1 [1 ACC occ0.06 dwR2 -0.0079] 3s
+2242356 cand 1 [1 ACC] 4s
+2242356 control det [] occErr [] FP 0 dR1 +0.0000
+2242356 control det [] occErr [] FP 2 dR1 -0.0032
+2242356 control det [] occErr [] FP 2 dR1 -0.0032
+2242356 B 
+2242356 B2 
+2242439 cand 0  2s
+2242439 cand 0  2s
+2242439 control det [] occErr [] FP 0 dR1 +0.0000
+2242439 control det [] occErr [] FP 0 dR1 +0.0000
+2242439 control det [] occErr [] FP 0 dR1 +0.0000
+2242439 B 
+2241546 cand 8 [1 ACC occ0.10 dwR2 -0.0043] [2 ACC occ0.25 dwR2 -0.0078] [1 rej occ0.64 dwR2 -0.0102] 352s
+2242439 B2 
+2242115 discrete det [1.0] occErr [0.035] FP 0 dR1 -0.0000
+2242750 cand 2 [1 ACC occ0.07 dwR2 -0.0065] [1 ACC occ0.05 dwR2 -0.0093] 13s
+2242750 cand 2 [1 ACC] [1 ACC] 23s
+2242750 control det [] occErr [] FP 0 dR1 -0.0000
+2242750 control det [] occErr [] FP 4 dR1 -0.0038
+2242750 control det [] occErr [] FP 4 dR1 -0.0038
+2242750 B 
+2242750 B2 
+2242258 cand 3 [2 rej occ-0.03 dwR2 -0.0004] [1 rej occ0.25 dwR2 -0.0012] 32s
+2242258 cand 3 [2 rej] [1 rej] 32s
+2242258 control det [] occErr [] FP 0 dR1 +0.0000
+2242258 control det [] occErr [] FP 0 dR1 +0.0000
+2242258 control det [] occErr [] FP 0 dR1 +0.0000
+2242258 B 
+2242258 B2 
+2241174 cand 0  2s
+2241174 cand 0  2s
+2241174 control det [] occErr [] FP 0 dR1 -0.0000
+2241174 control det [] occErr [] FP 0 dR1 -0.0000
+2241174 control det [] occErr [] FP 0 dR1 -0.0000
+2241174 B 
+2241174 B2 
+2243179 cand 0  2s
+2243179 cand 0  2s
+2243179 control det [] occErr [] FP 0 dR1 +0.0000
+2243179 control det [] occErr [] FP 0 dR1 +0.0000
+2243179 control det [] occErr [] FP 0 dR1 +0.0000
+2243179 B 
+2243179 B2 
+2240584 cand 1 [1 rej occ-0.26 dwR2 -0.0229] 4s
+2240584 cand 1 [1 rej] 4s
+2240584 control det [] occErr [] FP 0 dR1 +0.0000
+2240584 control det [] occErr [] FP 0 dR1 +0.0000
+2240584 control det [] occErr [] FP 0 dR1 +0.0000
+2240584 B 
+2240584 B2 
+2312869 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2312869/input/model_refined.res'
+2312869 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2312869/input/model_refined.res'
+2312869 NO SUBMISSION
+2312869 NO SUBMISSION
+2312869 NO SUBMISSION
+2312869 NO SCORE
+2312869 NO SCORE
+2241198 cand 8 [1 rej occ0.09 dwR2 +0.0001] [1 rej occ0.43 dwR2 -0.0001] [6 ACC occ0.05 dwR2 -0.0066] 24s
+2242115 discrete det [1.0] occErr [0.25] FP 0 dR1 -0.0001
+2241198 cand 9 [1 rej] [1 rej] [1 rej] [6 rej] 28s
+2241198 control det [] occErr [] FP 0 dR1 -0.0000
+2241198 control det [] occErr [] FP 12 dR1 -0.0027
+2241198 control det [] occErr [] FP 0 dR1 -0.0000
+2241198 B 
+2241198 B2 
+2312967 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2312967/input/model_refined.res'
+2312967 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2312967/input/model_refined.res'
+2312967 NO SUBMISSION
+2312967 NO SUBMISSION
+2312967 NO SUBMISSION
+2312967 NO SCORE
+2312967 NO SCORE
+2313070 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2313070/input/model_refined.res'
+2313070 ERROR FileNotFoundError: [Errno 2] No such file or directory: '/Users/joe/Projects/disorder-pilot/tasks/2313070/input/model_refined.res'
+2313070 NO SUBMISSION
+2313070 NO SUBMISSION
+2313070 NO SUBMISSION
+2313070 NO SCORE
+2313070 NO SCORE
+2243425 cand 0  3s
+2241546 cand 9 [1 ACC] [2 ACC] [3 rej] [2 rej] [1 rej] 989s
+2243425 cand 0  3s
+2243425 control det [] occErr [] FP 0 dR1 +0.0000
+2243425 control det [] occErr [] FP 0 dR1 +0.0000
+2243425 control det [] occErr [] FP 0 dR1 +0.0000
+2241546 control det [] occErr [] FP 0 dR1 +0.0000
+2243425 B 
+2243425 B2 
+2241559 cand 1 [1 rej occ0.04 dwR2 -0.0015] 9s
+2241559 cand 1 [1 rej] 9s
+2241546 control det [] occErr [] FP 6 dR1 -0.0039
+2241559 control det [] occErr [] FP 0 dR1 -0.0000
+2241559 control det [] occErr [] FP 0 dR1 -0.0000
+2241559 control det [] occErr [] FP 0 dR1 -0.0000
+2241559 B 
+2241559 B2 
+2241546 control det [] occErr [] FP 6 dR1 -0.0040
+2241613 cand 3 [3 ACC occ0.05 dwR2 -0.0060] 7s
+2241613 cand 3 [3 gate] 11s
+2241613 control det [] occErr [] FP 0 dR1 -0.0000
+2241613 control det [] occErr [] FP 6 dR1 -0.0042
+2241613 control det [] occErr [] FP 0 dR1 -0.0000
+2241613 B 
+2241546 B 
+2241613 B2 
+2241546 B2 
+2242115 B d['O901']
+2242115 B2 P
+2243396 cand 33 [5 gate] [2 rej] [1 rej] [1 rej] [1 rej] 5264s
+2243396 discrete det [0.0] occErr [None] FP 0 dR1 +0.0024
+2243396 discrete det [0.6] occErr [0.108] FP 1 dR1 +0.0009
+2243396 discrete det [0.0] occErr [None] FP 0 dR1 +0.0025
+2243396 B P
+2243396 B2 .
+2312869 ref R1 0.0396 wR2 0.1200 | A R1 0.0396 wR2 0.1200 (dR1 +0.0000) | 1s
+2312967 ref R1 0.0256 wR2 0.0594 | A R1 0.0256 wR2 0.0594 (dR1 +0.0000) | 67s
+2313070 ref R1 0.0281 wR2 0.0708 | A R1 0.0281 wR2 0.0708 (dR1 +0.0000) | 62s
+2312869 cand 1 [1 rej occ0.03 dwR2 -0.0026] 3s
+2312869 cand 1 [1 rej] 4s
+2312869 control det [] occErr [] FP 0 dR1 +0.0000
+2312869 control det [] occErr [] FP 0 dR1 +0.0000
+2312869 control det [] occErr [] FP 0 dR1 +0.0000
+2312869 B 
+2312869 B2 
+2312967 cand 13 [3 rej occ0.04 dwR2 -0.0008] [1 rej occ0.04 dwR2 -0.0003] [1 rej occ0.10 dwR2 -0.0002] 1021s
+2313070 cand 5 [2 rej occ1.00 dwR2 +0.0003] [2 rej RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_facto] [1 rej occ0.19 dwR2 -0.0000] 1309s
+2313070 cand 5 [2 rej] [2 rej] [1 rej] 1021s
+2313070 control det [] occErr [] FP 0 dR1 -0.0000
+2313070 control det [] occErr [] FP 0 dR1 -0.0000
+2313070 control det [] occErr [] FP 0 dR1 -0.0000
+2313070 B 
+2313070 B2 
+2312967 cand 16 [8 rej] [1 rej] [2 rej] [2 rej] [1 rej] 1890s
+2312967 control det [] occErr [] FP 0 dR1 +0.0000
+2312967 control det [] occErr [] FP 0 dR1 +0.0000
+2312967 control det [] occErr [] FP 0 dR1 +0.0000
+2312967 B 
+2312967 B2 
