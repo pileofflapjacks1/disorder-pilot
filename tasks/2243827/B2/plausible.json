@@ -4,8 +4,11 @@
  "sites": [
   {
    "type": "discrete",
-   "detected": false,
-   "plausible": false
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.281,
+   "n_bonds": 32,
+   "bad_atoms": []
   }
  ]
 }

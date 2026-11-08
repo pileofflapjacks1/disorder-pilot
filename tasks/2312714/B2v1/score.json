@@ -1,0 +1,61 @@
+{
+ "id": "2312714",
+ "type": "discrete",
+ "control": false,
+ "sites": [
+  {
+   "type": "discrete",
+   "n_minor": 1,
+   "recall": 0.0,
+   "detected": false,
+   "truth_occ": 0.3186,
+   "occ": null,
+   "occ_err": null
+  },
+  {
+   "type": "discrete",
+   "n_minor": 1,
+   "recall": 0.0,
+   "detected": false,
+   "truth_occ": 0.2355,
+   "occ": null,
+   "occ_err": null
+  },
+  {
+   "type": "discrete",
+   "n_minor": 1,
+   "recall": 0.0,
+   "detected": false,
+   "truth_occ": 0.2907,
+   "occ": null,
+   "occ_err": null
+  },
+  {
+   "type": "discrete",
+   "n_minor": 1,
+   "recall": 0.0,
+   "detected": false,
+   "truth_occ": 0.4287,
+   "occ": null,
+   "occ_err": null
+  },
+  {
+   "type": "discrete",
+   "n_minor": 1,
+   "recall": 1.0,
+   "detected": true,
+   "truth_occ": 0.4414,
+   "occ": 0.36753,
+   "occ_err": 0.074
+  }
+ ],
+ "n_partial": 2,
+ "fp_atoms": [],
+ "false_positive": false,
+ "all_detected": false,
+ "R1": 0.13295534772764905,
+ "wR2": 0.356760471641126,
+ "npar": 1033,
+ "dR1": 0.007297115349150646,
+ "dwR2": 0.031158586414171296
+}

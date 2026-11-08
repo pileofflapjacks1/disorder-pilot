@@ -15,7 +15,7 @@
   {
    "type": "group_large",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.941,
    "n_bonds": 17,
    "bad_atoms": []

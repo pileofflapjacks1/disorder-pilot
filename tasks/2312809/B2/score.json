@@ -6,23 +6,23 @@
   {
    "type": "group_large",
    "n_minor": 8,
-   "recall": 0.0,
+   "recall": 0.25,
    "detected": false,
    "truth_occ": 0.4296,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.34116,
+   "occ_err": 0.088
   }
  ],
- "n_partial": 2,
+ "n_partial": 6,
  "fp_atoms": [
   "Cl3",
   "Cl91"
  ],
  "false_positive": true,
  "all_detected": false,
- "R1": 0.07062654222985294,
- "wR2": 0.23496192833198007,
- "npar": 342,
- "dR1": 0.01815467678395892,
- "dwR2": 0.0688915236389408
+ "R1": 0.05919975620868959,
+ "wR2": 0.18967487481987255,
+ "npar": 351,
+ "dR1": 0.00672789076279557,
+ "dwR2": 0.023604470126833282
 }

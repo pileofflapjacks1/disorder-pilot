@@ -5,7 +5,7 @@
   {
    "type": "discrete",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.29,
    "n_bonds": 31,
    "bad_atoms": []

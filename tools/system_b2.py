@@ -23,7 +23,9 @@ import xtal_lib as X
 import system_b as B
 import evidence as E
 
-P = dict(WIN=(0.4, 1.6), RIPPLE_MAX=1.3, MAX_TRIES=5, OCC_MIN=0.08, GEOM_MAX_FRAC=0.25, UEQ_MAX_RATIO=3.0, OCC_STAB=0.10, MINOR_U='free')
+# v2 (2026-11-06): gates recalibrated by tools/calibrate_gates.py against 65 deposited sites and 7 expert-overfit splits:
+# the geometry gate is off (it rejected deposited sites and no overfit split); v1 was OCC_MIN 0.08, GEOM 0.25, UEQ 3.
+P = dict(WIN=(0.4, 1.6), RIPPLE_MAX=1.3, MAX_TRIES=5, OCC_MIN=0.05, GEOM_MAX_FRAC=1.01, UEQ_MAX_RATIO=6.0, OCC_STAB=0.10, MINOR_U='free')
 if os.environ.get('B2_PARAMS'): P.update(json.loads(os.environ['B2_PARAMS']))
 P['WIN'] = tuple(P['WIN'])
 

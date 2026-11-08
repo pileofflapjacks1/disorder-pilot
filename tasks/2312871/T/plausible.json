@@ -5,16 +5,10 @@
   {
    "type": "discrete",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 1.0,
    "n_bonds": 12,
-   "bad_atoms": [
-    "F7",
-    "F8",
-    "F9",
-    "F10",
-    "F11"
-   ]
+   "bad_atoms": []
   }
  ]
 }

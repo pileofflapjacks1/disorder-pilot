@@ -5,12 +5,10 @@
   {
    "type": "discrete",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.028,
    "n_bonds": 36,
-   "bad_atoms": [
-    "Cu2"
-   ]
+   "bad_atoms": []
   }
  ]
 }

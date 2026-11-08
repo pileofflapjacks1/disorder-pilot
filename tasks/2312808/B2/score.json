@@ -9,8 +9,8 @@
    "recall": 1.0,
    "detected": true,
    "truth_occ": 0.1261,
-   "occ": 0.13041999999999998,
-   "occ_err": 0.004
+   "occ": 0.13085999999999998,
+   "occ_err": 0.005
   },
   {
    "type": "group_large",
@@ -22,13 +22,16 @@
    "occ_err": null
   }
  ],
- "n_partial": 4,
- "fp_atoms": [],
- "false_positive": false,
+ "n_partial": 6,
+ "fp_atoms": [
+  "Cl1",
+  "Cl91"
+ ],
+ "false_positive": true,
  "all_detected": false,
- "R1": 0.046968639898258405,
- "wR2": 0.12353877173955816,
- "npar": 357,
- "dR1": 0.01337419885588783,
- "dwR2": 0.035711358070004556
+ "R1": 0.04561371931306158,
+ "wR2": 0.12014655373172875,
+ "npar": 362,
+ "dR1": 0.012019278270691006,
+ "dwR2": 0.03231914006217515
 }

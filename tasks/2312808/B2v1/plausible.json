@@ -1,0 +1,19 @@
+{
+ "id": "2312808",
+ "type": "group_large",
+ "sites": [
+  {
+   "type": "group_small",
+   "detected": true,
+   "plausible": true,
+   "geom_frac": 0.0,
+   "n_bonds": 4,
+   "bad_atoms": []
+  },
+  {
+   "type": "group_large",
+   "detected": false,
+   "plausible": false
+  }
+ ]
+}

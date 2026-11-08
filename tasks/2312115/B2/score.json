@@ -6,20 +6,29 @@
   {
    "type": "group_large",
    "n_minor": 18,
-   "recall": 0.0,
+   "recall": 0.278,
    "detected": false,
    "truth_occ": 0.5,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.5279360000000001,
+   "occ_err": 0.028
   }
  ],
- "n_partial": 0,
- "fp_atoms": [],
- "false_positive": false,
+ "n_partial": 18,
+ "fp_atoms": [
+  "C15",
+  "C901",
+  "C16",
+  "C902",
+  "C20",
+  "C904",
+  "C25",
+  "C907"
+ ],
+ "false_positive": true,
  "all_detected": false,
- "R1": 0.04911595686871886,
- "wR2": 0.16133149161308108,
- "npar": 291,
- "dR1": 0.009249303502161445,
- "dwR2": 0.01945521813135373
+ "R1": 0.04625638057863977,
+ "wR2": 0.15367447020675867,
+ "npar": 328,
+ "dR1": 0.0063897272120823495,
+ "dwR2": 0.011798196725031324
 }

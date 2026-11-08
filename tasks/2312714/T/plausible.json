@@ -13,12 +13,10 @@
   {
    "type": "discrete",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.0,
    "n_bonds": 0,
-   "bad_atoms": [
-    "O38"
-   ]
+   "bad_atoms": []
   },
   {
    "type": "discrete",

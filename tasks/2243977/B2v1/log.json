@@ -1,0 +1,104 @@
+{
+ "id": "2243977",
+ "params": {
+  "WIN": [
+   0.4,
+   1.6
+  ],
+  "RIPPLE_MAX": 1.3,
+  "MAX_TRIES": 5,
+  "OCC_MIN": 0.08,
+  "GEOM_MAX_FRAC": 0.25,
+  "UEQ_MAX_RATIO": 3.0,
+  "OCC_STAB": 0.1
+ },
+ "rms": 0.26531817865399326,
+ "thr": 1.3265908932699664,
+ "n_cand": 13,
+ "clusters": [
+  {
+   "atoms": [
+    "C14"
+   ],
+   "mode": "peak",
+   "R1": 0.042370507047831636,
+   "wR2": 0.09862582307146592,
+   "minor_occ": -3.3667800000000003,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "F14",
+    "C36",
+    "F16",
+    "F15"
+   ],
+   "mode": "peak",
+   "R1": 0.040749635026522096,
+   "wR2": 0.09487493463194928,
+   "minor_occ": 0.18960999999999995,
+   "npd": [],
+   "base_ok": true,
+   "gates": {
+    "geom_frac": 0.562,
+    "n_bonds": 16,
+    "ueq_minor": [
+     0.0672,
+     0.0316,
+     0.0356,
+     0.2122
+    ],
+    "ueq_ok": false,
+    "occ_from_half": 0.183,
+    "stable": true
+   },
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C12"
+   ],
+   "mode": "peak",
+   "R1": 0.042384391203376455,
+   "wR2": 0.09864781611870715,
+   "minor_occ": -171.40954,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "F1"
+   ],
+   "mode": "peak",
+   "R1": 0.04164255483837546,
+   "wR2": 0.09706787422165605,
+   "minor_occ": 0.37449,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "F9"
+   ],
+   "mode": "adp",
+   "R1": 0.0419994069225682,
+   "wR2": 0.09788152626760022,
+   "minor_occ": 0.23346999999999996,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.04241815844931513,
+  "wR2": 0.09870356594846064
+ },
+ "final": {
+  "R1": 0.04241815844931513,
+  "wR2": 0.09870356594846064
+ }
+}

@@ -5,7 +5,7 @@
   {
    "type": "group_small",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.5,
    "n_bonds": 4,
    "bad_atoms": []

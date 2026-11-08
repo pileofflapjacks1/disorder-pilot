@@ -1,5 +1,6 @@
 """Plausible detection (proposed round-2 metric; rule written 2026-11-06 before it was computed for C).
-FAILED CALIBRATION: only 12/38 deposited disorder sites pass (system T); see RESULTS_B2.md. Exploratory use only.
+With B2 v1's gates this failed calibration (12/38 deposited sites passed). With the v2 gates, 64/65 deposited sites
+pass as published. It is a floor against non-physical models, not evidence that disorder is real; see RESULTS_B2.md.
 
 A site scored `detected` by score.py is also `plausible` when its matched minor atoms, in the re-refined
 submission, pass the same checks and thresholds as baseline B2's acceptance gates (tools/system_b2.py):

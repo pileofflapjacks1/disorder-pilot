@@ -6,20 +6,20 @@
   {
    "type": "group_small",
    "n_minor": 4,
-   "recall": 0.0,
-   "detected": false,
+   "recall": 0.5,
+   "detected": true,
    "truth_occ": 0.4089,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.7843,
+   "occ_err": 0.375
   }
  ],
- "n_partial": 0,
+ "n_partial": 4,
  "fp_atoms": [],
  "false_positive": false,
- "all_detected": false,
- "R1": 0.053817772118402996,
- "wR2": 0.1465564554373447,
- "npar": 186,
- "dR1": 0.006313640309530952,
- "dwR2": 0.01344804554501497
+ "all_detected": true,
+ "R1": 0.04906059965911613,
+ "wR2": 0.13602262509545027,
+ "npar": 194,
+ "dR1": 0.0015564678502440893,
+ "dwR2": 0.002914215203120546
 }

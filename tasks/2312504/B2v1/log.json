@@ -1,0 +1,104 @@
+{
+ "id": "2312504",
+ "params": {
+  "WIN": [
+   0.4,
+   1.6
+  ],
+  "RIPPLE_MAX": 1.3,
+  "MAX_TRIES": 5,
+  "OCC_MIN": 0.08,
+  "GEOM_MAX_FRAC": 0.25,
+  "UEQ_MAX_RATIO": 3.0,
+  "OCC_STAB": 0.1
+ },
+ "rms": 0.074976788811112,
+ "thr": 0.37488394405556,
+ "n_cand": 37,
+ "clusters": [
+  {
+   "atoms": [
+    "Cl2",
+    "O7",
+    "O8",
+    "O5",
+    "O6"
+   ],
+   "mode": "peak",
+   "R1": 0.03336601474982993,
+   "wR2": 0.08880783327817852,
+   "minor_occ": 0.03959999999999997,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C6",
+    "C17",
+    "C31",
+    "C13",
+    "C15",
+    "C10",
+    "C7",
+    "C11",
+    "C9",
+    "C22",
+    "C34",
+    "C25"
+   ],
+   "mode": "peak",
+   "R1": 0.034225768366157816,
+   "wR2": 0.0914053681413721,
+   "minor_occ": -0.034620000000000095,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "N3",
+    "C23",
+    "C3",
+    "C28",
+    "C16",
+    "C32",
+    "C33",
+    "C35",
+    "C4",
+    "C1",
+    "C2",
+    "C24",
+    "C38",
+    "C29",
+    "C8",
+    "C37",
+    "C42",
+    "C40"
+   ],
+   "mode": "peak",
+   "R1": 0.034207713195693976,
+   "wR2": 0.09118427150878476,
+   "minor_occ": -0.033420000000000005,
+   "npd": [],
+   "base_ok": false,
+   "accepted": false
+  },
+  {
+   "atoms": [
+    "C5",
+    "C18"
+   ],
+   "error": "RuntimeError: smtbx Error: cctbx::adptbx::debye_waller_factor_exp: arg_limit exceeded (anisotropic): arg = 153.873 arg_limit = 50",
+   "accepted": false
+  }
+ ],
+ "start": {
+  "R1": 0.034129732526428355,
+  "wR2": 0.091488657254484
+ },
+ "final": {
+  "R1": 0.034129732526428355,
+  "wR2": 0.091488657254484
+ }
+}

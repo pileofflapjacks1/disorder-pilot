@@ -6,29 +6,29 @@
   {
    "type": "discrete",
    "n_minor": 7,
-   "recall": 0.0,
+   "recall": 0.143,
    "detected": false,
    "truth_occ": 0.0786,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.06386999999999998,
+   "occ_err": 0.015
   },
   {
    "type": "discrete",
    "n_minor": 1,
-   "recall": 0.0,
-   "detected": false,
+   "recall": 1.0,
+   "detected": true,
    "truth_occ": 0.0516,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.06386999999999998,
+   "occ_err": 0.012
   }
  ],
- "n_partial": 0,
+ "n_partial": 4,
  "fp_atoms": [],
  "false_positive": false,
  "all_detected": false,
- "R1": 0.061277833958140675,
- "wR2": 0.13913255015225345,
- "npar": 305,
- "dR1": 0.019783466464269088,
- "dwR2": 0.039940586216662174
+ "R1": 0.05921393719191959,
+ "wR2": 0.13433726362195367,
+ "npar": 312,
+ "dR1": 0.017719569698048006,
+ "dwR2": 0.03514529968636239
 }

@@ -5,12 +5,10 @@
   {
    "type": "group_large",
    "detected": true,
-   "plausible": false,
+   "plausible": true,
    "geom_frac": 0.778,
    "n_bonds": 9,
-   "bad_atoms": [
-    "O6"
-   ]
+   "bad_atoms": []
   }
  ]
 }

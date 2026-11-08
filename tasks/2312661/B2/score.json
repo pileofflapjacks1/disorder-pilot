@@ -6,20 +6,22 @@
   {
    "type": "discrete",
    "n_minor": 8,
-   "recall": 0.0,
+   "recall": 0.375,
    "detected": false,
    "truth_occ": 0.2845,
-   "occ": null,
-   "occ_err": null
+   "occ": 0.5992066666666667,
+   "occ_err": 0.315
   }
  ],
- "n_partial": 0,
- "fp_atoms": [],
- "false_positive": false,
+ "n_partial": 10,
+ "fp_atoms": [
+  "C904"
+ ],
+ "false_positive": true,
  "all_detected": false,
- "R1": 0.06107314211917105,
- "wR2": 0.1405630908213941,
- "npar": 542,
- "dR1": 0.0038085891826650092,
- "dwR2": 0.007960217284019938
+ "R1": 0.056543249011725374,
+ "wR2": 0.13091681015880827,
+ "npar": 563,
+ "dR1": -0.0007213039247806682,
+ "dwR2": -0.0016860633785658885
 }

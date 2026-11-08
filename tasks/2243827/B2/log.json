@@ -7,10 +7,11 @@
   ],
   "RIPPLE_MAX": 1.3,
   "MAX_TRIES": 5,
-  "OCC_MIN": 0.08,
-  "GEOM_MAX_FRAC": 0.25,
-  "UEQ_MAX_RATIO": 3.0,
-  "OCC_STAB": 0.1
+  "OCC_MIN": 0.05,
+  "GEOM_MAX_FRAC": 1.01,
+  "UEQ_MAX_RATIO": 6.0,
+  "OCC_STAB": 0.1,
+  "MINOR_U": "free"
  },
  "rms": 0.08279227981595753,
  "thr": 0.4139613990797877,
@@ -56,11 +57,11 @@
      0.0757,
      0.0179
     ],
-    "ueq_ok": false,
+    "ueq_ok": true,
     "occ_from_half": 0.089,
     "stable": true
    },
-   "accepted": false
+   "accepted": true
   }
  ],
  "start": {
@@ -68,7 +69,7 @@
   "wR2": 0.19583768730960308
  },
  "final": {
-  "R1": 0.08077431573648881,
-  "wR2": 0.19583768730960308
+  "R1": 0.07455180448003264,
+  "wR2": 0.18542482989561418
  }
 }
