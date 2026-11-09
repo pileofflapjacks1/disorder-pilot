@@ -1,0 +1,68 @@
+{
+ "case": "09",
+ "base_minor_occ": 0.17,
+ "bonds": [],
+ "adps": [
+  {
+   "label": "Cl1",
+   "part": 1,
+   "occ": 0.83,
+   "ueq": 0.0622,
+   "iso": false,
+   "aniso": 3.49
+  },
+  {
+   "label": "Cl91",
+   "part": 2,
+   "occ": 0.17,
+   "ueq": 0.0444,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Cl1",
+   "rho_sigma": 1.0,
+   "partner": "Cl91",
+   "split": 0.68,
+   "mid_sigma": -10.0
+  },
+  {
+   "label": "Cl91",
+   "rho_sigma": 6.8,
+   "partner": "Cl1",
+   "split": 0.68,
+   "mid_sigma": -10.0
+  }
+ ],
+ "map_rms": 0.09310024460386869,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0482,
+   "wR2": 0.1233,
+   "minor_occ": 0.17,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0482,
+   "wR2": 0.1233,
+   "minor_occ": 0.17,
+   "max_shift": 0.0,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

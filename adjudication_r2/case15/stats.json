@@ -1,0 +1,97 @@
+{
+ "case": "15",
+ "n_obs": 10367,
+ "ref": {
+  "R1": 0.06457226279141993,
+  "wR2": 0.17516475179219015,
+  "gof": 0.9302161613935348,
+  "npar": 712,
+  "top_peak": 1.3385554457749371,
+  "hole": -0.5840642803743216,
+  "rms": 0.12790769601913005
+ },
+ "cand": {
+  "R1": 0.060636385898834674,
+  "wR2": 0.16601647559751853,
+  "gof": 0.8810323473602825,
+  "npar": 726,
+  "top_peak": 0.9941627576613693,
+  "hole": -0.5911273710979008,
+  "rms": 0.12496915131673415
+ },
+ "hamilton": {
+  "b": 14,
+  "ratio": 1.0551,
+  "F": 77.99,
+  "p": 5.015334235564277e-212
+ },
+ "nested": true,
+ "atoms": [
+  {
+   "label": "S1",
+   "el": "S",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0505,
+   "rho": 0.35,
+   "rho_sigma": 2.7,
+   "nearest_deposited": "S1",
+   "dist": 0.02
+  },
+  {
+   "label": "S901",
+   "el": "S",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0124,
+   "rho": 0.86,
+   "rho_sigma": 6.7,
+   "nearest_deposited": "S1",
+   "dist": 0.56
+  },
+  {
+   "label": "S2",
+   "el": "S",
+   "part": 1,
+   "occ": 0.904,
+   "ueq": 0.0428,
+   "rho": 0.42,
+   "rho_sigma": 3.3,
+   "nearest_deposited": "S2",
+   "dist": 0.04
+  },
+  {
+   "label": "S902",
+   "el": "S",
+   "part": 2,
+   "occ": 0.096,
+   "ueq": 0.016,
+   "rho": 0.72,
+   "rho_sigma": 5.6,
+   "nearest_deposited": "S2",
+   "dist": 0.43
+  },
+  {
+   "label": "C9",
+   "el": "C",
+   "part": 1,
+   "occ": 0.904,
+   "ueq": 0.044,
+   "rho": 0.18,
+   "rho_sigma": 1.4,
+   "nearest_deposited": "C9",
+   "dist": 0.03
+  },
+  {
+   "label": "C901",
+   "el": "C",
+   "part": 2,
+   "occ": 0.096,
+   "ueq": 0.0171,
+   "rho": 0.06,
+   "rho_sigma": 0.5,
+   "nearest_deposited": "C9",
+   "dist": 0.33
+  }
+ ]
+}

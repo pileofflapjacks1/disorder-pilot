@@ -1,0 +1,84 @@
+{
+ "case": "14",
+ "base_minor_occ": 0.062,
+ "bonds": [
+  {
+   "a": "Cl1",
+   "b": "C2",
+   "d": 1.733,
+   "expected": 1.696,
+   "basis": "partner Cl91",
+   "hirshfeld": 0.0011
+  },
+  {
+   "a": "Cl91",
+   "b": "C2",
+   "d": 1.696,
+   "expected": 1.733,
+   "basis": "partner Cl1"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Cl1",
+   "part": 1,
+   "occ": 0.938,
+   "ueq": 0.0639,
+   "iso": false,
+   "aniso": 3.38
+  },
+  {
+   "label": "Cl91",
+   "part": 2,
+   "occ": 0.062,
+   "ueq": 0.0471,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Cl1",
+   "rho_sigma": 1.9,
+   "partner": "Cl91",
+   "split": 0.63,
+   "mid_sigma": -4.2
+  },
+  {
+   "label": "Cl91",
+   "rho_sigma": 4.8,
+   "partner": "Cl1",
+   "split": 0.63,
+   "mid_sigma": -4.2
+  }
+ ],
+ "map_rms": 0.05757394148501745,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0353,
+   "wR2": 0.0962,
+   "minor_occ": 0.062,
+   "max_shift": 0.01,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0353,
+   "wR2": 0.0962,
+   "minor_occ": 0.061,
+   "max_shift": 0.02,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "error": "not run: fewer than two candidate atoms are anisotropic"
+  }
+ ],
+ "flags": {
+  "geometry": [],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

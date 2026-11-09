@@ -1,0 +1,25 @@
+# Case 17
+
+Two models of the same crystal and the same data. `deposited` is the published model; `candidate` adds disorder that the published model does not have. Open each `.res` in Olex2; each has a matching `.hkl` beside it.
+
+| | deposited | candidate |
+|---|---|---|
+| R1 | 0.0500 | 0.0484 |
+| wR2 | 0.1274 | 0.1239 |
+| GooF | 1.06 | 1.03 |
+| parameters | 650 | 611 |
+| largest Fo−Fc peak (e/Å³) | 1.27 | 0.66 |
+| deepest hole (e/Å³) | -1.50 | -1.32 |
+
+**Hamilton R-test** (on wR2, an approximation; **not nested**: the deposited model already contains other disorder, so treat this as indicative only):
+-39 extra parameters, R ratio 1.0283, no improvement to test.
+
+**Candidate atoms with no counterpart in the published disorder.** ρ is the Fo−Fc density at the atom position in the *deposited* model's difference map (map rms 0.093 e/Å³):
+
+| atom | el | PART | occ | Ueq | ρ (e/Å³) | ρ/rms | nearest deposited atom (Å) |
+|---|---|---|---|---|---|---|---|
+| Cl1 | CL | 1 | 0.827 | 0.0620 | 0.09 | 1.0 | CL1 0.08 |
+| Cl91 | CL | 2 | 0.173 | 0.0450 | 0.63 | 6.8 | CL1 0.6 |
+| C904 | C | 2 | 0.353 | 0.1009 | 0.41 | 4.4 | C60 0.48 |
+
+Things to check: whether the deposited residual density at these positions is chemically sensible, whether the split geometry is reasonable, whether the ADPs of both parts look physical, and whether the density could be an artefact (absorption, series termination near heavy atoms, twinning).

@@ -1,0 +1,146 @@
+{
+ "case": "10",
+ "base_minor_occ": 0.058,
+ "bonds": [
+  {
+   "a": "Cl1",
+   "b": "C19",
+   "d": 1.769,
+   "expected": 1.722,
+   "basis": "partner Cl92",
+   "hirshfeld": 0.0018
+  },
+  {
+   "a": "Cl3",
+   "b": "C19",
+   "d": 1.792,
+   "expected": 1.649,
+   "basis": "partner Cl91",
+   "flag": "+0.14 \u00c5 vs partner Cl91",
+   "hirshfeld": 0.0038
+  },
+  {
+   "a": "Cl91",
+   "b": "Cl2",
+   "d": 2.405,
+   "expected": 1.98,
+   "basis": "covalent sum",
+   "flag": "+0.42 \u00c5 vs covalent sum"
+  },
+  {
+   "a": "Cl91",
+   "b": "C19",
+   "d": 1.649,
+   "expected": 1.792,
+   "basis": "partner Cl3",
+   "flag": "-0.14 \u00c5 vs partner Cl3"
+  },
+  {
+   "a": "Cl92",
+   "b": "C19",
+   "d": 1.722,
+   "expected": 1.769,
+   "basis": "partner Cl1"
+  }
+ ],
+ "adps": [
+  {
+   "label": "Cl1",
+   "part": 1,
+   "occ": 0.942,
+   "ueq": 0.0447,
+   "iso": false,
+   "aniso": 2.94
+  },
+  {
+   "label": "Cl92",
+   "part": 2,
+   "occ": 0.058,
+   "ueq": 0.054,
+   "iso": true
+  },
+  {
+   "label": "Cl3",
+   "part": 1,
+   "occ": 0.922,
+   "ueq": 0.0518,
+   "iso": false,
+   "aniso": 3.38
+  },
+  {
+   "label": "Cl91",
+   "part": 2,
+   "occ": 0.078,
+   "ueq": 0.0536,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "Cl1",
+   "rho_sigma": 3.0,
+   "partner": "Cl92",
+   "split": 0.57,
+   "mid_sigma": -0.7
+  },
+  {
+   "label": "Cl92",
+   "rho_sigma": 2.0,
+   "partner": "Cl1",
+   "split": 0.57,
+   "mid_sigma": -0.7
+  },
+  {
+   "label": "Cl3",
+   "rho_sigma": 2.8,
+   "partner": "Cl91",
+   "split": 0.65,
+   "mid_sigma": -5.0
+  },
+  {
+   "label": "Cl91",
+   "rho_sigma": 4.2,
+   "partner": "Cl3",
+   "split": 0.65,
+   "mid_sigma": -5.0
+  }
+ ],
+ "map_rms": 0.08816302441826078,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.044,
+   "wR2": 0.1251,
+   "minor_occ": 0.052,
+   "max_shift": 0.05,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.044,
+   "wR2": 0.1251,
+   "minor_occ": 0.052,
+   "max_shift": 0.05,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0438,
+   "wR2": 0.1247,
+   "minor_occ": 0.058,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "Cl3\u2013C19 +0.14 \u00c5 vs partner Cl91",
+   "Cl91\u2013Cl2 +0.42 \u00c5 vs covalent sum",
+   "Cl91\u2013C19 -0.14 \u00c5 vs partner Cl3"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

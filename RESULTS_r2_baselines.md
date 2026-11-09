@@ -56,9 +56,13 @@ Dev tasks (smoke test only): B detects 1 of the 3 disordered sites and has 1 fal
 
 ## Next (protocol step 3): adjudication
 
-As preregistered, B2's false positives with ΔR1 < 0 go to blinded adjudication. There are 6:
+As preregistered, B2's false positives with ΔR1 < 0 go to blinded adjudication. There are 7:
 - controls 2241546, 2242356 and 2242750;
 - group_large 2243063 and 2241666;
-- discrete 2240666.
+- discrete 2240666 and 2241657.
 
-Since B, not B2, is now the best baseline, B's 10 R1-lowering false positives are worth adjudicating too. That's 5 controls, two of them not in B2's list (2241198 and 2241613), and 5 disordered tasks. Adding them is optional and would be recorded as an amendment.
+Since B, not B2, is now the best baseline, B's 11 R1-lowering false positives are adjudicated as well, as an extension recorded in the pre-C amendment. That's 5 controls, two of them not in B2's list (2241198 and 2241613), and 6 disordered tasks.
+
+*Correction:* an earlier version of this section said 6 and 10. Rounding to 4 decimals had hidden two cases with ΔR1 just below zero: 2241657 (B2, −0.00001) and 2243543 (B, −0.00004). The rule is ΔR1 < 0, so both are included. In effect their R1 is unchanged.
+
+The packs are in `adjudication_r2/`, built by `tools/adjudicate_r2.py` as 18 shuffled cases.

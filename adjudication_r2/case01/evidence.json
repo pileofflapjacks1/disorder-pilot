@@ -1,0 +1,182 @@
+{
+ "case": "01",
+ "base_minor_occ": 0.122,
+ "bonds": [
+  {
+   "a": "C36",
+   "b": "O7",
+   "d": 1.424,
+   "expected": 1.452,
+   "basis": "partner C903",
+   "hirshfeld": 0.0027
+  },
+  {
+   "a": "C36",
+   "b": "O8",
+   "d": 1.391,
+   "expected": 1.452,
+   "basis": "partner C903",
+   "hirshfeld": 0.0007
+  },
+  {
+   "a": "C36",
+   "b": "C37",
+   "d": 1.536,
+   "expected": 1.628,
+   "basis": "partner C903",
+   "hirshfeld": 0.0081,
+   "flag": "rigid-bond test 0.0081"
+  },
+  {
+   "a": "C903",
+   "b": "O7",
+   "d": 1.491,
+   "expected": 1.407,
+   "basis": "partner C36"
+  },
+  {
+   "a": "C903",
+   "b": "O903",
+   "d": 1.414,
+   "expected": 1.407,
+   "basis": "partner C36"
+  },
+  {
+   "a": "C903",
+   "b": "C37",
+   "d": 1.628,
+   "expected": 1.536,
+   "basis": "partner C36"
+  },
+  {
+   "a": "O8",
+   "b": "C5",
+   "d": 1.394,
+   "expected": 1.49,
+   "basis": "partner O903",
+   "hirshfeld": 0.0047
+  },
+  {
+   "a": "O8",
+   "b": "C36",
+   "d": 1.391,
+   "expected": 1.49,
+   "basis": "partner O903",
+   "hirshfeld": 0.0007
+  },
+  {
+   "a": "O903",
+   "b": "C5",
+   "d": 1.565,
+   "expected": 1.392,
+   "basis": "partner O8",
+   "flag": "+0.17 \u00c5 vs partner O8"
+  },
+  {
+   "a": "O903",
+   "b": "C903",
+   "d": 1.414,
+   "expected": 1.392,
+   "basis": "partner O8"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O8",
+   "part": 1,
+   "occ": 0.878,
+   "ueq": 0.0257,
+   "iso": false,
+   "aniso": 1.76
+  },
+  {
+   "label": "O903",
+   "part": 2,
+   "occ": 0.122,
+   "ueq": 0.0492,
+   "iso": true
+  },
+  {
+   "label": "C36",
+   "part": 1,
+   "occ": 0.878,
+   "ueq": 0.0237,
+   "iso": false,
+   "aniso": 1.78
+  },
+  {
+   "label": "C903",
+   "part": 2,
+   "occ": 0.122,
+   "ueq": 0.0831,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O8",
+   "rho_sigma": 2.6,
+   "partner": "O903",
+   "split": 0.73,
+   "mid_sigma": -2.7
+  },
+  {
+   "label": "O903",
+   "rho_sigma": 8.7,
+   "partner": "O8",
+   "split": 0.73,
+   "mid_sigma": -2.7
+  },
+  {
+   "label": "C36",
+   "rho_sigma": 0.5,
+   "partner": "C903",
+   "split": 1.01,
+   "mid_sigma": -1.7
+  },
+  {
+   "label": "C903",
+   "rho_sigma": 7.1,
+   "partner": "C36",
+   "split": 1.01,
+   "mid_sigma": -1.7
+  }
+ ],
+ "map_rms": 0.09719961070850995,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.059,
+   "wR2": 0.2051,
+   "minor_occ": 0.128,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.059,
+   "wR2": 0.2051,
+   "minor_occ": 0.127,
+   "max_shift": 0.03,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.059,
+   "wR2": 0.205,
+   "minor_occ": 0.122,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "C36\u2013C37 rigid-bond test 0.0081",
+   "O903\u2013C5 +0.17 \u00c5 vs partner O8"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

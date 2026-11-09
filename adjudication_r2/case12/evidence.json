@@ -1,0 +1,230 @@
+{
+ "case": "12",
+ "base_minor_occ": 0.056,
+ "bonds": [
+  {
+   "a": "O2",
+   "b": "P1",
+   "d": 1.51,
+   "expected": 1.525,
+   "basis": "partner O901",
+   "hirshfeld": 0.0078,
+   "flag": "rigid-bond test 0.0078"
+  },
+  {
+   "a": "O3",
+   "b": "P1",
+   "d": 1.502,
+   "expected": 1.516,
+   "basis": "partner O902",
+   "hirshfeld": 0.0048
+  },
+  {
+   "a": "O901",
+   "b": "P901",
+   "d": 1.525,
+   "expected": 1.51,
+   "basis": "partner O2"
+  },
+  {
+   "a": "O902",
+   "b": "P901",
+   "d": 1.516,
+   "expected": 1.502,
+   "basis": "partner O3"
+  },
+  {
+   "a": "P1",
+   "b": "O1",
+   "d": 1.562,
+   "expected": 1.522,
+   "basis": "partner P901",
+   "hirshfeld": 0.0053,
+   "flag": "rigid-bond test 0.0053"
+  },
+  {
+   "a": "P1",
+   "b": "O2",
+   "d": 1.51,
+   "expected": 1.522,
+   "basis": "partner P901",
+   "hirshfeld": 0.0078,
+   "flag": "rigid-bond test 0.0078"
+  },
+  {
+   "a": "P1",
+   "b": "O3",
+   "d": 1.502,
+   "expected": 1.522,
+   "basis": "partner P901",
+   "hirshfeld": 0.0048
+  },
+  {
+   "a": "P1",
+   "b": "O4",
+   "d": 1.498,
+   "expected": 1.522,
+   "basis": "partner P901",
+   "hirshfeld": 0.0012
+  },
+  {
+   "a": "P901",
+   "b": "O1",
+   "d": 1.599,
+   "expected": 1.506,
+   "basis": "partner P1"
+  },
+  {
+   "a": "P901",
+   "b": "O901",
+   "d": 1.525,
+   "expected": 1.506,
+   "basis": "partner P1"
+  },
+  {
+   "a": "P901",
+   "b": "O902",
+   "d": 1.516,
+   "expected": 1.506,
+   "basis": "partner P1"
+  },
+  {
+   "a": "P901",
+   "b": "O4",
+   "d": 1.52,
+   "expected": 1.506,
+   "basis": "partner P1"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O2",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0487,
+   "iso": false,
+   "aniso": 4.26
+  },
+  {
+   "label": "O901",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0318,
+   "iso": true
+  },
+  {
+   "label": "O3",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0438,
+   "iso": false,
+   "aniso": 2.07
+  },
+  {
+   "label": "O902",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0116,
+   "iso": true
+  },
+  {
+   "label": "P1",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0221,
+   "iso": false,
+   "aniso": 2.21
+  },
+  {
+   "label": "P901",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.5659,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O2",
+   "rho_sigma": 1.6,
+   "partner": "O901",
+   "split": 0.72,
+   "mid_sigma": -1.6
+  },
+  {
+   "label": "O901",
+   "rho_sigma": 3.0,
+   "partner": "O2",
+   "split": 0.72,
+   "mid_sigma": -1.6
+  },
+  {
+   "label": "O3",
+   "rho_sigma": 1.6,
+   "partner": "O902",
+   "split": 0.69,
+   "mid_sigma": -0.8
+  },
+  {
+   "label": "O902",
+   "rho_sigma": 3.6,
+   "partner": "O3",
+   "split": 0.69,
+   "mid_sigma": -0.8
+  },
+  {
+   "label": "P1",
+   "rho_sigma": 0.9,
+   "partner": "P901",
+   "split": 0.21,
+   "mid_sigma": 1.0
+  },
+  {
+   "label": "P901",
+   "rho_sigma": 0.8,
+   "partner": "P1",
+   "split": 0.21,
+   "mid_sigma": 1.0
+  }
+ ],
+ "map_rms": 0.09625613789485966,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0476,
+   "wR2": 0.1133,
+   "minor_occ": 0.055,
+   "max_shift": 0.04,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0476,
+   "wR2": 0.1133,
+   "minor_occ": 0.055,
+   "max_shift": 0.04,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0474,
+   "wR2": 0.1127,
+   "minor_occ": 0.057,
+   "max_shift": 0.01,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "O2\u2013P1 rigid-bond test 0.0078",
+   "P1\u2013O1 rigid-bond test 0.0053",
+   "P1\u2013O2 rigid-bond test 0.0078"
+  ],
+  "adp": [
+   "P901 Ueq 0.566"
+  ],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

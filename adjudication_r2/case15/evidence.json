@@ -1,0 +1,215 @@
+{
+ "case": "15",
+ "base_minor_occ": 0.056,
+ "bonds": [
+  {
+   "a": "C9",
+   "b": "S2",
+   "d": 1.82,
+   "expected": 1.75,
+   "basis": "partner C901",
+   "hirshfeld": 0.0001
+  },
+  {
+   "a": "C9",
+   "b": "C10",
+   "d": 1.534,
+   "expected": 1.506,
+   "basis": "partner C901",
+   "hirshfeld": 0.0001
+  },
+  {
+   "a": "C901",
+   "b": "S902",
+   "d": 1.75,
+   "expected": 1.82,
+   "basis": "partner C9"
+  },
+  {
+   "a": "C901",
+   "b": "C10",
+   "d": 1.506,
+   "expected": 1.534,
+   "basis": "partner C9"
+  },
+  {
+   "a": "S1",
+   "b": "C8",
+   "d": 1.666,
+   "expected": 1.892,
+   "basis": "partner S901",
+   "flag": "-0.23 \u00c5 vs partner S901",
+   "hirshfeld": 0.0074
+  },
+  {
+   "a": "S2",
+   "b": "C8",
+   "d": 1.72,
+   "expected": 1.874,
+   "basis": "partner S902",
+   "flag": "-0.15 \u00c5 vs partner S902",
+   "hirshfeld": 0.0058
+  },
+  {
+   "a": "S2",
+   "b": "C9",
+   "d": 1.82,
+   "expected": 1.874,
+   "basis": "partner S902",
+   "hirshfeld": 0.0001
+  },
+  {
+   "a": "S901",
+   "b": "C8",
+   "d": 1.892,
+   "expected": 1.666,
+   "basis": "partner S1",
+   "flag": "+0.23 \u00c5 vs partner S1"
+  },
+  {
+   "a": "S902",
+   "b": "C8",
+   "d": 1.998,
+   "expected": 1.77,
+   "basis": "partner S2",
+   "flag": "+0.23 \u00c5 vs partner S2"
+  },
+  {
+   "a": "S902",
+   "b": "C901",
+   "d": 1.75,
+   "expected": 1.77,
+   "basis": "partner S2"
+  }
+ ],
+ "adps": [
+  {
+   "label": "S1",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0505,
+   "iso": false,
+   "aniso": 3.3
+  },
+  {
+   "label": "S901",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0122,
+   "iso": true
+  },
+  {
+   "label": "S2",
+   "part": 1,
+   "occ": 0.905,
+   "ueq": 0.0428,
+   "iso": false,
+   "aniso": 2.71
+  },
+  {
+   "label": "S902",
+   "part": 2,
+   "occ": 0.095,
+   "ueq": 0.0158,
+   "iso": true
+  },
+  {
+   "label": "C9",
+   "part": 1,
+   "occ": 0.905,
+   "ueq": 0.044,
+   "iso": false,
+   "aniso": 2.63
+  },
+  {
+   "label": "C901",
+   "part": 2,
+   "occ": 0.095,
+   "ueq": 0.017,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "S1",
+   "rho_sigma": 2.7,
+   "partner": "S901",
+   "split": 0.58,
+   "mid_sigma": 3.3
+  },
+  {
+   "label": "S901",
+   "rho_sigma": 6.7,
+   "partner": "S1",
+   "split": 0.58,
+   "mid_sigma": 3.3
+  },
+  {
+   "label": "S2",
+   "rho_sigma": 3.3,
+   "partner": "S902",
+   "split": 0.47,
+   "mid_sigma": 3.6
+  },
+  {
+   "label": "S902",
+   "rho_sigma": 5.7,
+   "partner": "S2",
+   "split": 0.47,
+   "mid_sigma": 3.6
+  },
+  {
+   "label": "C9",
+   "rho_sigma": 1.4,
+   "partner": "C901",
+   "split": 0.37,
+   "mid_sigma": 1.2
+  },
+  {
+   "label": "C901",
+   "rho_sigma": 0.5,
+   "partner": "C9",
+   "split": 0.37,
+   "mid_sigma": 1.2
+  }
+ ],
+ "map_rms": 0.12790769505384142,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0613,
+   "wR2": 0.1672,
+   "minor_occ": 0.101,
+   "max_shift": 0.18,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0613,
+   "wR2": 0.1671,
+   "minor_occ": 0.099,
+   "max_shift": 0.17,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0606,
+   "wR2": 0.166,
+   "minor_occ": 0.056,
+   "max_shift": 0.02,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "S1\u2013C8 -0.23 \u00c5 vs partner S901",
+   "S2\u2013C8 -0.15 \u00c5 vs partner S902",
+   "S901\u2013C8 +0.23 \u00c5 vs partner S1",
+   "S902\u2013C8 +0.23 \u00c5 vs partner S2"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

@@ -1,0 +1,465 @@
+{
+ "case": "13",
+ "base_minor_occ": 0.056,
+ "bonds": [
+  {
+   "a": "C4",
+   "b": "C5",
+   "d": 1.517,
+   "expected": 1.511,
+   "basis": "partner C906",
+   "hirshfeld": 0.0008
+  },
+  {
+   "a": "C4",
+   "b": "C9",
+   "d": 1.516,
+   "expected": 1.511,
+   "basis": "partner C906",
+   "hirshfeld": 0.001
+  },
+  {
+   "a": "C4",
+   "b": "O1",
+   "d": 1.457,
+   "expected": 1.78,
+   "basis": "partner C906",
+   "flag": "-0.32 \u00c5 vs partner C906",
+   "hirshfeld": 0.004
+  },
+  {
+   "a": "C5",
+   "b": "C4",
+   "d": 1.517,
+   "expected": 1.581,
+   "basis": "partner C903",
+   "hirshfeld": 0.0008
+  },
+  {
+   "a": "C5",
+   "b": "C6",
+   "d": 1.532,
+   "expected": 1.581,
+   "basis": "partner C903",
+   "hirshfeld": 0.0022
+  },
+  {
+   "a": "C6",
+   "b": "C5",
+   "d": 1.532,
+   "expected": 1.581,
+   "basis": "partner C903",
+   "hirshfeld": 0.0022
+  },
+  {
+   "a": "C6",
+   "b": "C7",
+   "d": 1.513,
+   "expected": 1.581,
+   "basis": "partner C903",
+   "hirshfeld": 0.0013
+  },
+  {
+   "a": "C7",
+   "b": "C6",
+   "d": 1.513,
+   "expected": 1.613,
+   "basis": "partner C904",
+   "flag": "-0.10 \u00c5 vs partner C904",
+   "hirshfeld": 0.0013
+  },
+  {
+   "a": "C7",
+   "b": "C8",
+   "d": 1.525,
+   "expected": 1.613,
+   "basis": "partner C904",
+   "hirshfeld": 0.0011
+  },
+  {
+   "a": "C8",
+   "b": "C7",
+   "d": 1.525,
+   "expected": 1.582,
+   "basis": "partner C905",
+   "hirshfeld": 0.0011
+  },
+  {
+   "a": "C8",
+   "b": "C9",
+   "d": 1.534,
+   "expected": 1.582,
+   "basis": "partner C905",
+   "hirshfeld": 0.0032
+  },
+  {
+   "a": "C9",
+   "b": "C4",
+   "d": 1.516,
+   "expected": 1.511,
+   "basis": "partner C906",
+   "hirshfeld": 0.001
+  },
+  {
+   "a": "C9",
+   "b": "C8",
+   "d": 1.534,
+   "expected": 1.511,
+   "basis": "partner C906",
+   "hirshfeld": 0.0032
+  },
+  {
+   "a": "C901",
+   "b": "C902",
+   "d": 1.521,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C901",
+   "b": "C903",
+   "d": 1.917,
+   "expected": 1.516,
+   "basis": "partner C4",
+   "flag": "+0.40 \u00c5 vs partner C4"
+  },
+  {
+   "a": "C901",
+   "b": "C906",
+   "d": 1.511,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C901",
+   "b": "O1",
+   "d": 1.465,
+   "expected": 1.457,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C902",
+   "b": "C901",
+   "d": 1.521,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C902",
+   "b": "C903",
+   "d": 1.488,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C902",
+   "b": "C906",
+   "d": 1.475,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C903",
+   "b": "C901",
+   "d": 1.917,
+   "expected": 1.522,
+   "basis": "partner C6",
+   "flag": "+0.39 \u00c5 vs partner C6"
+  },
+  {
+   "a": "C903",
+   "b": "C902",
+   "d": 1.488,
+   "expected": 1.522,
+   "basis": "partner C6"
+  },
+  {
+   "a": "C903",
+   "b": "C904",
+   "d": 1.581,
+   "expected": 1.522,
+   "basis": "partner C6"
+  },
+  {
+   "a": "C904",
+   "b": "C903",
+   "d": 1.581,
+   "expected": 1.519,
+   "basis": "partner C7"
+  },
+  {
+   "a": "C904",
+   "b": "C905",
+   "d": 1.646,
+   "expected": 1.519,
+   "basis": "partner C7",
+   "flag": "+0.13 \u00c5 vs partner C7"
+  },
+  {
+   "a": "C905",
+   "b": "C904",
+   "d": 1.646,
+   "expected": 1.53,
+   "basis": "partner C8",
+   "flag": "+0.12 \u00c5 vs partner C8"
+  },
+  {
+   "a": "C905",
+   "b": "C906",
+   "d": 1.519,
+   "expected": 1.53,
+   "basis": "partner C8"
+  },
+  {
+   "a": "C906",
+   "b": "C901",
+   "d": 1.511,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C906",
+   "b": "C902",
+   "d": 1.475,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C906",
+   "b": "C905",
+   "d": 1.519,
+   "expected": 1.516,
+   "basis": "partner C4"
+  },
+  {
+   "a": "C906",
+   "b": "O1",
+   "d": 1.78,
+   "expected": 1.457,
+   "basis": "partner C4",
+   "flag": "+0.32 \u00c5 vs partner C4"
+  }
+ ],
+ "adps": [
+  {
+   "label": "C4",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.019,
+   "iso": false,
+   "aniso": 2.07
+  },
+  {
+   "label": "C901",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 1.0,
+   "iso": true
+  },
+  {
+   "label": "C5",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0223,
+   "iso": false,
+   "aniso": 1.72
+  },
+  {
+   "label": "C902",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0312,
+   "iso": true
+  },
+  {
+   "label": "C6",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0262,
+   "iso": false,
+   "aniso": 2.53
+  },
+  {
+   "label": "C903",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0101,
+   "iso": true
+  },
+  {
+   "label": "C7",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0261,
+   "iso": false,
+   "aniso": 2.84
+  },
+  {
+   "label": "C904",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.1119,
+   "iso": true
+  },
+  {
+   "label": "C8",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0252,
+   "iso": false,
+   "aniso": 2.7
+  },
+  {
+   "label": "C905",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0284,
+   "iso": true
+  },
+  {
+   "label": "C9",
+   "part": 1,
+   "occ": 0.944,
+   "ueq": 0.0237,
+   "iso": false,
+   "aniso": 1.91
+  },
+  {
+   "label": "C906",
+   "part": 2,
+   "occ": 0.056,
+   "ueq": 0.0246,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "C4",
+   "rho_sigma": 1.2,
+   "partner": "C906",
+   "split": 0.72,
+   "mid_sigma": 1.0
+  },
+  {
+   "label": "C901",
+   "rho_sigma": -0.8,
+   "partner": "C4",
+   "split": 1.17,
+   "mid_sigma": -0.8
+  },
+  {
+   "label": "C5",
+   "rho_sigma": 0.5,
+   "partner": "C903",
+   "split": 0.83,
+   "mid_sigma": 1.9
+  },
+  {
+   "label": "C902",
+   "rho_sigma": 7.1,
+   "partner": "C4",
+   "split": 0.85,
+   "mid_sigma": 1.2
+  },
+  {
+   "label": "C6",
+   "rho_sigma": 0.2,
+   "partner": "C903",
+   "split": 0.71,
+   "mid_sigma": 0.8
+  },
+  {
+   "label": "C903",
+   "rho_sigma": 6.7,
+   "partner": "C6",
+   "split": 0.71,
+   "mid_sigma": 0.8
+  },
+  {
+   "label": "C7",
+   "rho_sigma": 1.0,
+   "partner": "C904",
+   "split": 0.37,
+   "mid_sigma": 0.3
+  },
+  {
+   "label": "C904",
+   "rho_sigma": 0.2,
+   "partner": "C7",
+   "split": 0.37,
+   "mid_sigma": 0.3
+  },
+  {
+   "label": "C8",
+   "rho_sigma": 0.3,
+   "partner": "C905",
+   "split": 0.54,
+   "mid_sigma": 0.1
+  },
+  {
+   "label": "C905",
+   "rho_sigma": 2.8,
+   "partner": "C8",
+   "split": 0.54,
+   "mid_sigma": 0.1
+  },
+  {
+   "label": "C9",
+   "rho_sigma": -0.1,
+   "partner": "C906",
+   "split": 0.85,
+   "mid_sigma": 1.9
+  },
+  {
+   "label": "C906",
+   "rho_sigma": 5.7,
+   "partner": "C4",
+   "split": 0.72,
+   "mid_sigma": 1.0
+  }
+ ],
+ "map_rms": 0.05620122257264706,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0489,
+   "wR2": 0.1342,
+   "minor_occ": 0.054,
+   "max_shift": 0.08,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.049,
+   "wR2": 0.1344,
+   "minor_occ": 0.053,
+   "max_shift": 0.2,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0489,
+   "wR2": 0.1343,
+   "minor_occ": 0.055,
+   "max_shift": 0.11,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "C4\u2013O1 -0.32 \u00c5 vs partner C906",
+   "C7\u2013C6 -0.10 \u00c5 vs partner C904",
+   "C901\u2013C903 +0.40 \u00c5 vs partner C4",
+   "C903\u2013C901 +0.39 \u00c5 vs partner C6",
+   "C904\u2013C905 +0.13 \u00c5 vs partner C7",
+   "C905\u2013C904 +0.12 \u00c5 vs partner C8",
+   "C906\u2013O1 +0.32 \u00c5 vs partner C4"
+  ],
+  "adp": [
+   "C901 Ueq 1.000"
+  ],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

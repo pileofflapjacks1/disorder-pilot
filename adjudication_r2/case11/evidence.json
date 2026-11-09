@@ -1,0 +1,165 @@
+{
+ "case": "11",
+ "base_minor_occ": 0.142,
+ "bonds": [
+  {
+   "a": "N2",
+   "b": "C8",
+   "d": 1.409,
+   "expected": 1.446,
+   "basis": "partner N901",
+   "hirshfeld": 0.0008
+  },
+  {
+   "a": "N2",
+   "b": "C15",
+   "d": 1.371,
+   "expected": 1.446,
+   "basis": "partner N901",
+   "hirshfeld": 0.0012
+  },
+  {
+   "a": "N2",
+   "b": "C21",
+   "d": 1.449,
+   "expected": 1.446,
+   "basis": "partner N901",
+   "hirshfeld": 0.006,
+   "flag": "rigid-bond test 0.0060"
+  },
+  {
+   "a": "N901",
+   "b": "C8",
+   "d": 1.446,
+   "expected": 1.409,
+   "basis": "partner N2"
+  },
+  {
+   "a": "N901",
+   "b": "C15",
+   "d": 1.445,
+   "expected": 1.409,
+   "basis": "partner N2"
+  },
+  {
+   "a": "N901",
+   "b": "C903",
+   "d": 1.478,
+   "expected": 1.409,
+   "basis": "partner N2"
+  },
+  {
+   "a": "O2",
+   "b": "C15",
+   "d": 1.23,
+   "expected": 1.283,
+   "basis": "partner O901",
+   "hirshfeld": 0.0042
+  },
+  {
+   "a": "O901",
+   "b": "C15",
+   "d": 1.283,
+   "expected": 1.23,
+   "basis": "partner O2"
+  }
+ ],
+ "adps": [
+  {
+   "label": "O2",
+   "part": 1,
+   "occ": 0.858,
+   "ueq": 0.0534,
+   "iso": false,
+   "aniso": 2.06
+  },
+  {
+   "label": "O901",
+   "part": 2,
+   "occ": 0.142,
+   "ueq": 0.0476,
+   "iso": true
+  },
+  {
+   "label": "N2",
+   "part": 1,
+   "occ": 0.727,
+   "ueq": 0.0407,
+   "iso": false,
+   "aniso": 1.85
+  },
+  {
+   "label": "N901",
+   "part": 2,
+   "occ": 0.273,
+   "ueq": 0.0454,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "O2",
+   "rho_sigma": 0.3,
+   "partner": "O901",
+   "split": 0.69,
+   "mid_sigma": -5.9
+  },
+  {
+   "label": "O901",
+   "rho_sigma": 3.6,
+   "partner": "O2",
+   "split": 0.69,
+   "mid_sigma": -5.9
+  },
+  {
+   "label": "N2",
+   "rho_sigma": 0.9,
+   "partner": "N901",
+   "split": 0.57,
+   "mid_sigma": -6.0
+  },
+  {
+   "label": "N901",
+   "rho_sigma": -1.9,
+   "partner": "N2",
+   "split": 0.57,
+   "mid_sigma": -6.0
+  }
+ ],
+ "map_rms": 0.052220635970400095,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.0434,
+   "wR2": 0.1227,
+   "minor_occ": 0.146,
+   "max_shift": 0.06,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.0438,
+   "wR2": 0.1239,
+   "minor_occ": 0.147,
+   "max_shift": 0.07,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0406,
+   "wR2": 0.1151,
+   "minor_occ": 0.142,
+   "max_shift": 0.0,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "N2\u2013C21 rigid-bond test 0.0060"
+  ],
+  "adp": [],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

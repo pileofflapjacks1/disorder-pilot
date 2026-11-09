@@ -1,0 +1,251 @@
+{
+ "case": "07",
+ "base_minor_occ": 0.172,
+ "bonds": [
+  {
+   "a": "C33",
+   "b": "C32",
+   "d": 1.533,
+   "expected": 1.56,
+   "basis": "partner C906",
+   "hirshfeld": 0.0117,
+   "flag": "rigid-bond test 0.0117"
+  },
+  {
+   "a": "C33",
+   "b": "C34",
+   "d": 1.512,
+   "expected": 1.56,
+   "basis": "partner C906",
+   "hirshfeld": 0.0246,
+   "flag": "rigid-bond test 0.0246"
+  },
+  {
+   "a": "C33",
+   "b": "C37",
+   "d": 1.52,
+   "expected": 1.56,
+   "basis": "partner C906",
+   "hirshfeld": 0.0205,
+   "flag": "rigid-bond test 0.0205"
+  },
+  {
+   "a": "C33",
+   "b": "O4",
+   "d": 1.435,
+   "expected": 1.357,
+   "basis": "partner C906",
+   "hirshfeld": 0.0003
+  },
+  {
+   "a": "C34",
+   "b": "C33",
+   "d": 1.512,
+   "expected": 1.611,
+   "basis": "partner C907",
+   "hirshfeld": 0.0246,
+   "flag": "rigid-bond test 0.0246"
+  },
+  {
+   "a": "C34",
+   "b": "C35",
+   "d": 1.528,
+   "expected": 1.611,
+   "basis": "partner C907",
+   "hirshfeld": 0.0011
+  },
+  {
+   "a": "C37",
+   "b": "C33",
+   "d": 1.52,
+   "expected": 1.56,
+   "basis": "partner C908",
+   "hirshfeld": 0.0205,
+   "flag": "rigid-bond test 0.0205"
+  },
+  {
+   "a": "C906",
+   "b": "C32",
+   "d": 1.566,
+   "expected": 1.52,
+   "basis": "partner C33"
+  },
+  {
+   "a": "C906",
+   "b": "C907",
+   "d": 1.476,
+   "expected": 1.52,
+   "basis": "partner C33"
+  },
+  {
+   "a": "C906",
+   "b": "C908",
+   "d": 1.56,
+   "expected": 1.52,
+   "basis": "partner C33"
+  },
+  {
+   "a": "C906",
+   "b": "O4",
+   "d": 1.357,
+   "expected": 1.435,
+   "basis": "partner C33"
+  },
+  {
+   "a": "C907",
+   "b": "C906",
+   "d": 1.476,
+   "expected": 1.52,
+   "basis": "partner C34"
+  },
+  {
+   "a": "C907",
+   "b": "C35",
+   "d": 1.745,
+   "expected": 1.52,
+   "basis": "partner C34",
+   "flag": "+0.22 \u00c5 vs partner C34"
+  },
+  {
+   "a": "C908",
+   "b": "C906",
+   "d": 1.56,
+   "expected": 1.52,
+   "basis": "partner C37"
+  }
+ ],
+ "adps": [
+  {
+   "label": "C33",
+   "part": 1,
+   "occ": 0.828,
+   "ueq": 0.0439,
+   "iso": false,
+   "aniso": 2.59
+  },
+  {
+   "label": "C906",
+   "part": 2,
+   "occ": 0.172,
+   "ueq": 0.0001,
+   "iso": true
+  },
+  {
+   "label": "C34",
+   "part": 1,
+   "occ": 0.828,
+   "ueq": 0.0371,
+   "iso": false,
+   "aniso": 3.77
+  },
+  {
+   "label": "C907",
+   "part": 2,
+   "occ": 0.172,
+   "ueq": 0.0512,
+   "iso": true
+  },
+  {
+   "label": "C37",
+   "part": 1,
+   "occ": 0.828,
+   "ueq": 0.0346,
+   "iso": false,
+   "aniso": 2.74
+  },
+  {
+   "label": "C908",
+   "part": 2,
+   "occ": 0.172,
+   "ueq": 0.0247,
+   "iso": true
+  }
+ ],
+ "maps": [
+  {
+   "label": "C33",
+   "rho_sigma": -0.5,
+   "partner": "C906",
+   "split": 0.18,
+   "mid_sigma": -0.1
+  },
+  {
+   "label": "C906",
+   "rho_sigma": 0.3,
+   "partner": "C33",
+   "split": 0.18,
+   "mid_sigma": -0.1
+  },
+  {
+   "label": "C34",
+   "rho_sigma": 0.7,
+   "partner": "C907",
+   "split": 1.34,
+   "mid_sigma": -1.2
+  },
+  {
+   "label": "C907",
+   "rho_sigma": 6.6,
+   "partner": "C34",
+   "split": 1.34,
+   "mid_sigma": -1.2
+  },
+  {
+   "label": "C37",
+   "rho_sigma": 1.9,
+   "partner": "C908",
+   "split": 1.17,
+   "mid_sigma": -2.3
+  },
+  {
+   "label": "C908",
+   "rho_sigma": 9.4,
+   "partner": "C37",
+   "split": 1.17,
+   "mid_sigma": -2.3
+  }
+ ],
+ "map_rms": 0.0759518714342613,
+ "stability": [
+  {
+   "run": "perturbed seed 1",
+   "R1": 0.048,
+   "wR2": 0.1249,
+   "minor_occ": 0.173,
+   "max_shift": 0.06,
+   "npd": []
+  },
+  {
+   "run": "perturbed seed 2",
+   "R1": 0.048,
+   "wR2": 0.1249,
+   "minor_occ": 0.173,
+   "max_shift": 0.06,
+   "npd": []
+  },
+  {
+   "run": "RIGU + SIMU on the anisotropic candidate atoms",
+   "R1": 0.0479,
+   "wR2": 0.1248,
+   "minor_occ": 0.172,
+   "max_shift": 0.13,
+   "npd": []
+  }
+ ],
+ "flags": {
+  "geometry": [
+   "C33\u2013C32 rigid-bond test 0.0117",
+   "C33\u2013C34 rigid-bond test 0.0246",
+   "C33\u2013C37 rigid-bond test 0.0205",
+   "C34\u2013C33 rigid-bond test 0.0246",
+   "C37\u2013C33 rigid-bond test 0.0205",
+   "C907\u2013C35 +0.22 \u00c5 vs partner C34"
+  ],
+  "adp": [
+   "C906 Ueq 0.0001 (very small)"
+  ],
+  "map": [],
+  "stability": [],
+  "other": []
+ }
+}

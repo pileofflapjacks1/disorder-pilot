@@ -1,0 +1,140 @@
+{
+ "case": "05",
+ "n_obs": 15782,
+ "ref": {
+  "R1": 0.05419247485955822,
+  "wR2": 0.15695117605041586,
+  "gof": 1.0301931612898938,
+  "npar": 982,
+  "top_peak": 1.4372834944012467,
+  "hole": -1.1087748985779917,
+  "rms": 0.09621670080427512
+ },
+ "cand": {
+  "R1": 0.05340603939821661,
+  "wR2": 0.15517643145150445,
+  "gof": 1.0170350925124179,
+  "npar": 955,
+  "top_peak": 1.875180319413784,
+  "hole": -0.9531699366202256,
+  "rms": 0.0948053138098816
+ },
+ "hamilton": {
+  "b": -27,
+  "ratio": 1.0114,
+  "p": null
+ },
+ "nested": false,
+ "atoms": [
+  {
+   "label": "C30",
+   "el": "C",
+   "part": 1,
+   "occ": 0.632,
+   "ueq": 0.0533,
+   "rho": -0.01,
+   "rho_sigma": -0.1,
+   "nearest_deposited": "C30",
+   "dist": 0.14
+  },
+  {
+   "label": "C906",
+   "el": "C",
+   "part": 2,
+   "occ": 0.368,
+   "ueq": 0.049,
+   "rho": 0.26,
+   "rho_sigma": 2.7,
+   "nearest_deposited": "C30",
+   "dist": 0.25
+  },
+  {
+   "label": "C31",
+   "el": "C",
+   "part": 1,
+   "occ": 0.632,
+   "ueq": 0.0556,
+   "rho": 0.22,
+   "rho_sigma": 2.3,
+   "nearest_deposited": "C31",
+   "dist": 0.17
+  },
+  {
+   "label": "C907",
+   "el": "C",
+   "part": 2,
+   "occ": 0.368,
+   "ueq": 0.0508,
+   "rho": 0.63,
+   "rho_sigma": 6.5,
+   "nearest_deposited": "C31",
+   "dist": 0.4
+  },
+  {
+   "label": "C32",
+   "el": "C",
+   "part": 1,
+   "occ": 0.632,
+   "ueq": 0.0586,
+   "rho": 0.39,
+   "rho_sigma": 4.1,
+   "nearest_deposited": "C32",
+   "dist": 0.19
+  },
+  {
+   "label": "C908",
+   "el": "C",
+   "part": 2,
+   "occ": 0.368,
+   "ueq": 0.0578,
+   "rho": 0.92,
+   "rho_sigma": 9.6,
+   "nearest_deposited": "C32",
+   "dist": 0.51
+  },
+  {
+   "label": "C33",
+   "el": "C",
+   "part": 1,
+   "occ": 0.632,
+   "ueq": 0.0459,
+   "rho": 0.15,
+   "rho_sigma": 1.5,
+   "nearest_deposited": "C33",
+   "dist": 0.17
+  },
+  {
+   "label": "C909",
+   "el": "C",
+   "part": 2,
+   "occ": 0.368,
+   "ueq": 0.0445,
+   "rho": 0.7,
+   "rho_sigma": 7.3,
+   "nearest_deposited": "C33",
+   "dist": 0.43
+  },
+  {
+   "label": "N901",
+   "el": "N",
+   "part": 2,
+   "occ": 0.418,
+   "ueq": 0.1218,
+   "rho": -0.06,
+   "rho_sigma": -0.6,
+   "nearest_deposited": "N7",
+   "dist": 0.5
+  },
+  {
+   "label": "C904",
+   "el": "C",
+   "part": 2,
+   "occ": 0.418,
+   "ueq": 1.0,
+   "rho": -0.09,
+   "rho_sigma": -0.9,
+   "nearest_deposited": "H53",
+   "dist": 0.98
+  }
+ ]
+}
